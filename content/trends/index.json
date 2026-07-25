@@ -1,6 +1,73 @@
 {
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "items": [
+    {
+      "date": "2026-07-25",
+      "title": "v0.120.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-24T16:32:34Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c )…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-25",
+      "title": "v2.1.219",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-24T17:14:23Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Claude Opus 5 ( claude-opus-5 ), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok Added sandbox.network.strictAllowlist setting to deny…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Quoting Boris Cherny",
+      "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-25T00:42:59+00:00",
+      "category": "AX · 블로그",
+      "summary": "More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but…",
+      "tags": [
+        "eval",
+        "llm",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-24T23:48:50+00:00",
+      "category": "AX · 블로그",
+      "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet.…",
+      "tags": [
+        "llm",
+        "claude",
+        "model",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-07-24",
       "title": "v0.119.0",
@@ -541,67 +608,6 @@
       "tags": [
         "model",
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-19",
-      "title": "2026.6.3",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-04T01:19:41Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.3",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-19",
-      "title": "Release 2026.1.26",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-01-27T12:11:26Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.1.26 Updated packages @modelcontextprotocol/server-everything@2026.1.26 @modelcontextprotocol/server-memory@2026.1.26 mcp-server-time@2026.1.26",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-19",
-      "title": "SQLite Query Explainer",
-      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-18T17:19:10+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have…",
-      "tags": [
-        "claude",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-19",
-      "title": "Claude make Fable 5 permanent",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-18T06:00:13+00:00",
-      "category": "AX · 블로그",
-      "summary": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of…",
-      "tags": [
-        "llm",
-        "claude",
-        "model"
       ],
       "keyPoints": []
     }
