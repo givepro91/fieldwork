@@ -1,7 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro:schema';
-import { TRACKS, TYPES, ALLOWED_TYPES, TRACK_LABEL, TYPE_LABEL } from './taxonomy';
+import { TRACKS, TYPES, BASIS, ALLOWED_TYPES, TRACK_LABEL, TYPE_LABEL } from './taxonomy';
 
 // repo 루트의 content/guide/*.{md,mdx} 를 글 컬렉션으로 로드.
 // README.md(홈 문서) · backlog.md(메타)는 글이 아니므로 제외.
@@ -16,6 +16,9 @@ const guide = defineCollection({
       track: z.enum(TRACKS),
       type: z.enum(TYPES),
       stage: z.string().default('탐색 중'),
+      // 이 글의 근거가 무엇인지. 경험은 필수가 아니지만, 해보지 않은 것을 해본 것처럼
+      // 쓰지 않기 위해 근거를 드러낸다. 기존 글에 소급 적용 중이라 아직 optional.
+      basis: z.enum(BASIS).optional(),
       updated: z.string().optional(),
       // 최신성 — verified: 외부 사실을 마지막으로 확인한 날 / review_by: 다음 검토 예정일.
       // updated(글을 고친 날)와 다른 정보다. 빠르게 변하는 주제일수록 review_by 를 짧게.

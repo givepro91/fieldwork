@@ -1,17 +1,18 @@
 ---
-import { TRACK_LABEL, TYPE_LABEL, type Track, type Type } from '../taxonomy';
+import { TRACK_LABEL, TYPE_LABEL, BASIS_LABEL, type Track, type Type, type Basis } from '../taxonomy';
 
 interface Related { label: string; href: string }
 interface Props {
   track: Track;
   type: Type;
+  basis?: Basis;
   stage: string;
   updated?: string;
   verified?: string;
   reviewBy?: string;
   related?: Related[];
 }
-const { track, type, stage, updated, verified, reviewBy, related = [] } = Astro.props;
+const { track, type, basis, stage, updated, verified, reviewBy, related = [] } = Astro.props;
 const t = TRACK_LABEL[track];
 const ty = TYPE_LABEL[type];
 // 검토 예정일이 지났으면 표시한다(최신성 관리 — strategy/product.md). 빌드 시점 기준.
@@ -23,6 +24,12 @@ const overdue = reviewBy ? reviewBy < new Date().toISOString().slice(0, 10) : fa
   <dl>
     <dt>트랙</dt><dd>{t.num} {t.ko} <span class="mono">{t.en}</span></dd>
     <dt>유형</dt><dd>{ty.ko} <span class="mono">{ty.en}</span></dd>
+    {basis && (
+      <>
+        <dt>근거</dt>
+        <dd>{BASIS_LABEL[basis].ko}<span class="ib-note">{BASIS_LABEL[basis].note}</span></dd>
+      </>
+    )}
     {updated && (<><dt>마지막 갱신</dt><dd class="mono">{updated}</dd></>)}
     {verified && (<><dt>사실 확인</dt><dd class="mono">{verified}</dd></>)}
     {reviewBy && (

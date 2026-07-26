@@ -57,13 +57,24 @@ export const TYPE_LABEL: Record<Type, { ko: string; en: string }> = {
 // 실행·산출물 타입. 목록에서 "읽는 글"과 "하는 글"을 가르는 데 쓴다(색을 5개로 늘리지 않는 대신).
 export const DO_TYPES: readonly Type[] = ['playbook', 'template'];
 
-// 트랙별 허용 타입 — 재료가 없는 트랙에서 Playbook·Template 이 나오는 것을 구조로 막는다.
-// ⑤ 지식·업무 시스템은 아직 제대로 운영해보지 않았으므로 헤매는 기록(log)만 허용한다.
-// 승급 조건: 그 구조로 실제 프로젝트를 하나 끝냈을 때 (strategy/product.md).
+// 트랙별 허용 타입. 2026-07-26: ⑤ knowledge 의 log-only 제약을 풀었다 —
+// 경험은 근거의 한 종류일 뿐이고, 조사·정리로도 글을 쓴다. 지켜야 하는 선은
+// "해보지 않은 것을 해본 것처럼 쓰지 않는다"이고, 그건 타입이 아니라 frontmatter
+// `basis`(근거 출처)로 드러낸다. 지금은 모든 트랙이 모든 타입을 쓸 수 있다.
 export const ALLOWED_TYPES: Record<Track, readonly Type[]> = {
   agents: TYPES,
   ax: TYPES,
   spec: TYPES,
   solo: TYPES,
-  knowledge: ['log'],
+  knowledge: TYPES,
+};
+
+// 글의 근거가 무엇인지 — 인포박스에 표시해 독자가 신뢰 수준을 알 수 있게 한다.
+export const BASIS = ['practiced', 'researched', 'mixed'] as const;
+export type Basis = (typeof BASIS)[number];
+
+export const BASIS_LABEL: Record<Basis, { ko: string; note: string }> = {
+  practiced: { ko: '직접 해봄', note: '실제로 써보고 남긴 기록' },
+  researched: { ko: '조사·정리', note: '1차 소스를 확인해 정리, 실사용 경험은 아직 없음' },
+  mixed: { ko: '일부 경험 + 조사', note: '해본 범위와 확인한 범위가 섞여 있음' },
 };
