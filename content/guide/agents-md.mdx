@@ -1,0 +1,209 @@
+---
+title: AGENTS.md — 에이전트에게 주는 프로젝트 지침
+track: agents
+type: template
+stage: 탐색 중
+updated: "2026-07-26"
+verified: "2026-07-26"
+review_by: "2026-10-26"
+sources:
+  - label: AGENTS.md 공식 사이트 — 형식·중첩·지원 도구 목록
+    url: https://agents.md/
+  - label: Claude Code — How Claude remembers your project
+    url: https://code.claude.com/docs/en/memory
+outcomes:
+  - 복사해서 쓰는 AGENTS.md 골격
+  - CLAUDE.md 에서 AGENTS.md 를 잇는 방법(중복 없이)
+  - 지침·규칙·스킬·훅 중 어디에 쓸지 가르는 기준
+order: 6
+lead: 같은 설명을 매 세션 다시 하고 있다면 그건 지침 파일이 없다는 뜻이다. 그런데 도구를 두 개 이상 쓰면 파일 이름부터 갈린다 — 거기서 대개 지침이 두 벌이 된다.
+related:
+  - label: 에이전트를 모는 법
+    href: "/guide/driving-agents"
+  - label: Claude Code vs Codex — 무엇을 언제
+    href: "/guide/cc-vs-codex"
+slides:
+  - layout: cover
+    kick: Fieldwork · 에이전트로 일하기
+    title: AGENTS.md
+    body: 매 세션 다시 설명하지 않기 위해 남기는 파일
+  - layout: thesis
+    kick: 테제
+    title: 지침은 하나여야 한다
+    body: 도구마다 다른 파일을 두면 두 벌이 되고, 두 벌은 곧 서로 다른 말을 한다. 정본 하나에 도구별 파일이 잇는 구조로 둔다.
+  - layout: compare
+    kick: 무엇을 넣나
+    title: 넣을 것과 뺄 것
+    columns:
+      - head: 넣는다
+        points:
+          - 두 번 설명한 것
+          - 리뷰에서 잡힌 것
+          - 도구 기본값과 다른 우리 관례
+          - 검증 명령(빌드·테스트)
+      - head: 빼낸다
+        points:
+          - 코드에서 읽을 수 있는 것
+          - 디렉터리 구조·의존성 목록
+          - 한 곳에서만 쓰는 절차
+          - 반드시 막아야 하는 것 → 훅으로
+    note: 지침은 컨텍스트지 강제가 아니다. 막아야 하는 건 지침이 아니라 훅이 한다.
+  - layout: flow
+    kick: 어디에 쓰나
+    title: 네 자리를 가른다
+    steps:
+      - label: 항상 읽힐 규칙
+        note: AGENTS.md
+      - label: 특정 경로에서만
+        note: 경로 스코프 규칙
+      - label: 부를 때만
+        note: 스킬·명령
+      - label: 반드시 막을 것
+        note: 훅
+    note: 전부 지침 파일에 넣으면 길어지고, 길어지면 지켜지지 않는다.
+  - layout: cover
+    kick: 완료 조건
+    title: 복사해서 이름만 바꿔도 도는가
+    body: 골격을 붙이고 검증 명령 한 줄이 실제로 돌면 그때 이 문서를 덮어도 된다.
+---
+
+import { Code } from 'astro:components';
+import PredictBeforeReveal from '@components/PredictBeforeReveal.astro';
+
+에이전트에게 같은 설명을 두 번째로 하고 있다면 그건 지침 파일에 적을 때가 됐다는 신호다. 여기까지는 쉽다. 문제는 도구를 두 개 이상 쓸 때 시작된다 — 파일 이름이 갈리고, 갈린 파일은 곧 서로 다른 말을 한다.
+
+<PredictBeforeReveal
+  title="읽기 전에 한 번 골라보기"
+  question="Claude Code 와 Codex 를 같이 쓴다. 지침을 어디에 둬야 둘 다 읽을까?"
+  options={[
+    { key: 'a', label: 'AGENTS.md 하나만 둔다 — 공통 표준이니까' },
+    { key: 'b', label: 'CLAUDE.md 하나만 둔다' },
+    { key: 'c', label: '두 파일에 같은 내용을 복사한다' },
+    { key: 'd', label: 'AGENTS.md 를 정본으로 두고 CLAUDE.md 가 그것을 참조한다' },
+  ]}
+  answer="d"
+  revealTitle="Claude Code 는 AGENTS.md 를 읽지 않는다"
+  revealBody="공식 문서에 명시돼 있다 — Claude Code 가 읽는 파일은 CLAUDE.md 다. 그래서 (a) 는 Claude 쪽에서 지침이 없는 상태가 되고, (c) 는 진실을 두 벌 만들어 시간이 지나면 서로 다른 말을 한다. 문서가 권하는 방법은 CLAUDE.md 에서 AGENTS.md 를 import 하거나 symlink 를 거는 것이다."
+/>
+
+## 파일 이름부터 정리한다
+
+`AGENTS.md` 는 "에이전트를 위한 README" 로 쓰이는 관례다. 공식 사이트 기준으로 6만 개가 넘는 오픈소스 프로젝트가 쓰고 있고, Codex·Cursor·Copilot·Gemini CLI·Aider·Devin·Zed·Windsurf·Junie 등 여러 도구가 이 파일을 읽는다. 형식에 정해진 규격은 없다 — **그냥 마크다운이고 제목도 자유다.** 모노레포라면 서브프로젝트마다 중첩해서 둘 수 있고, 에이전트는 트리에서 가장 가까운 파일을 먼저 본다.
+
+Claude Code 는 여기서 빠진다. `CLAUDE.md` 만 읽는다. 그래서 둘을 같이 쓰려면 한쪽이 다른 쪽을 참조해야 한다.
+
+<Code
+  lang="markdown"
+  code={`<!-- CLAUDE.md — 정본은 AGENTS.md, 여기엔 Claude 전용만 -->
+@AGENTS.md
+
+## Claude Code 전용
+
+- 화면 확인은 로컬 dev 서버 + 스크린샷으로 한다.`}
+/>
+
+`@경로` 는 Claude Code 의 import 문법이고 세션 시작 때 함께 로드된다. 백틱으로 감싸면 import 되지 않고 글자로만 남는다. Claude 전용 지침이 따로 없다면 심볼릭 링크로도 된다.
+
+<Code lang="bash" code={`ln -s AGENTS.md CLAUDE.md   # 성공하면 아무 것도 출력하지 않는다`} />
+
+**이 레포가 그 구조다.** 원래 `CLAUDE.md` 한 장에 다 적어뒀는데, 내용의 거의 전부가 도구와 무관한 프로젝트 규칙이었다. 그래서 그 파일을 `AGENTS.md` 로 옮기고 `CLAUDE.md` 는 import 한 줄과 Claude 전용 두 줄만 남겼다. Codex 로 같은 레포를 열어도 같은 규칙을 읽는다.
+
+## 무엇을 넣고 무엇을 빼나
+
+지침 파일이 길어지는 건 대개 "적어두면 좋을 것 같은 것"을 다 넣기 때문이다. 그런데 이 파일은 매 세션 컨텍스트를 먹고, 길어지면 지켜지는 비율이 떨어진다. Claude Code 문서는 **한 파일 200줄 이하**를 권한다.
+
+<figure class="fig">
+  <div class="compare">
+    <div class="cmp-card is-ax">
+      <div class="cmp-h">넣는다</div>
+      <ul>
+        <li>두 번 설명한 것</li>
+        <li>리뷰에서 잡힌 것 — 알았어야 했던 관례</li>
+        <li>도구 기본값과 다른 우리 방식</li>
+        <li>검증 명령 — 빌드·테스트·린트</li>
+        <li>새 사람이 같은 질문을 할 만한 컨텍스트</li>
+      </ul>
+    </div>
+    <div class="cmp-arrow">↔</div>
+    <div class="cmp-card">
+      <div class="cmp-h">빼낸다</div>
+      <ul>
+        <li>코드를 읽으면 알 수 있는 것</li>
+        <li>디렉터리 구조·의존성 목록</li>
+        <li>한 부분에서만 쓰는 여러 단계 절차</li>
+        <li>반드시 막아야 하는 것 — 훅이 할 일</li>
+      </ul>
+    </div>
+  </div>
+  <figcaption>그림 1 · 지침에 남길 것과 다른 자리로 보낼 것</figcaption>
+</figure>
+
+맨 오른쪽 마지막 줄이 중요하다. **지침 파일은 컨텍스트이고 강제가 아니다.** 공식 문서도 그렇게 적어뒀다 — 반드시 차단해야 하는 동작이라면 지침이 아니라 훅으로 막아야 한다. "커밋 전에 반드시 테스트" 같은 것을 지침에만 적어두면 대개 어느 세션에서 그냥 지나간다.
+
+구체적으로 쓸수록 지켜진다. "코드를 깔끔하게" 대신 "2-space 인덴트", "테스트해라" 대신 "커밋 전에 `npm test`" 처럼 검증 가능한 문장으로 적는다.
+
+## 네 자리를 가른다
+
+전부 지침 파일에 넣으면 길어진다. 성격에 따라 자리가 다르다.
+
+<ol class="seq">
+  <li><b>항상 읽힐 규칙 → 지침 파일.</b> 문체, 관례, 빌드·검증 명령, 하지 말 것. 이 프로젝트라면 문체 기준과 공개 위험 게이트가 여기다.</li>
+  <li><b>특정 경로에서만 필요한 규칙 → 경로 스코프 규칙.</b> Claude Code 는 <code>.claude/rules/</code> 에 <code>paths</code> frontmatter 를 붙여 해당 파일을 열 때만 로드한다. 지침 파일이 200줄을 넘기 시작하면 여기로 옮긴다.</li>
+  <li><b>부를 때만 도는 절차 → 스킬·명령.</b> 여러 단계로 된 반복 작업. 항상 컨텍스트에 있을 필요가 없다.</li>
+  <li><b>반드시 막아야 하는 것 → 훅.</b> 지침으로는 보장되지 않는다. 커밋 전 린트, 위험한 명령 차단 같은 것.</li>
+</ol>
+
+## 복사해서 쓰는 골격
+
+아래를 `AGENTS.md` 로 붙이고 대괄호만 바꾸면 된다. 빈 절은 지운다 — 채우지 못한 제목만 남으면 오히려 방해가 된다.
+
+<Code
+  lang="markdown"
+  code={`# [프로젝트 이름]
+
+[한 문장으로: 이게 무엇이고 누구를 위한 것인가]
+
+## 무엇이 어디 있나
+
+[디렉터리 지도. 코드에서 못 읽는 "왜 여기 있나"만 짧게. 구조 나열은 생략한다]
+
+## 개발·검증
+
+- 개발: \`[dev 명령]\`
+- 빌드: \`[build 명령]\`
+- 테스트: \`[test 명령]\`
+- 완료 판정: [무엇이 통과하면 끝인가 — 에이전트가 스스로 확인할 수 있게]
+
+## 이 프로젝트의 관례
+
+[도구 기본값과 다른 것만. "왜"를 한 줄 붙인다]
+- [예: 커밋 메시지는 한국어 요약 + Conventional prefix]
+- [예: 새 의존성 추가 전에 물어볼 것]
+
+## 하지 않을 것
+
+[과거에 사고가 났거나 되돌리기 어려운 것]
+- [예: main 에 직접 push 하지 않는다]
+- [예: 마이그레이션을 자동 실행하지 않는다]
+
+## 함정
+
+[여기서 시간을 잃었던 것. 에이전트가 모르면 또 잃는다]
+- [예: dev 서버가 데몬으로 떠서 실행 명령이 즉시 반환한다 — 종료로 오해하지 말 것]`}
+/>
+
+`## 함정` 절이 실제로 값을 한다. 나머지는 코드나 README 에서 얼마간 유추되지만, 한 번 시간을 잃고 배운 것은 어디에도 안 적혀 있다.
+
+## 이 문서를 덮어도 되는 시점
+
+골격을 자기 레포에 붙이고, `## 개발·검증` 의 명령 한 줄이 실제로 돌고, `## 함정` 에 최근에 시간을 잃은 것 하나가 적혀 있으면 된다. 절을 다 채우지 못해도 괜찮다 — 빈 제목보다 세 줄짜리 파일이 낫다.
+
+도구가 하나뿐이라면 `CLAUDE.md` 하나로 시작해도 된다. 두 번째 도구를 붙이는 날 이 글로 돌아와 import 한 줄을 추가하면 된다.
+
+<section class="log" aria-label="변경 로그">
+  <div class="lg-h">변경 로그</div>
+  <ul>
+    <li><time>2026-07-26</time><span>초안 작성. AGENTS.md·CLAUDE.md 관계, 넣을 것/뺄 것, 네 자리 구분, 복사용 골격. 이 레포를 실제로 AGENTS.md 정본 구조로 바꾸고 그 결과를 적었다 (성숙도: 탐색 중)</span></li>
+    <li><time>예정</time><span>경로 스코프 규칙을 실제로 나눠 써본 뒤 200줄 분리 기준 보강 · Codex 로 같은 레포를 열어 지침이 실제로 읽히는지 확인</span></li>
+  </ul>
+</section>
