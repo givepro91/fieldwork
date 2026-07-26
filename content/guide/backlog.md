@@ -2,55 +2,64 @@
 
 쓸 글과 쓴 글을 같이 둔다. 순서는 고정이 아니라, 실제로 써보고 정리할 거리가 생긴 것부터 쓴다. 각 항목에는 그 글에서 답하려는 질문 한 줄을 같이 적어둔다 — 질문이 분명하지 않으면 아직 쓸 때가 아니다.
 
-상태 표기: `발행됨` 공개 중 · `초안(채우는 중)` 구조·프레임만 있고 실사용 경험 대기(dev 에서만 보임, prod 빌드 제외) · `재료 모으는 중` 경험이 더 필요함 · `초안 준비` 바로 쓸 수 있음.
+분류는 **트랙 × 타입** 2축이다(정본: [strategy/product.md](../../strategy/product.md), 현황 매트릭스는 dev `/design`). 상태 표기: `발행됨` 공개 중 · `초안` dev 에서만 보임(prod 빌드 제외) · `재료 모으는 중` 경험이 더 필요함 · `초안 준비` 바로 쓸 수 있음.
 
-## 발행된 글 (10)
+## 지금 있는 글 (14 · 전부 발행)
 
-**개념·관점** — [AX란 무엇인가](/guide/what-is-ax) · [AX를 맡으면 실제로 무엇을 하나](/guide/what-ax-work-looks-like)(5계층 행위 허브) · [어떤 업무 루프를 먼저 고를까](/guide/choosing-loops) · [AI 출력을 어디까지 믿을 것인가](/guide/trusting-output) · [RAG와 Agent Workflow의 차이](/guide/rag-vs-agent)
+**① 에이전트로 일하기 (5)**
+- `개념` [에이전트를 모는 법](/guide/driving-agents) — context·harness·loop·Ralph 의 추상도 사다리
+- `개념` [MCP는 AX에서 무엇인가](/guide/mcp-in-ax) — 연결 표준의 값과 끊겼을 때의 문제
+- `선택` [Claude Code · AX 관점](/guide/claude-code-ax) · [Codex · AX 관점](/guide/codex-ax) · [Claude Code vs Codex](/guide/cc-vs-codex)
 
-**도구·기법** — [에이전트를 모는 법](/guide/driving-agents)(사다리) · [Claude Code · AX 관점](/guide/claude-code-ax) · [Codex · AX 관점](/guide/codex-ax) · [Claude Code vs Codex](/guide/cc-vs-codex) · [MCP는 AX에서 무엇인가](/guide/mcp-in-ax)
+**② AX·업무 재설계 (9)**
+- `개념` [AX란 무엇인가](/guide/what-is-ax) · [AX를 맡으면 실제로 무엇을 하나](/guide/what-ax-work-looks-like) · [RAG와 Agent Workflow의 차이](/guide/rag-vs-agent)
+- `선택` [어떤 업무 루프를 먼저 고를까](/guide/choosing-loops) · [AI 출력을 어디까지 믿을 것인가](/guide/trusting-output) · [운영 자동화는 언제 폐기하나](/guide/retiring-automation)
+- `플레이북` [승인 게이트가 필요한 이유](/guide/approval-gates) · [Human-in-the-loop 패턴](/guide/human-in-the-loop) · [audit trail 설계](/guide/audit-trail)
 
-**패턴·플레이북** — [AI에 승인 게이트가 필요한 이유](/guide/approval-gates) · [Human-in-the-loop 패턴](/guide/human-in-the-loop) · [AI 자동화의 audit trail 설계](/guide/audit-trail) · [운영 자동화는 언제 폐기하나](/guide/retiring-automation)
+## 비어 있는 칸이 곧 다음 할 일
 
-## 1. 정의·관점
+`템플릿`과 `기록`이 **0편**이다. 이 제품에서 가장 차별적인 두 타입인데 비어 있다 — 복사해 쓸 산출물이 없고, 접은 것의 기록이 없다. 트랙 ③④⑤도 0편이다.
 
-- **AX Engineer / AX Lead는 무엇을 해야 하는가** — `발행됨(흡수)`
-  [AX를 맡으면 실제로 무엇을 하나](/guide/what-ax-work-looks-like)가 다섯 자리 + "안 하는 일"로 이 질문을 이미 다룬다. 역할 경계를 더 깊게 팔 거리가 생기면 별도 글로 분화.
-- **어떤 업무 루프를 먼저 AX 대상으로 고를 것인가** — `발행됨` → [choosing-loops](/guide/choosing-loops)
-- **AI 출력의 신뢰도를 어떻게 따질 것인가** — `발행됨` → [trusting-output](/guide/trusting-output)
+그래서 다음 글은 새 주제를 찾는 게 아니라 **이 빈 칸에서 고른다.**
 
-## 2. 도구 필드 리뷰
+## 다음에 쓸 글
 
-AX 관점 = 역할·한계·언제 쓰나. 성능 비교가 아니라 어떤 일에 무엇을 붙였더니 어땠는지.
+### ① 에이전트로 일하기
+- **AGENTS.md 를 어떻게 쓰나** — `템플릿` · `초안 준비`
+  복사해서 자기 레포에 붙이는 지침 파일. 이 레포의 CLAUDE.md 가 그대로 재료다 — 무엇을 넣었고 무엇을 뺐고 왜 그랬나.
+- **검증 루프를 어떻게 닫나** — `플레이북` · `초안 준비`
+  완료 조건을 테스트·빌드·스크린샷·curl 로 만드는 법. 답하려는 질문: 에이전트가 "다 했다"고 할 때 무엇을 보고 믿나.
+- **같은 작업을 CC·Codex 양쪽에 돌려본 기록** — `기록` · `재료 모으는 중`
+  [cc-vs-codex](/guide/cc-vs-codex)에서 미실행으로 남긴 실험. 우열이 아니라 자리 분담을 확인하려는 것.
 
-- **Claude Code를 AX 관점에서 쓰는 법** — `발행됨` → [claude-code-ax](/guide/claude-code-ax) (운영 관점·위임 경계·게이트)
-- **Codex를 AX 관점에서 쓰는 법** — `발행됨` → [codex-ax](/guide/codex-ax) (무인 러너·가드레일)
-- **Claude Code vs Codex** — `발행됨(부분)` → [cc-vs-codex](/guide/cc-vs-codex). 사람 개입 축의 자리 분담까지. 같은 작업 양쪽 비교 실험은 미실행 → 우열·세부 보강 예정.
-- **Cursor / Claude Code / Codex의 역할 분리** — `폐기` Cursor 미사용으로 보류. CC·Codex 분담은 위 [cc-vs-codex](/guide/cc-vs-codex)가 다룸. Cursor를 실제로 쓰게 되면 그때 다시.
-- **MCP는 AX에서 어떤 의미가 있는가** — `발행됨(부분)` → [mcp-in-ax](/guide/mcp-in-ax). 연결 표준의 값 + 끊김·폴백 문제의식까지. MCP 심화 운영 경험은 더 쌓은 뒤 보강.
+### ② AX·업무 재설계
+- **만들었다가 접은 자동화** — `기록` · `재료 모으는 중`
+  무엇을 보고 껐나, 너무 늦었거나 일렀던 판단. [retiring-automation](/guide/retiring-automation)이 기준을 다뤘으니 여기는 실제 사례. 익명화 필수.
+- **익명화 적용 사례** — `기록` · `재료 모으는 중`
+  운영 자동화·데이터 신뢰성·승인 게이트를 실제로 적용하고 내린 판단. 공개 위험 게이트 통과 전제.
 
-## 3. 패턴·플레이북
+### ③ 기획·명세
+- **에이전트가 실행할 수 있는 명세** — `플레이북` · `초안 준비`
+  이 방향 전환에서 실제로 쓴 `strategy/product.md` 가 재료다. 답하려는 질문: 사람이 읽는 기획서와 에이전트가 실행하는 명세는 어디서 갈리나.
+- **ADR 을 언제 쓰나** — `템플릿` · `재료 모으는 중`
+  결정 기록의 최소 형태. 이 레포의 결정들(정적 배포 유지, 트랙 5개, 타입 5종, 이름 교체)이 사례가 될 수 있다.
 
-- **AI agent에 승인 구조가 필요한 이유** — `발행됨` → [approval-gates](/guide/approval-gates)
-- **Human-in-the-loop 패턴** — `발행됨` → [human-in-the-loop](/guide/human-in-the-loop)
-- **AI 자동화의 audit trail 설계** — `발행됨` → [audit-trail](/guide/audit-trail)
-- **운영 자동화는 언제 폐기해야 하는가** — `발행됨` → [retiring-automation](/guide/retiring-automation) (안티패턴 축의 첫 글)
+### ④ 1인 개발·운영
+- **이 사이트를 혼자 만들고 운영한 기록** — `기록` · `초안 준비`
+  정적 프로토타입을 만들고 폐기한 판단, 동향 cron 을 무료로 유지한 설계, draft 로 prod 에서 빼는 게이트, 이름을 바꾸며 기존 링크를 버린 결정.
+- **스키마로 규칙을 강제하기** — `플레이북` · `초안 준비`
+  트랙별 허용 타입과 `sources`→`verified` 를 왜 빌드 실패로 만들었나. 문서로 적은 규칙과 빌드가 막는 규칙의 차이.
+- **무료로 유지되는 운영 자동화** — `플레이북` · `재료 모으는 중`
+  GitHub Actions cron + 정적 배포로 비용 0 을 유지하는 구조와 그 한계.
 
-## 4. 개념 정리
-
-- **RAG와 Agent Workflow의 차이** — `발행됨` → [rag-vs-agent](/guide/rag-vs-agent)
-- **Loop Engineering이란 무엇인가** — `발행됨` → [driving-agents](/guide/driving-agents)에 사다리의 한 칸으로. 정의(Addy Osmani, 2026-06)·출처 확인 완료.
-- **"랄프 / RALF" 관련 개념** — `발행됨` → [driving-agents](/guide/driving-agents). 정확한 명칭은 **Ralph**(RALF 아님), 출처 Geoffrey Huntley(2025-07).
-
-## 5. 앞으로 — 케이스·안티패턴 (아직 글 없음)
-
-가장 신뢰를 주는 축. 글이 실제로 생기면 새 카테고리로 분리한다.
-
-- **만들었다가 접은 자동화 기록** — 무엇을 보고 껐나, 너무 늦었거나 일렀던 판단. ([retiring-automation](/guide/retiring-automation)의 익명화 사례 보강.)
-- **익명화 적용 사례** — 운영 자동화·데이터 신뢰성·승인 게이트를 실제 적용하고 내린 판단. (공개 위험 게이트 통과 전제.)
+### ⑤ 지식·업무 시스템 — `기록`만 허용
+- **노트가 쌓이기만 하는 이유** — `기록` · `초안 준비`
+  지금 헤매는 상태를 그대로 쓴다. 무엇을 시도했고 무엇이 안 됐나. Vault 구조도·속성 스키마는 그 구조로 프로젝트 하나를 끝낸 뒤에.
 
 ## 글 고르는 기준 메모
 
 - 결론이 안 났어도 질문이 분명하면 쓴다. 다만 "확인 필요" 항목은 사실 확인 전에 발행하지 않는다.
-- 도구 리뷰는 직접 써본 뒤에만 쓴다. 안 써보고 비교하는 글은 이 프로젝트가 피하려는 바로 그 글이다. → 그래서 도구 5편은 구조만 두고 `draft`로 prod 에서 뺐다.
-- 한 편이라도 회사 내부가 특정되면 익명화하거나 보류한다. (기준: [strategy/product.md](../../strategy/product.md)의 "공개 위험 게이트".)
+- 도구 리뷰는 직접 써본 뒤에만 쓴다. 안 써보고 비교하는 글은 이 프로젝트가 피하려는 바로 그 글이다.
+- ⑤ 트랙은 `기록`만 쓴다 — 스키마가 막는다. 승급 조건은 [product.md](../../strategy/product.md).
+- 한 편이라도 회사 내부가 특정되면 익명화하거나 보류한다. ③기획·④운영 트랙이 특히 위험하다 — 산출물 예시는 이 레포나 개인 프로젝트를 소재로 만든다.
+- `템플릿`·`기록`이 계속 0 이면 방향 문제가 아니라 습관 문제다. 새 개념 글보다 이 둘을 먼저 채운다.
