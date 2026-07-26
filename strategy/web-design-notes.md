@@ -19,13 +19,15 @@
 --bg:#f7f8fa  (쿨 그레이 배경)   --card:#fff
 --ink:#18181b  --sub:#52525b  --mute:#8a93a0
 --accent:#2563eb (클린 블루)  --accent-ink:#1d4ed8  --accent-weak:#eef4ff  --accent-border:#cfe0ff
---line:#e5e7eb  --chip:#edeff2   --ok:#047857 / bg #e7f8f1 (성공/라이브 표시)
+--line:#e5e7eb  --chip:#edeff2   --ok:#047857 / bg #e7f8f1 / bd #b6ead4 (성공·라이브)
+--warn:#b45309 / bg #fffbeb / bd #fcd34d (검토 기한 경과·위임 보류 — "멈춰 세우는" 표시에만)
 sans: -apple-system, "Apple SD Gothic Neo", "Pretendard", system-ui …   (Pretendard 기조, 한글 우선)
 mono: ui-monospace, Menlo …  (메타·라벨·코드·번호)
 ```
 
 - 카드: radius 12–16px, 소프트 섀도(`0 1px 2px`, `0 4px 16px` rgba). 라이트 단독(다크 미구현).
 - 액센트는 **블루 하나만**. 링크·활성 네비·인포박스 헤더·성숙도 pill·진행바에만 절제해서.
+- **타입 배지에 색을 5개 만들지 않는다.** 5타입(개념·선택·플레이북·템플릿·기록)을 색으로 나누면 블루 절제가 깨진다. 대신 "읽는 글 vs 하는 글" 한 갈래만 가른다 — `playbook`·`template` 은 테두리 배지(`.badge.do`), 나머지는 회색. 목록에서 독자가 찾는 건 "지금 실행할 수 있는 것"이다. (기준: `DO_TYPES` in `src/taxonomy.ts`)
 
 ## 레이아웃 (3-pane 위키)
 

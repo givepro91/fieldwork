@@ -19,7 +19,7 @@ const activeHref = activeId ? `/guide/${activeId}` : '';
       <ul>
         {g.articles.map((a) => (
           <li class={a.href === activeHref ? 'active' : ''}>
-            <a href={a.href}><span class="ti">{a.title}</span><span class="badge">{a.typeKo}</span>{a.draft && <span class="badge draft">draft</span>}</a>
+            <a href={a.href}><span class="ti">{a.title}</span><span class={a.isDo ? 'badge do' : 'badge'}>{a.typeKo}</span>{a.draft && <span class="badge draft">draft</span>}</a>
           </li>
         ))}
         {g.planned.map((p) => (

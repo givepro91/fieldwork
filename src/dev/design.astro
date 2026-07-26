@@ -11,6 +11,7 @@ import cssText from '../styles/global.css?raw';
 import { TRACKS, TYPES, TRACK_LABEL, TYPE_LABEL, ALLOWED_TYPES } from '../taxonomy';
 // 구현된 인터랙션은 목업을 다시 만들지 않고 실제 컴포넌트를 그대로 쓴다.
 import DecisionTree from '../components/DecisionTree.astro';
+import PredictBeforeReveal from '../components/PredictBeforeReveal.astro';
 
 const entries = await getCollection('guide');
 
@@ -246,8 +247,9 @@ const today = new Date().toISOString().slice(0, 10);
         <div class="shp sh2">lift <i>0 4px 16px</i></div>
       </div>
       <p class="dv-note">
-        미해결: <b>기한 경과 배지의 앰버</b>(<code>#b45309 / #fffbeb / #fcd34d</code>)가 토큰 밖에 있다.
-        상태색(경고·위험)을 <code>--warn-*</code> 로 토큰화할지 결정 필요 — <code>--ok-*</code> 는 이미 있다.
+        <b>해결됨</b> — 경고색이 네 곳(기한 경과 배지 · DecisionTree 보류 결론 · 이 페이지의 dev 태그 ·
+        admin 경과 pill)에 하드코딩돼 있던 것을 <code>--warn / --warn-bg / --warn-bd</code> 로 묶었다.
+        <code>--ok-*</code> 와 짝이고, "멈춰 세우는" 표시에만 쓴다. 발표(다크)에는 아직 경고 표시가 없어 넣지 않았다.
       </p>
     </section>
 
@@ -380,28 +382,29 @@ const today = new Date().toISOString().slice(0, 10);
         </div>
       </div>
 
-      <!-- PredictBeforeReveal -->
+      <!-- PredictBeforeReveal — 실제 컴포넌트. trusting-output 이 쓰는 것과 같은 파일이다. -->
       <div class="dv-mock">
-        <div class="mk-h"><b>PredictBeforeReveal</b><span>설명 전에 예측하게 한다 (레슨 필수 1번)</span></div>
-        <div class="mk-b" id="pred">
-          <p class="pd-q">에이전트에게 반복 업무를 넘겼을 때, 가장 먼저 무너지는 것은?</p>
-          <div class="pd-opts">
-            <button class="pd-o" data-k="a">모델의 출력 품질</button>
-            <button class="pd-o" data-k="b">실패를 사람이 알아채는 경로</button>
-            <button class="pd-o" data-k="c">실행 속도</button>
-            <button class="pd-o" data-k="d">비용</button>
-          </div>
-          <div class="pd-rev" id="pd-rev" hidden aria-live="polite">
-            <p class="pd-rt">품질보다 <b>관측</b>이 먼저 무너진다</p>
-            <p class="pd-rb">
-              품질은 눈에 보여서 금방 손을 본다. 반면 "돌고 있다"는 착각은 조용히 자란다 —
-              실패가 사람에게 닿지 않으면 자동화는 신뢰를 잃은 채 방치되고, 그게 폐기 판단을 늦춘다.
-            </p>
-            <p class="pd-note">선택한 답에 따라 해설을 다르게 줄지 <b>결정 대기</b>. 지금은 정답 하나에 공통 해설.</p>
-          </div>
+        <div class="mk-h"><b>PredictBeforeReveal</b><span>구현 완료 · 아래는 실제 컴포넌트(데모 데이터)</span></div>
+        <div class="mk-b">
+          <PredictBeforeReveal
+            title="데모"
+            question="에이전트에게 반복 업무를 넘겼을 때, 가장 먼저 무너지는 것은?"
+            options={[
+              { key: 'a', label: '모델의 출력 품질' },
+              { key: 'b', label: '실패를 사람이 알아채는 경로' },
+              { key: 'c', label: '실행 속도' },
+              { key: 'd', label: '비용' },
+            ]}
+            answer="b"
+            revealTitle="품질보다 관측이 먼저 무너진다"
+            revealBody={'품질은 눈에 보여서 금방 손을 본다. 반면 "돌고 있다"는 착각은 조용히 자란다 — 실패가 사람에게 닿지 않으면 자동화는 신뢰를 잃은 채 방치되고, 그게 폐기 판단을 늦춘다.'}
+            link={{ label: 'AI 자동화의 audit trail 설계', href: '/guide/audit-trail' }}
+          />
         </div>
         <div class="mk-f">
-          <b>결정 필요</b> · 답을 고르기 전에는 아래 본문을 가릴까(스크롤 잠금) · 오답별 해설을 쓸까 · 진도를 localStorage 에 남길까
+          <b>결정됨</b> · 오답별 해설은 쓰지 않는다(제작 비용이 선택지 수만큼 늘고, 목적은 정답 맞추기가 아니라
+          예측을 강제해 본문을 능동적으로 읽게 하는 것) · 대신 적중/불일치는 표시한다 · <code>noscript</code> 정적 대체 있음<br />
+          <b>남은 결정</b> · 답을 고르기 전 아래 본문을 가릴까(스크롤 잠금) · 진도를 localStorage 에 남길까
         </div>
       </div>
 
@@ -446,7 +449,7 @@ const today = new Date().toISOString().slice(0, 10);
   .dv-top { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
     padding: 11px clamp(14px,3vw,32px); background: rgba(247,248,250,.9); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
   .dv-top b { font-family: var(--mono); font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; }
-  .dv-tag { font-family: var(--mono); font-size: 10px; color: #b45309; background: #fffbeb; border: 1px solid #fcd34d; border-radius: 6px; padding: 2px 8px; }
+  .dv-tag { font-family: var(--mono); font-size: 10px; color: var(--warn); background: var(--warn-bg); border: 1px solid var(--warn-bd); border-radius: 6px; padding: 2px 8px; }
   .dv-nav { margin-left: auto; display: flex; gap: 14px; font-size: 12.5px; }
   .dv-nav a { color: var(--sub); }
   .dv-wrap { max-width: 1080px; margin: 0 auto; padding: 0 clamp(16px,3vw,32px) 100px; }
@@ -541,20 +544,6 @@ const today = new Date().toISOString().slice(0, 10);
   .mk-f { padding: 10px 16px; border-top: 1px dashed var(--line2); font-size: 12px; color: var(--mute); background: #fbfcff; }
   .mk-f b { color: var(--accent-ink); font-family: var(--mono); font-size: 10.5px; letter-spacing: .05em; text-transform: uppercase; }
 
-  /* PredictBeforeReveal */
-  .pd-q { font-size: 16px; font-weight: 700; margin: 0 0 12px; word-break: keep-all; }
-  .pd-opts { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; max-width: 620px; }
-  @media (max-width: 640px) { .pd-opts { grid-template-columns: 1fr; } }
-  .pd-o { text-align: left; font-family: var(--sans); font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; cursor: pointer; }
-  .pd-o:hover { border-color: var(--accent); color: var(--accent-ink); }
-  .pd-o[aria-pressed="true"] { background: var(--accent-weak); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
-  .pd-o.is-key { border-color: var(--ok); background: var(--ok-bg); color: var(--ok); font-weight: 700; }
-  .pd-rev { margin-top: 14px; padding: 14px 16px; border-radius: 12px; background: var(--card); border: 1px solid var(--ok-bd); max-width: 620px; }
-  .pd-rt { font-size: 15.5px; font-weight: 800; margin: 0; }
-  .pd-rt b { color: var(--ok); }
-  .pd-rb { font-size: 13.5px; color: var(--sub); margin: 7px 0 0; word-break: keep-all; }
-  .pd-note { font-size: 12px; color: var(--mute); margin: 9px 0 0; }
-
   /* Compare */
   .cp-axes { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
   .cp-ax { font-family: var(--mono); font-size: 11.5px; color: var(--sub); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
@@ -576,21 +565,8 @@ const today = new Date().toISOString().slice(0, 10);
 </style>
 
 <script>
-  // DecisionTree 는 컴포넌트가 자기 스크립트를 갖고 있으므로 여기서 다루지 않는다.
-
-  // ── PredictBeforeReveal: 고른 뒤에만 공개
-  const predOpts = document.querySelectorAll<HTMLButtonElement>('#pred .pd-o');
-  const predRev = document.getElementById('pd-rev');
-  predOpts.forEach((b) => {
-    b.setAttribute('aria-pressed', 'false');
-    b.addEventListener('click', () => {
-      predOpts.forEach((o) => {
-        o.setAttribute('aria-pressed', String(o === b));
-        o.classList.toggle('is-key', o.dataset.k === 'b');
-      });
-      if (predRev) predRev.hidden = false;
-    });
-  });
+  // DecisionTree·PredictBeforeReveal 은 컴포넌트가 자기 스크립트를 갖고 있으므로 여기서 다루지 않는다.
+  // 아래는 아직 목업인 Compare 전용.
 
   // ── Compare: 축 필터
   const cmp = document.getElementById('cmp');

@@ -1,0 +1,95 @@
+---
+// 설명 전에 예측하게 만드는 컴포넌트. 레슨 필수 1번("독자가 먼저 선택·예측하는 지점")의 기본 도구.
+//
+// 결정: 오답별 해설은 쓰지 않는다. 제작 비용이 선택지 수만큼 늘고, 이 컴포넌트의 목적은
+// 정답 맞추기가 아니라 예측을 강제해 이어지는 본문을 능동적으로 읽게 만드는 것이다.
+// 대신 고른 답이 맞았는지는 표시한다 — 그게 예측의 피드백이다.
+//
+// 접근성: button 기반, 공개 영역 aria-live, noscript 정적 대체.
+
+interface Option { key: string; label: string }
+interface Link { label: string; href: string }
+interface Props {
+  title?: string;
+  question: string;
+  options: Option[];
+  answer: string;
+  revealTitle: string;
+  revealBody: string;
+  link?: Link;
+}
+
+const { title, question, options, answer, revealTitle, revealBody, link } = Astro.props;
+---
+
+<div class="pbr" data-answer={answer}>
+  {title && <p class="pbr-t">{title}</p>}
+  <p class="pbr-q">{question}</p>
+
+  <div class="pbr-opts">
+    {options.map((o) => (
+      <button type="button" class="pbr-o" data-key={o.key} aria-pressed="false">{o.label}</button>
+    ))}
+  </div>
+
+  <div class="pbr-rev" hidden aria-live="polite">
+    <p class="pbr-verdict"></p>
+    <p class="pbr-rt">{revealTitle}</p>
+    <p class="pbr-rb">{revealBody}</p>
+    {link && <a class="pbr-rl" href={link.href}>{link.label} →</a>}
+  </div>
+
+  <noscript>
+    <div class="pbr-static">
+      <p class="pbr-rt">{revealTitle}</p>
+      <p class="pbr-rb">{revealBody}</p>
+    </div>
+  </noscript>
+</div>
+
+<style>
+  .pbr { margin: 22px 0; max-width: 72ch; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+  .pbr-t { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--mute); margin: 0 0 12px; }
+  .pbr-q { font-size: 16px; font-weight: 700; margin: 0 0 12px; word-break: keep-all; }
+  .pbr-opts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  @media (max-width: 640px) { .pbr-opts { grid-template-columns: 1fr; } }
+  .pbr-o { text-align: left; font-family: var(--sans); font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; cursor: pointer; word-break: keep-all; }
+  .pbr-o:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .pbr-o[aria-pressed='true'] { border-color: var(--accent); background: var(--accent-weak); color: var(--accent-ink); font-weight: 700; }
+  /* 정답은 고른 뒤에만 표시된다(.pbr.done 하위에서만 켜짐). */
+  .pbr.done .pbr-o.is-key { border-color: var(--ok); background: var(--ok-bg); color: var(--ok); font-weight: 700; }
+  .pbr-rev { margin-top: 14px; padding: 14px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); }
+  .pbr-verdict { font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; margin: 0 0 6px; }
+  .pbr-verdict.hit { color: var(--ok); }
+  .pbr-verdict.miss { color: var(--warn); }
+  .pbr-rt { font-size: 15.5px; font-weight: 800; margin: 0; }
+  .pbr-rb { font-size: 13.5px; color: var(--sub); margin: 7px 0 0; word-break: keep-all; }
+  .pbr-rl { display: inline-block; margin-top: 9px; font-size: 13px; font-weight: 700; }
+  .pbr-static { margin-top: 14px; padding: 14px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.pbr').forEach((root) => {
+    const answer = root.dataset.answer;
+    const opts = root.querySelectorAll<HTMLButtonElement>('.pbr-o');
+    const rev = root.querySelector<HTMLElement>('.pbr-rev');
+    const verdict = root.querySelector<HTMLElement>('.pbr-verdict');
+
+    opts.forEach((b) => {
+      b.addEventListener('click', () => {
+        const hit = b.dataset.key === answer;
+        opts.forEach((o) => {
+          o.setAttribute('aria-pressed', String(o === b));
+          o.classList.toggle('is-key', o.dataset.key === answer);
+        });
+        root.classList.add('done');
+        if (verdict) {
+          verdict.textContent = hit ? '예측 적중' : '예측과 다름';
+          verdict.classList.toggle('hit', hit);
+          verdict.classList.toggle('miss', !hit);
+        }
+        if (rev) rev.hidden = false;
+      });
+    });
+  });
+</script>

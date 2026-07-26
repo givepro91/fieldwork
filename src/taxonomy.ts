@@ -54,6 +54,9 @@ export const TYPE_LABEL: Record<Type, { ko: string; en: string }> = {
   log: { ko: '기록', en: 'Log' },
 };
 
+// 실행·산출물 타입. 목록에서 "읽는 글"과 "하는 글"을 가르는 데 쓴다(색을 5개로 늘리지 않는 대신).
+export const DO_TYPES: readonly Type[] = ['playbook', 'template'];
+
 // 트랙별 허용 타입 — 재료가 없는 트랙에서 Playbook·Template 이 나오는 것을 구조로 막는다.
 // ⑤ 지식·업무 시스템은 아직 제대로 운영해보지 않았으므로 헤매는 기록(log)만 허용한다.
 // 승급 조건: 그 구조로 실제 프로젝트를 하나 끝냈을 때 (strategy/product.md).

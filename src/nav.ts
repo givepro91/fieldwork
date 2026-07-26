@@ -2,7 +2,7 @@
 // 그룹 축 = 트랙(strategy/product.md). count = 실제 발행된 글 수(하드코딩 금지).
 // 빈 트랙은 firstHref=null → 더미 링크 대신 비활성.
 
-import { TRACKS, TRACK_LABEL, TYPE_LABEL, type Track, type Type } from './taxonomy';
+import { TRACKS, TRACK_LABEL, TYPE_LABEL, DO_TYPES, type Track, type Type } from './taxonomy';
 
 export interface GuideEntry {
   id: string;
@@ -16,7 +16,7 @@ export interface NavGroup {
   short: string;
   en: string;
   desc: string;
-  articles: { title: string; href: string; type: Type; typeKo: string; draft: boolean }[];
+  articles: { title: string; href: string; type: Type; typeKo: string; isDo: boolean; draft: boolean }[];
   planned: string[];
   count: number;
   firstHref: string | null;
@@ -40,6 +40,7 @@ export function buildNav(entries: GuideEntry[]): NavGroup[] {
         href: `/guide/${e.id}`,
         type: e.data.type,
         typeKo: TYPE_LABEL[e.data.type].ko,
+        isDo: DO_TYPES.includes(e.data.type),
         draft: e.data.draft ?? false,
       }));
     return {
