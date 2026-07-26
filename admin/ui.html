@@ -34,6 +34,7 @@
   .pill { font-family:var(--mono); font-size:10px; border-radius:999px; padding:2px 9px; white-space:nowrap; }
   .pill.pub { color:var(--ok); background:var(--ok-bg); border:1px solid #b6ead4; }
   .pill.draft { color:var(--accent-ink); background:var(--accent-weak); border:1px solid var(--accent-border); }
+  .pill.over { color:var(--warn); background:var(--warn-bg); border:1px solid #fcd34d; }
   td.stage, td.upd, td.ord { color:var(--sub); font-size:12.5px; }
   td.upd, td.ord { font-family:var(--mono); }
   td.act a { font-size:12px; color:var(--accent-ink); }
@@ -50,16 +51,27 @@
   <div class="wrap" id="wrap"><div class="empty">불러오는 중…</div></div>
 
 <script type="module">
-const CATS = ['개념·관점', '도구·기법', '패턴·플레이북'];
+// 트랙·타입 라벨 — src/taxonomy.ts 와 같은 순서·표기를 유지한다(dev 전용 도구라 의도적으로 복제).
+const TRACKS = [
+  ['agents', '① 에이전트로 일하기'],
+  ['ax', '② AX·업무 재설계'],
+  ['spec', '③ 기획·명세'],
+  ['solo', '④ 1인 개발·운영'],
+  ['knowledge', '⑤ 지식·업무 시스템'],
+];
+const TYPE_KO = { concept:'개념', decision:'선택', playbook:'플레이북', template:'템플릿', log:'기록' };
+const TODAY = new Date().toISOString().slice(0,10);
 const esc = (s) => String(s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 const items = await fetch('/__admin/list').then(r=>r.json());
 const pub = items.filter(i=>!i.draft).length;
 const draft = items.filter(i=>i.draft).length;
 
-const byCat = {};
-for (const it of items) (byCat[it.category] ||= []).push(it);
-const cats = [...CATS, ...Object.keys(byCat).filter(c=>!CATS.includes(c))];
+const byTrack = {};
+for (const it of items) (byTrack[it.track] ||= []).push(it);
+const known = TRACKS.map(([k]) => k);
+// 알 수 없는 트랙(스키마 밖 값)도 뒤에 붙여 놓쳐지 않게.
+const groups = [...TRACKS, ...Object.keys(byTrack).filter(k=>!known.includes(k)).map(k=>[k, k || '(트랙 없음)'])];
 
 let html = `<div class="stats">
   <div class="stat"><div class="n">${items.length}</div><div class="l">전체</div></div>
@@ -67,17 +79,22 @@ let html = `<div class="stats">
   <div class="stat draft"><div class="n">${draft}</div><div class="l">draft</div></div>
 </div>`;
 
-for (const c of cats) {
-  const rows = byCat[c];
+for (const [key, label] of groups) {
+  const rows = byTrack[key];
   if (!rows?.length) continue;
-  html += `<div class="grp">${esc(c)||'(분류 없음)'} · ${rows.length}</div><table>
-    <thead><tr><th>제목</th><th>상태</th><th>성숙도</th><th>갱신</th><th>order</th><th></th></tr></thead><tbody>`;
+  html += `<div class="grp">${esc(label)} · ${rows.length}</div><table>
+    <thead><tr><th>제목</th><th>유형</th><th>상태</th><th>성숙도</th><th>갱신</th><th>검토예정</th><th>order</th><th></th></tr></thead><tbody>`;
   for (const it of rows) {
+    const rb = it.reviewBy
+      ? (it.reviewBy < TODAY ? `<span class="pill over">${esc(it.reviewBy)} 경과</span>` : esc(it.reviewBy))
+      : '—';
     html += `<tr>
       <td class="title"><a href="/guide/${esc(it.id)}" target="_blank">${esc(it.title)}</a></td>
+      <td class="stage">${esc(TYPE_KO[it.type] || it.type) || '—'}</td>
       <td>${it.draft ? '<span class="pill draft">draft</span>' : '<span class="pill pub">발행</span>'}</td>
       <td class="stage">${esc(it.stage)||'—'}</td>
       <td class="upd">${esc(it.updated)||'—'}</td>
+      <td class="upd">${rb}</td>
       <td class="ord">${it.order}</td>
       <td class="act"><a href="/guide/${esc(it.id)}" target="_blank">미리보기 ↗</a></td>
     </tr>`;

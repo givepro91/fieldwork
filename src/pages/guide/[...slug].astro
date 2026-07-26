@@ -6,6 +6,7 @@ import SideNav from '../../components/SideNav.astro';
 import Toc from '../../components/Toc.astro';
 import Infobox from '../../components/Infobox.astro';
 import Deck from '../../components/Deck.astro';
+import { TRACK_LABEL, TYPE_LABEL } from '../../taxonomy';
 
 export async function getStaticPaths() {
   // draft 글은 prod 빌드(공개)에서 제외, dev 에서는 보여 작성자가 채운다.
@@ -16,14 +17,16 @@ export async function getStaticPaths() {
 const { entry, entries } = Astro.props;
 const { Content, headings } = await render(entry);
 const d = entry.data;
+const track = TRACK_LABEL[d.track];
+const type = TYPE_LABEL[d.type];
 ---
 
 <Base title={`${d.title} — AX Field Guide`}>
-  <Topbar crumbCategory={d.category} crumbTitle={d.title} present={true} />
+  <Topbar crumbCategory={track.ko} crumbTitle={d.title} present={true} />
   <div class="shell">
     <SideNav entries={entries} activeId={entry.id} />
     <main class="main">
-      <p class="kick">{d.category} · {d.categoryEn}</p>
+      <p class="kick">{track.num} {track.ko} · {type.ko}</p>
       <h1>{d.title}</h1>
       {d.lead && <p class="lead">{d.lead}</p>}
       <div class="prose">
@@ -31,7 +34,15 @@ const d = entry.data;
       </div>
     </main>
     <aside class="toc" aria-label="문서 정보·차례">
-      <Infobox category={d.category} categoryEn={d.categoryEn} stage={d.stage} updated={d.updated} related={d.related} />
+      <Infobox
+        track={d.track}
+        type={d.type}
+        stage={d.stage}
+        updated={d.updated}
+        verified={d.verified}
+        reviewBy={d.review_by}
+        related={d.related}
+      />
       <div class="doc-toc"><Toc headings={headings} /></div>
     </aside>
   </div>

@@ -1,10 +1,10 @@
 ---
 title: AI 자동화의 audit trail 설계
-category: 패턴·플레이북
-categoryEn: Patterns
+track: ax
+type: playbook
 stage: 탐색 중
 updated: "2026-06-23"
-order: 3
+order: 8
 lead: 자동화가 무슨 판단을 왜 했는지 나중에 되짚을 수 없다면, 그 자동화는 사고가 났을 때 손쓸 데가 없다. 추적은 사고 후가 아니라 설계 때 정한다.
 related:
   - label: AI에 승인 게이트가 필요한 이유

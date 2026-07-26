@@ -1,40 +1,56 @@
 // 사이트 네비게이션 단일 출처 — SideNav 와 랜딩이 공유한다.
-// count = 실제 발행된 글 수(하드코딩 금지). 빈 카테고리는 firstHref=null → 더미 링크 대신 비활성.
+// 그룹 축 = 트랙(strategy/product.md). count = 실제 발행된 글 수(하드코딩 금지).
+// 빈 트랙은 firstHref=null → 더미 링크 대신 비활성.
+
+import { TRACKS, TRACK_LABEL, TYPE_LABEL, type Track, type Type } from './taxonomy';
 
 export interface GuideEntry {
   id: string;
-  data: { title: string; category: string; order?: number; draft?: boolean };
+  data: { title: string; track: Track; type: Type; order?: number; draft?: boolean };
 }
 
 export interface NavGroup {
-  cat: string;
-  catEn: string;
-  articles: { title: string; href: string; draft: boolean }[];
+  track: Track;
+  num: string;
+  ko: string;
+  short: string;
+  en: string;
+  desc: string;
+  articles: { title: string; href: string; type: Type; typeKo: string; draft: boolean }[];
   planned: string[];
   count: number;
   firstHref: string | null;
 }
 
-// 카테고리 정의 + 로드맵(예정) 항목. cat 은 frontmatter `category` 와 일치해야 함.
-// 슬림 3축 — 글이 적은 단계라 빈 카테고리를 미리 깔지 않는다. 케이스·안티패턴 축은
-// 해당 글이 실제로 생기면 그때 추가한다(카테고리는 글에서 자란다).
-const GROUPS: { cat: string; catEn: string; planned: string[] }[] = [
-  { cat: '개념·관점', catEn: 'Concept', planned: [] },
-  { cat: '도구·기법', catEn: 'Craft', planned: [] },
-  { cat: '패턴·플레이북', catEn: 'Patterns', planned: ['익명화 케이스·안티패턴 기록'] },
-];
+// 아직 글이 없는 트랙의 첫 글 후보. 글이 생기면 여기서 지운다(카테고리는 글에서 자란다).
+const PLANNED: Partial<Record<Track, string[]>> = {
+  spec: ['에이전트가 실행할 수 있는 명세 쓰기'],
+  solo: ['이 사이트를 혼자 만들고 운영한 기록'],
+  knowledge: ['노트가 쌓이기만 하는 이유 — 헤매는 기록'],
+};
 
 export function buildNav(entries: GuideEntry[]): NavGroup[] {
-  return GROUPS.map((g) => {
+  return TRACKS.map((track) => {
+    const label = TRACK_LABEL[track];
     const articles = entries
-      .filter((e) => e.data.category === g.cat)
+      .filter((e) => e.data.track === track)
       .sort((a, b) => (a.data.order ?? 100) - (b.data.order ?? 100))
-      .map((e) => ({ title: e.data.title, href: `/guide/${e.id}`, draft: e.data.draft ?? false }));
+      .map((e) => ({
+        title: e.data.title,
+        href: `/guide/${e.id}`,
+        type: e.data.type,
+        typeKo: TYPE_LABEL[e.data.type].ko,
+        draft: e.data.draft ?? false,
+      }));
     return {
-      cat: g.cat,
-      catEn: g.catEn,
+      track,
+      num: label.num,
+      ko: label.ko,
+      short: label.short,
+      en: label.en,
+      desc: label.desc,
       articles,
-      planned: g.planned,
+      planned: PLANNED[track] ?? [],
       count: articles.length,
       firstHref: articles[0]?.href ?? null,
     };

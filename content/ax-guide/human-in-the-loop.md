@@ -1,10 +1,10 @@
 ---
 title: Human-in-the-loop — 사람이 "아니오"를 말할 자리
-category: 패턴·플레이북
-categoryEn: Patterns
+track: ax
+type: playbook
 stage: 탐색 중
 updated: "2026-06-23"
-order: 2
+order: 7
 lead: 사람을 어디에 끼울지보다, 그 사람이 진짜로 "아니오"를 말할 수 있는지가 중요하다. 개입이 형식이 되면 없는 것만 못하다.
 related:
   - label: AI에 승인 게이트가 필요한 이유

@@ -1,27 +1,66 @@
-# AX Field Guide
+# AX Field Guide (이름 변경 예정)
 
-백엔드 출신 프로덕트 리드가 AX(AI Transformation)를 현장에서 배우며 정리하는 **공개형 필드북**. 콘텐츠(글)와 그것을 보여주는 **위키 + 프레젠테이션 웹**으로 구성된다. 최종적으로 Vercel에 정적 배포하며, 지금은 로컬에서 빠르게 개발한다(아래 "개발·배포 워크플로우").
+**전 범위를 가르치는 곳이 아니라, 끝까지 갈 수 있는 하나의 경로를 주는 곳.** 직접 해본 것만 기록하는 5트랙 공개 학습 필드가이드 — 콘텐츠(글)와 그것을 보여주는 **위키 + 프레젠테이션 웹**으로 구성된다. Vercel 정적 배포, 로컬에서 개발한다(아래 "개발·배포 워크플로우").
+
+> **2026-07-26 방향 전환.** AX 단독 필드북 → 5트랙 학습 제품. AX는 트랙 ②로 내려갔다. 제품 정의·트랙·콘텐츠 모델·단계 게이트의 정본은 **[strategy/product.md](strategy/product.md)** 다. 방향이 헷갈리면 항상 거기를 먼저 본다.
 
 ## 무엇이 어디 있나
 
 ```
-src/                            # Astro 사이트 (pages·layouts·components·styles·content.config.ts)
-content/ax-guide/*.md           # 글 콘텐츠 (frontmatter: title·category·stage·updated·lead·slides)
-content/ax-guide/README.md      # 홈 문서(소개 산문) · backlog.md = 앞으로 쓸 글 목록 (둘 다 컬렉션 제외)
-content/trends/                 # 매일 자동 수집되는 AX 동향 (index.json + YYYY-MM-DD)
-scripts/collect-trends.mjs      # 동향 수집기 · .github/workflows/trends.yml = 매일 cron
-strategy/ax-field-guide.md      # 프로젝트 기준 문서 (목적·포지셔닝·다룰/안 다룰·공개 위험)
+strategy/product.md             # ★ 제품 정본 (정의·5트랙·콘텐츠 타입·단계 게이트·미확정 목록)
+strategy/tracks/ax.md           # 트랙 ② AX 기준 문서 (구 프로젝트 정본)
 strategy/web-design-notes.md    # 웹 디자인 SoT (Clean Wiki·블루·Pretendard / 위키 + 프레젠테이션)
+
+src/taxonomy.ts                 # 트랙·타입 단일 출처 (라벨·트랙별 허용 타입) — 스키마·nav·UI 가 공유
+src/content.config.ts           # 글 컬렉션 스키마 (frontmatter 검증·가드)
+src/                            # Astro 사이트 (pages·layouts·components·styles·nav.ts)
+admin-dev.mjs                   # dev 전용 라우팅 integration (prod 빌드와 분리)
+admin/ui.html                   # └ /admin — 콘텐츠 현황(트랙·타입·검토 기한, 읽기 전용)
+src/dev/design.astro            # └ /design — 기획·정보구조·토큰·컴포넌트·인터랙션 목업 (★ 디자인 결정은 여기서)
+
+content/ax-guide/*.md           # 글 콘텐츠
+content/ax-guide/README.md      # 홈 문서(소개 산문) · backlog.md = 앞으로 쓸 글 목록 (둘 다 컬렉션 제외)
+content/trends/                 # 매일 자동 수집되는 동향 (index.json + YYYY-MM-DD)
+scripts/collect-trends.mjs      # 동향 수집기 · .github/workflows/trends.yml = 매일 cron
 prototype/                      # 초기 정적 HTML 프로토타입 — Astro 사이트로 대체됨, 레퍼런스로만 보존
 ```
 
-새 글은 `content/ax-guide/`에 추가하고 `backlog.md`에서 항목을 옮긴다. 방향이 헷갈리면 항상 `strategy/ax-field-guide.md`를 먼저 본다 (= 이 프로젝트의 정본).
+## 트랙 (5)
 
-## 핵심 정의 (모든 글의 기준선)
+| 키 | 트랙 | 다루는 것 |
+|---|---|---|
+| `agents` | ① 에이전트로 일하기 | 무엇을 어떻게 넘기고, 어디서 사람이 막는가 |
+| `ax` | ② AX·업무 재설계 | 어떤 반복 판단을 다시 설계하고, 틀렸을 때 어떻게 되돌리는가 |
+| `spec` | ③ 기획·명세 | 문제를 명세로 바꾸고, 에이전트가 실행할 수 있게 쓰는 법 |
+| `solo` | ④ 1인 개발·운영 | 혼자 만들고 배포하고 운영을 유지하는 법 (이 사이트가 사례) |
+| `knowledge` | ⑤ 지식·업무 시스템 | 노트가 실행 시스템이 되는가 — **아직 헤매는 중, `log` 타입만** |
+
+## 콘텐츠 타입 (5)
+
+`concept` 개념 · `decision` 선택 기준과 트레이드오프 · `playbook` 단계별 실행 절차 · `template` 복사해 쓰는 산출물 · `log` 만들었다가 접은 기록·실패.
+
+타입은 렌더 형식이기 전에 **쓰기 전에 목적을 정하는 장치**다. 어느 타입인지 정하지 못하면 아직 쓸 때가 아니다.
+
+## 새 글 쓰는 규칙
+
+`content/ax-guide/`에 `.md`를 추가하고 `backlog.md`에서 항목을 옮긴다. frontmatter 필수: `title` · `track` · `type`. 기본값이 없으므로 빠뜨리면 빌드가 실패한다(잘못 분류되는 것보다 낫다).
+
+- **트랙별 허용 타입을 스키마가 강제한다** (`src/taxonomy.ts`의 `ALLOWED_TYPES`). ⑤ `knowledge`는 `log`만 — 재료 없는 트랙에서 Playbook·Template이 나오는 것을 구조로 막는다. 승급 조건은 `strategy/product.md`.
+- **최신성**: `verified`(외부 사실을 마지막으로 확인한 날) · `review_by`(다음 검토 예정일) · `sources[]`(label + url). `updated`(글을 고친 날)와 다른 정보다. **`sources`를 적었으면 `verified`도 필수** — 스키마가 막는다. `review_by`가 지나면 문서 인포박스와 `/admin`에 "기한 경과"가 뜬다.
+- `outcomes[]` = 이 문서를 끝냈을 때 독자에게 남는 것. Playbook·Template에서 쓴다.
+- 안 해본 주제는 쓰지 않는다. 아래 "핵심 제약" 참고.
+
+## 핵심 제약 — 직접 해본 것만 쓴다
+
+커버리지(입문~중급 전 범위)를 포기하고 완주 가능성을 택했다. 안 써보고 비교하는 글은 이 프로젝트가 피하려는 바로 그 글이다. 다루지 않는 주제는 숨기지 말고 **"이 경로에서 다루지 않음 · 여기를 보라"**로 명시한다.
+
+**이 프로젝트 자체가 5트랙 전부의 첫 케이스다.** 남의 사례를 빌리지 않고 재료를 만드는 방법이 이것이다 — 이 레포를 재편하는 작업이 명세를 요구하고(③), 배포·cron·게이트를 운영하게 하고(④), 그걸 에이전트에게 넘기며(①), 업무 구조를 다시 짜는 것이 주제 자체이고(②), 그 지식을 어디에 쌓을지가 ⑤다.
+
+## 트랙 ② AX의 핵심 정의 (그 트랙의 기준선)
 
 > AX는 AI를 도입하는 일이 아니라, 사람이 반복적으로 판단하던 업무 구조를 AI·데이터·자동화·승인 흐름으로 다시 설계하는 일이다.
 
-도구 소개·모델 성능·자동화 자체보다 — 문제 구조화, 워크플로우 연결, 승인/롤백/감사/품질 게이트, 실제로 써보고 남긴 판단 기준을 우선한다.
+도구 소개·모델 성능·자동화 자체보다 — 문제 구조화, 워크플로우 연결, 승인/롤백/감사/품질 게이트, 실제로 써보고 남긴 판단 기준을 우선한다. 자세한 기준은 [strategy/tracks/ax.md](strategy/tracks/ax.md).
 
 ## 문체 기준 (반드시 지킬 것)
 
@@ -32,6 +71,15 @@ prototype/                      # 초기 정적 HTML 프로토타입 — Astro �
 - 기술 나열보다 문제·역할·선택·배운 점 중심.
 - 과장된 자기 홍보 금지. 확실한 답보다 판단의 근거를 적는다. 결론이 안 난 글은 그렇게 남겨도 된다.
 
+## 레슨 필수 4요소
+
+타입에 따라 구성은 달라지지만 넷은 항상 있어야 한다.
+
+1. **독자가 먼저 선택하거나 예측하는 지점 1회** — 설명부터 시작하지 않는다.
+2. **시각 요소 최소 1개** — 아래 참고.
+3. **검증 가능한 완료 조건** — 무엇이 되면 이 문서를 덮어도 되는지.
+4. **출처와 검증일** — 외부 사실을 쓴 경우 (`sources` + `verified`).
+
 ## 콘텐츠 시각 요소 (모든 콘텐츠에 적용)
 
 글만 늘어놓지 않는다. 모든 문서·동향에 **이해를 돕는 시각 요소를 최소 1개** 포함한다 — 도식(개념·흐름·구조), 비교 표/카드, 계층·스택, 다이어그램, 의사결정 트리 등. 장식이 아니라 내용을 압축·구조화하는 그림이어야 한다(의미 없는 이미지·스크린샷 남발 금지). 프레젠테이션 모드를 고려해, 핵심 그림은 슬라이드로도 떼어 쓸 수 있게 만든다.
@@ -40,32 +88,40 @@ prototype/                      # 초기 정적 HTML 프로토타입 — Astro �
 
 발표는 `src/components/Deck.astro`의 **레이아웃 시스템**으로 쓴다. 손수 HTML/스타일을 만들지 않는다.
 
-- 레이아웃: `cover`(여는/닫는 면) · `thesis`(핵심 주장 한 줄, `body`에) · `compare`(2단 비교, AX 입장 칼럼에 `accent: true`) · `flow`(번호 단계 `steps`) · `stack`(계층 `layers`). 맨 불릿(`bullets`)은 정 안 맞을 때만.
+- 레이아웃: `cover`(여는/닫는 면) · `thesis`(핵심 주장 한 줄, `body`에) · `compare`(2단 비교, 우리 입장 칼럼에 `accent: true`) · `flow`(번호 단계 `steps`) · `stack`(계층 `layers`). 맨 불릿(`bullets`)은 정 안 맞을 때만.
 - 모든 슬라이드는 **본문에 근거한 살아있는 판단 하나**를 담는다. 본문에 없는 제너릭 열거("중요한 N가지" 류) 금지 — 그건 AI가 쓴 듯한 과한 구조화다.
 - `step`/`layer`의 `note`와 슬라이드 `note`는 **한 구절**로 짧게(발표자가 말로 채운다). 2~3문장 금지.
 - 한국어 줄바꿈은 **전역 CSS가 처리**한다(`word-break:keep-all` + 헤드라인 `text-wrap:balance` + 본문 `pretty`). `<br>`·슬라이드별 너비 하드코딩 금지.
 - 발표는 **단일 다크 테마**(전역). 새 글도 자동 적용되니 테마/색을 글마다 손대지 않는다.
+- 기존 14편 슬라이드의 `kick`에 옛 분류명("AX Field Guide · 도구·기법")이 문자열로 박혀 있다. **이름 확정 시 일괄 정리 예정** — 그때까지 새 글에는 `트랙 라벨 · 타입` 형태로 쓴다.
 
 ## 공개 위험 게이트 (발행 전 필수)
 
-이 프로젝트는 공개될 수 있다. 다음은 어떤 글에도 넣지 않는다: 회사 내부 프로젝트명, 고객·파트너명, 비공개 수치, 내부 인프라 구조, private repo 이름, 재현 가능한 수준의 실제 장애 원인·운영 절차, 회사 내부 Slack/Notion/GitHub 내용.
+이 프로젝트는 공개된다. 다음은 어떤 글에도 넣지 않는다: 회사 내부 프로젝트명, 고객·파트너명, 비공개 수치, 내부 인프라 구조, private repo 이름, 재현 가능한 수준의 실제 장애 원인·운영 절차, 회사 내부 Slack/Notion/GitHub 내용.
 
 사례는 모두 익명화·일반화한다 ("운영 자동화 사례", "데이터 신뢰성 사례" 등). **발행 전 점검 질문: 이 문장만 보고 어느 회사·어느 시스템인지 특정할 수 있는가? → 그렇다면 고쳐 쓴다.**
 
+**트랙 ③기획·명세와 ④1인 운영이 가장 위험하다.** 회사 업무와 형태가 가장 비슷해서, PRD 예시·런북·장애 대응 절차를 쓸 때 실제 업무 문서가 새어나올 압력이 높다. 이 두 트랙의 산출물 예시는 **이 레포나 개인 프로젝트를 소재로** 만든다.
+
 ## 사실 확인
 
-CLI 플래그·API·SDK·버전·모델명 등 빠르게 변하는 외부 사실, 그리고 정의가 불분명한 용어(예: backlog의 "랄프/RALF", "Loop Engineering")는 **기억으로 단정하지 말고** 1차 소스로 확인한 뒤 쓴다. 확인 전이면 글에 "용어 확인 필요"로 표시하고 발행하지 않는다.
+CLI 플래그·API·SDK·버전·모델명 등 빠르게 변하는 외부 사실, 그리고 정의가 불분명한 용어(예: backlog의 "랄프/RALF", "Loop Engineering")는 **기억으로 단정하지 말고** 1차 소스로 확인한 뒤 쓴다. 확인했으면 `sources` + `verified`에 남긴다. 확인 전이면 글에 "용어 확인 필요"로 표시하고 발행하지 않는다.
 
 ## 기존 채널과의 경계
 
-LinkedIn(짧은 관찰)·Brunch(서사형 회고)·GitHub Pages(포트폴리오)와 역할이 겹치지 않게 한다. 이 프로젝트는 **판단 기준을 쌓아가는 작업 노트** — 완성된 결과물 정리도, 개인 서사도 아니다.
+LinkedIn(짧은 관찰)·Brunch(서사형 회고)·GitHub Pages(포트폴리오)와 역할이 겹치지 않게 한다. 이 프로젝트는 **판단 기준을 쌓고 실행 경로를 남기는 작업 노트** — 완성된 결과물 정리도, 개인 서사도 아니다.
+
+독자 우선순위: ① 미래의 나 ② 판단력을 보는 사람(채용·협업 신호) ③ 같은 경로를 걸으려는 실무자. **①②를 잃으면서 ③을 늘리는 결정은 하지 않는다.**
 
 ## 개발·배포 워크플로우
 
-- **개발 = 로컬 Astro.** `npm run dev` (포트 8351 — Astro 기본 4321 은 다른 도구와 충돌 회피). `npm run build` → 정적 `dist/`, `npm run preview` 로 산출물 확인. Claude Artifact 는 반복 개발에 안 씀(느림).
-- **배포 = Vercel(정적).** Astro 정적 출력이라 DB 없이 배포된다. Vercel 이 Astro 를 자동 감지. (git init → GitHub → Vercel 연결은 사용자 승인 후.)
+- **개발 = 로컬 Astro.** `npm run dev` (포트 8351 — Astro 기본 4321 은 다른 도구와 충돌 회피). Astro 7 의 `astro dev` 는 **데몬으로 떠서 실행 명령이 즉시 반환**한다(서버는 계속 살아 있음 — exit 0 을 종료로 오해하지 말 것). 상태·중지·로그는 `npx astro dev status` / `stop` / `logs`. `npm run build` → 정적 `dist/`, `npm run preview` 로 산출물 확인. dev 에서 `/admin` = 콘텐츠 현황(트랙·타입·검토 기한), `/design` = 기획·디자인 시스템(토큰은 `global.css` 를 파싱해 표시하므로 CSS 를 고치면 같이 바뀐다). Claude Artifact 는 반복 개발에 안 씀(느림).
+- **배포 = Vercel(정적).** Astro 정적 출력이라 DB 없이 배포된다. **1단계에서는 정적 배포를 유지한다** — 계정·원격 실습은 `strategy/product.md`의 단계 게이트 조건을 통과한 뒤에만.
 - **스케일.** Astro 가 `content/**` 를 읽어 페이지·네비·TOC·슬라이드·동향을 생성한다. 새 글 = `content/ax-guide/` 에 frontmatter 갖춘 `.md` 추가 → 사이트에 자동 반영. 손수 HTML 유지하지 않는다.
+- **draft**: `draft: true` 는 prod 빌드에서 제외되고 dev 에서만 보인다. 구조만 잡고 경험을 기다리는 글에 쓴다.
 
 ## 동향(Trends) — 매일 자동 뉴스
 
-매일 AX 기술 동향을 수집해 `/trends` 피드로 보여준다. 패턴: **소스(RSS/Atom) → 크롤 → URL 중복 제거 → 요약 → `content/trends/{index,YYYY-MM-DD}.json` 저장 → 피드 렌더.** GitHub Action cron 이 매일 1회 실행(`scripts/collect-trends.mjs`) → push → Vercel 재배포. **기본은 무료**: LLM 미사용, 피드 발췌를 요약으로 써서 API 키·비용 불필요. 한국어 LLM 요약은 옵션(`TRENDS_SUMMARIZE=1` + `ANTHROPIC_API_KEY`, 유료·시간민감). **자동 발행이라 외부 공개 기사만**(공개 위험 게이트 — 회사 내부 정보 유입 금지).
+매일 기술 동향을 수집해 `/trends` 피드로 보여준다. 패턴: **소스(RSS/Atom) → 크롤 → URL 중복 제거 → 요약 → `content/trends/{index,YYYY-MM-DD}.json` 저장 → 피드 렌더.** GitHub Action cron 이 매일 1회 실행(`scripts/collect-trends.mjs`) → push → Vercel 재배포. **기본은 무료**: LLM 미사용, 피드 발췌를 요약으로 써서 API 키·비용 불필요. 한국어 LLM 요약은 옵션(`TRENDS_SUMMARIZE=1` + `ANTHROPIC_API_KEY`, 유료·시간민감). **자동 발행이라 외부 공개 기사만**(공개 위험 게이트 — 회사 내부 정보 유입 금지).
+
+소스는 아직 AX·에이전트 중심 5개다. **5트랙으로 넓힐지는 미확정** (`strategy/product.md`의 미확정 목록).

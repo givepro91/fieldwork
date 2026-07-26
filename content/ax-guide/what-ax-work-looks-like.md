@@ -1,7 +1,7 @@
 ---
 title: AX를 맡으면 실제로 무엇을 하나
-category: 개념·관점
-categoryEn: Concept
+track: ax
+type: concept
 stage: 탐색 중
 updated: "2026-06-23"
 order: 2

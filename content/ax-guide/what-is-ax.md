@@ -1,7 +1,7 @@
 ---
 title: AX란 무엇인가
-category: 개념·관점
-categoryEn: Concept
+track: ax
+type: concept
 stage: 탐색 중
 updated: "2026-06-22"
 order: 1

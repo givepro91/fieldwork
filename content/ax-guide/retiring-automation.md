@@ -1,10 +1,10 @@
 ---
 title: 운영 자동화는 언제 폐기해야 하나
-category: 패턴·플레이북
-categoryEn: Patterns
+track: ax
+type: decision
 stage: 탐색 중
 updated: "2026-06-23"
-order: 4
+order: 9
 lead: 만드는 결정보다 접는 결정이 어렵다. 돌아가는 자동화를 끄기는 두렵고, 그래서 신뢰가 떨어진 채 방치되며 빚이 된다.
 related:
   - label: AI 출력을 어디까지 믿을 것인가

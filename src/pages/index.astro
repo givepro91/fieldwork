@@ -14,18 +14,14 @@ const topTopics = dg.topics.slice(0, 6);
 // 미리보기엔 릴리스 태그 말고 실속 항목만
 const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
 
-const cardDesc: Record<string, string> = {
-  '개념·관점': 'AX를 내 언어로 정의하고, 맡으면 실제로 무엇을 하는지.',
-  '도구·기법': 'Claude Code·Codex를 어떻게 모는지 — 직접 써본 기법과 필드 리뷰.',
-  '패턴·플레이북': '승인 게이트·롤백·Human-in-the-loop 같은 반복 설계 패턴.',
-};
+// 트랙 설명은 src/taxonomy.ts 가 단일 출처(g.desc).
 ---
 
 <Base title="AX Field Guide">
   <header class="topbar">
     <a class="brand" href="/">AX&nbsp;Field&nbsp;Guide<span class="dot">.</span></a>
     <nav class="topnav">
-      {groups.map((g) => (g.firstHref ? <a href={g.firstHref}>{g.cat}</a> : <span class="muted">{g.cat}</span>))}
+      {groups.map((g) => (g.firstHref ? <a href={g.firstHref}>{g.short}</a> : <span class="muted">{g.short}</span>))}
       <a href="/trends">동향</a>
     </nav>
   </header>
@@ -34,7 +30,7 @@ const cardDesc: Record<string, string> = {
     <section class="hero">
       <p class="kick">공개 작업 노트 · 진행 중</p>
       <h1>AI를 <span class="q">도입</span>하는 일이 아니라, 판단 구조를 <span class="q">다시 설계</span>하는 일.</h1>
-      <p class="sub">백엔드 출신 프로덕트 리드가 AX(AI Transformation)를 현장에서 배우며 정리하는 필드 가이드. 도구 자랑이 아니라, 문제를 어떻게 구조화하고 어디에 무엇을 붙였으며 무엇을 포기했는지를 남깁니다.</p>
+      <p class="sub">에이전트에게 일을 넘기는 법부터 AX·명세·1인 운영·지식 시스템까지, 직접 해본 것만 기록합니다. 전 범위를 가르치는 곳이 아니라, 끝까지 갈 수 있는 하나의 경로를 남깁니다.</p>
       <div class="cta">
         <a class="pri" href="/guide/what-is-ax">AX란 무엇인가 읽기 →</a>
         <a class="sec" href="/trends">최근 동향 보기</a>
@@ -46,15 +42,15 @@ const cardDesc: Record<string, string> = {
       {groups.map((g) => {
         const head = (
           <div class="c-h">
-            <b>{g.cat}</b>
-            <span class="en">{g.catEn || '—'}</span>
+            <b>{g.num} {g.ko}</b>
+            <span class="en">{g.en}</span>
             <span class="cnt">{g.count > 0 ? g.count : '예정'}</span>
           </div>
         );
         return g.firstHref ? (
-          <a class="card" href={g.firstHref}>{head}<p>{cardDesc[g.cat]}</p></a>
+          <a class="card" href={g.firstHref}>{head}<p>{g.desc}</p></a>
         ) : (
-          <div class="card card-soon">{head}<p>{cardDesc[g.cat]}</p></div>
+          <div class="card card-soon">{head}<p>{g.desc}</p></div>
         );
       })}
       <a class="card" href="/trends">

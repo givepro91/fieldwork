@@ -1,7 +1,7 @@
 ---
 title: AI 출력을 어디까지 믿을 것인가
-category: 개념·관점
-categoryEn: Concept
+track: ax
+type: decision
 stage: 탐색 중
 updated: "2026-06-23"
 order: 4

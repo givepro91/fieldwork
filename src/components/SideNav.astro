@@ -13,13 +13,13 @@ const activeHref = activeId ? `/guide/${activeId}` : '';
     <details open={isActiveGroup}>
       <summary>
         <span class="chev"></span>
-        <span class="grp-t">{g.cat}{g.catEn ? ` · ${g.catEn}` : ''}</span>
+        <span class="grp-t">{g.num} {g.ko}</span>
         <span class="cnt">{g.count}</span>
       </summary>
       <ul>
         {g.articles.map((a) => (
           <li class={a.href === activeHref ? 'active' : ''}>
-            <a href={a.href}><span class="ti">{a.title}</span>{a.draft && <span class="badge draft">draft</span>}</a>
+            <a href={a.href}><span class="ti">{a.title}</span><span class="badge">{a.typeKo}</span>{a.draft && <span class="badge draft">draft</span>}</a>
           </li>
         ))}
         {g.planned.map((p) => (

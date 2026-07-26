@@ -1,7 +1,7 @@
 ---
 title: Claude Code를 AX 관점에서 쓰는 법
-category: 도구·기법
-categoryEn: Craft
+track: agents
+type: decision
 stage: 탐색 중
 updated: "2026-06-23"
 order: 2

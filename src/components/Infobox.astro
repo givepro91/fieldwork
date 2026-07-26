@@ -1,14 +1,36 @@
 ---
+import { TRACK_LABEL, TYPE_LABEL, type Track, type Type } from '../taxonomy';
+
 interface Related { label: string; href: string }
-interface Props { category: string; categoryEn: string; stage: string; updated?: string; related?: Related[] }
-const { category, categoryEn, stage, updated, related = [] } = Astro.props;
+interface Props {
+  track: Track;
+  type: Type;
+  stage: string;
+  updated?: string;
+  verified?: string;
+  reviewBy?: string;
+  related?: Related[];
+}
+const { track, type, stage, updated, verified, reviewBy, related = [] } = Astro.props;
+const t = TRACK_LABEL[track];
+const ty = TYPE_LABEL[type];
+// 검토 예정일이 지났으면 표시한다(최신성 관리 — strategy/product.md). 빌드 시점 기준.
+const overdue = reviewBy ? reviewBy < new Date().toISOString().slice(0, 10) : false;
 ---
 
 <section class="infobox" aria-label="문서 정보">
   <div class="ib-h">문서 정보</div>
   <dl>
-    <dt>분류</dt><dd>{category} ({categoryEn})</dd>
+    <dt>트랙</dt><dd>{t.num} {t.ko} <span class="mono">{t.en}</span></dd>
+    <dt>유형</dt><dd>{ty.ko} <span class="mono">{ty.en}</span></dd>
     {updated && (<><dt>마지막 갱신</dt><dd class="mono">{updated}</dd></>)}
+    {verified && (<><dt>사실 확인</dt><dd class="mono">{verified}</dd></>)}
+    {reviewBy && (
+      <>
+        <dt>검토 예정</dt>
+        <dd class="mono">{reviewBy}{overdue && <span class="stage overdue">기한 경과</span>}</dd>
+      </>
+    )}
     <dt>성숙도</dt><dd><span class="stage">{stage}</span></dd>
     {related.length > 0 && (
       <>

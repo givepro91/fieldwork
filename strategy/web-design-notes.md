@@ -2,7 +2,7 @@
 
 > last updated: 2026-06-22 · 성숙도: 정리 중(budding)
 
-AX Field Guide 웹의 디자인·구조 정본. 프로토타입은 `prototype/index.html`이고 로컬(`http://localhost:4321`)에서 본다.
+이 프로젝트 웹의 디자인·구조 정본. 실물은 `npm run dev`(:8351)이고, 토큰·컴포넌트·인터랙션 목업은 **dev 전용 `/design`** 에서 한 화면으로 본다 — 디자인 결정("결정 대기" 표시)은 거기서 한다. (`prototype/`은 폐기된 초기 정적 HTML.)
 
 ## 한 줄 원칙
 

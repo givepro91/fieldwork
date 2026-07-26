@@ -1,10 +1,10 @@
 ---
 title: AI에 승인 게이트가 필요한 이유
-category: 패턴·플레이북
-categoryEn: Patterns
+track: ax
+type: playbook
 stage: 탐색 중
 updated: "2026-06-23"
-order: 1
+order: 6
 lead: 게이트를 어디에 둘지는 취향이 아니라 위험으로 정해진다. 되돌릴 수 있으면 먼저 하고 나중에 보고, 되돌리기 어려우면 하기 전에 멈춘다.
 related:
   - label: AX를 맡으면 실제로 무엇을 하나
