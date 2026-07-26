@@ -145,7 +145,12 @@ Lab·Simulation·Assessment는 1단계에 만들지 않는다. Template이 같�
 
 ## 미확정 — 다음에 정할 것
 
-- ~~이름~~ → **Fieldwork 확정.** 현장 조사·현장 작업이라는 뜻이 핵심 제약("직접 해본 것만 쓴다")과 겹치고, 5트랙 전부를 담는 중립적 상위어다. Trailhead 계열은 Salesforce 학습 플랫폼과 충돌해 제외했다. **남은 일: Vercel 프로젝트명 변경** — 기존 `ax-field-guide.vercel.app` 링크는 살아나지 않으므로, 지금(14편·1개월)이 손실이 가장 적은 시점이라는 판단으로 교체한다.
+- ~~이름~~ → **Fieldwork 확정 · 이관 완료** (2026-07-26). 현장 조사·현장 작업이라는 뜻이 핵심 제약("직접 해본 것만 쓴다")과 겹치고, 5트랙 전부를 담는 중립적 상위어다. Trailhead 계열은 Salesforce 학습 플랫폼과 충돌해 제외했다.
+
+  **옮기고 나서 확인한 사실 — 기존 링크가 깨지지 않았다.** 옮기기 전에는 "이전 URL 은 살아나지 않으니 지금이 손실이 가장 적은 시점"이라고 판단했는데, 실제로는 둘 다 유지됐다.
+  - Vercel: 프로젝트명 rename 후에도 옛 프로젝트 도메인이 제거되지 않아 `ax-field-guide.vercel.app` 이 그대로 최신 배포를 서빙한다. 새 URL 은 `fieldwork-givepros-projects.vercel.app` — 짧은 `fieldwork.vercel.app` 은 다른 사용자가 이미 쓰고 있다.
+  - GitHub: `givepro91/fieldwork` 로 rename, 옛 주소는 301 리다이렉트. SSH remote alias 도 유지됐다.
+  - 로컬 디렉터리명(`AX-Field-Guide`)만 그대로다. 작업 중 경로가 깨지므로 나중에 정리한다.
 - **⑤ 승급 시점.** Log만 쓰는 동안 실제로 Vault를 운영해보고, 프로젝트 하나를 그 구조로 끝낸 뒤 Playbook·Template 허용 여부를 다시 판단한다.
 - **동향(trends) 소스 범위.** 지금은 AX 전용 5개 소스. 5트랙으로 넓히면 소스를 재정의해야 한다.
 - **기존 14편 재분류.** 트랙·타입 부여, `verified`/`review_by` 채우기.
