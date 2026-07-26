@@ -8,13 +8,15 @@ export type Track = (typeof TRACKS)[number];
 export type Type = (typeof TYPES)[number];
 
 // short = 좁은 자리(상단 nav)용 짧은 라벨. ko = 카드·색인용 풀네임.
-export const TRACK_LABEL: Record<Track, { num: string; ko: string; short: string; en: string; desc: string }> = {
+// topics = 실제로 다루는 도구·주제. 트랙 이름만으로는 무엇인지 알 수 없어서 카드에 함께 보인다.
+export const TRACK_LABEL: Record<Track, { num: string; ko: string; short: string; en: string; desc: string; topics: string }> = {
   agents: {
     num: '①',
     ko: '에이전트로 일하기',
     short: '에이전트',
     en: 'Agents',
     desc: '무엇을 어떻게 넘기고, 어디서 사람이 막는가 — 직접 써보고 남긴 판단.',
+    topics: 'Claude Code · Codex · MCP · AGENTS.md',
   },
   ax: {
     num: '②',
@@ -22,6 +24,7 @@ export const TRACK_LABEL: Record<Track, { num: string; ko: string; short: string
     short: 'AX',
     en: 'AX',
     desc: '어떤 반복 판단을 다시 설계하고, 틀렸을 때 어떻게 되돌리는가.',
+    topics: '승인 게이트 · Human-in-the-loop · 감사 추적 · RAG',
   },
   spec: {
     num: '③',
@@ -29,6 +32,7 @@ export const TRACK_LABEL: Record<Track, { num: string; ko: string; short: string
     short: '기획·명세',
     en: 'Spec',
     desc: '문제를 명세로 바꾸고, 에이전트가 실행할 수 있게 쓰는 법.',
+    topics: 'PRD · ADR · 실행 가능한 명세',
   },
   solo: {
     num: '④',
@@ -36,6 +40,7 @@ export const TRACK_LABEL: Record<Track, { num: string; ko: string; short: string
     short: '1인 운영',
     en: 'Solo Ops',
     desc: '혼자 만들고 배포하고 운영을 유지하는 법. 이 사이트가 그 사례다.',
+    topics: '정적 배포 · cron 자동화 · 스키마 가드',
   },
   knowledge: {
     num: '⑤',
@@ -43,6 +48,7 @@ export const TRACK_LABEL: Record<Track, { num: string; ko: string; short: string
     short: '지식 시스템',
     en: 'Knowledge',
     desc: '노트가 쌓이기만 하지 않고 실행 시스템이 되는가 — 아직 헤매는 중.',
+    topics: 'Obsidian — 속성 · 링크 · Bases · 에이전트용 Vault',
   },
 };
 

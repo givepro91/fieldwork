@@ -8,7 +8,9 @@ const activeHref = activeId ? `/guide/${activeId}` : '';
 
 <nav class="sidenav" id="sidenav" aria-label="문서 색인">
   {groups.map((g) => {
-    const isActiveGroup = g.articles.some((a) => a.href === activeHref);
+    // series 로 옮겨진 글도 활성 판정에 포함해야 한다(안 하면 현재 글의 그룹이 접혀 위치를 잃는다).
+    const inGroup = [...g.series.flatMap((s) => s.articles), ...g.articles];
+    const isActiveGroup = inGroup.some((a) => a.href === activeHref);
     return (
     <details open={isActiveGroup}>
       <summary>
@@ -17,15 +19,27 @@ const activeHref = activeId ? `/guide/${activeId}` : '';
         <span class="cnt">{g.count}</span>
       </summary>
       <ul>
+        {/* series 묶음 먼저 — 제목만으로 주제를 모를 때 도구·주제 이름이 여기서 드러난다 */}
+        {g.series.map((s) => (
+          <>
+            <li class="ser">{s.name}</li>
+            {s.articles.map((a) => (
+              /* data-s: 검색에서 series 이름으로도 찾히게 한다("obsidian" → 4편) */
+              <li class={a.href === activeHref ? 'active' : ''} data-s={s.name}>
+                <a href={a.href} title={a.title}><span class="ti">{a.title}</span><span class={a.isDo ? 'badge do' : 'badge'}>{a.typeKo}</span>{a.draft && <span class="badge draft">draft</span>}</a>
+              </li>
+            ))}
+          </>
+        ))}
         {g.articles.map((a) => (
           <li class={a.href === activeHref ? 'active' : ''}>
-            <a href={a.href}><span class="ti">{a.title}</span><span class={a.isDo ? 'badge do' : 'badge'}>{a.typeKo}</span>{a.draft && <span class="badge draft">draft</span>}</a>
+            <a href={a.href} title={a.title}><span class="ti">{a.title}</span><span class={a.isDo ? 'badge do' : 'badge'}>{a.typeKo}</span>{a.draft && <span class="badge draft">draft</span>}</a>
           </li>
         ))}
         {g.planned.map((p) => (
-          <li class="soon"><a href="#"><span class="ti">{p}</span><span class="badge">예정</span></a></li>
+          <li class="soon"><a href="#" title={p}><span class="ti">{p}</span><span class="badge">예정</span></a></li>
         ))}
-        {g.articles.length === 0 && g.planned.length === 0 && <li class="empty">아직 없음</li>}
+        {g.series.length === 0 && g.articles.length === 0 && g.planned.length === 0 && <li class="empty">아직 없음</li>}
       </ul>
     </details>
     );
@@ -48,7 +62,11 @@ const activeHref = activeId ? `/guide/${activeId}` : '';
         let any = false;
         g.querySelectorAll('li').forEach((li) => {
           if (li.classList.contains('empty')) { li.style.display = term ? 'none' : ''; return; }
-          const match = !term || (li.textContent || '').toLowerCase().includes(term);
+          // series 헤더는 결과가 아니다 — 검색 중에는 숨기고 항목만 보여준다.
+          if (li.classList.contains('ser')) { li.style.display = term ? 'none' : ''; return; }
+          // 제목 + series 이름으로 찾는다.
+          const hay = `${li.textContent || ''} ${li.dataset.s || ''}`.toLowerCase();
+          const match = !term || hay.includes(term);
           li.style.display = match ? '' : 'none';
           if (match) { any = true; hits++; }
         });

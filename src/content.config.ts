@@ -15,6 +15,9 @@ const guide = defineCollection({
       // 기본값을 두지 않는다: 빠뜨리면 빌드가 실패하는 게 잘못 분류되는 것보다 낫다.
       track: z.enum(TRACKS),
       type: z.enum(TYPES),
+      // 같은 도구·주제를 다루는 글 묶음. 색인에서 하위 그룹으로 뜬다.
+      // 제목만으로 무엇에 대한 글인지 모를 때 쓴다(예: Obsidian 기능 글의 제목은 일반적이다).
+      series: z.string().optional(),
       stage: z.string().default('탐색 중'),
       // 이 글의 근거가 무엇인지. 경험은 필수가 아니지만, 해보지 않은 것을 해본 것처럼
       // 쓰지 않기 위해 근거를 드러낸다. 기존 글에 소급 적용 중이라 아직 optional.

@@ -14,7 +14,27 @@ const topTopics = dg.topics.slice(0, 6);
 // 미리보기엔 릴리스 태그 말고 실속 항목만
 const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
 
-// 트랙 설명은 src/taxonomy.ts 가 단일 출처(g.desc).
+// 트랙 설명·주제는 src/taxonomy.ts 가 단일 출처(g.desc / g.topics).
+
+// 처음 온 사람을 위한 입구. 큐레이션이라 자동 추출하지 않고 여기서 고른다.
+// 고르는 기준: 사전 지식이 필요 없고, 읽고 나면 다음에 무엇을 볼지 정해지는 글.
+const STARTS = [
+  {
+    href: '/guide/what-is-ax',
+    title: 'AX란 무엇인가',
+    why: '"AI를 도입했다"와 "일하는 방식을 바꿨다"는 다른 일입니다. 그 차이부터.',
+  },
+  {
+    href: '/guide/driving-agents',
+    title: '에이전트를 모는 법',
+    why: '좋은 답을 끌어내는 무게중심이 프롬프트 문장에서 환경 설계로 옮겨간 이야기.',
+  },
+  {
+    href: '/guide/obsidian-why-unused',
+    title: '노트가 쌓이기만 하는 이유',
+    why: '적어둔 노트가 다시 안 열리는 문제. 도구를 바꿔도 반복된다면 설계 문제입니다.',
+  },
+];
 ---
 
 <Base title="Fieldwork">
@@ -29,33 +49,56 @@ const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
   <div class="wrap">
     <section class="hero">
       <p class="kick">공개 작업 노트 · 진행 중</p>
-      <h1>전 범위를 <span class="q">가르치는</span> 곳이 아니라, 끝까지 갈 수 있는 <span class="q">하나의 경로</span>.</h1>
-      <p class="sub">에이전트에게 일을 넘기는 법부터 AX·명세·1인 운영·지식 시스템까지, 직접 해본 것만 기록합니다. 안 써보고 비교하는 글은 쓰지 않고, 끝내면 손에 산출물이 남게 만듭니다.</p>
+      <h1>일하는 방식을 <span class="q">다시 설계</span>하며 남긴 판단 기준</h1>
+      <p class="sub">에이전트에게 일을 넘기는 법, AI를 업무에 붙이는 법, 혼자 만들고 운영하는 법, 노트를 실행 시스템으로 바꾸는 법. 직접 해본 것과 조사해서 정리한 것을 글마다 구분해 표시합니다.</p>
       <div class="cta">
-        <a class="pri" href="/guide/driving-agents">에이전트를 모는 법 읽기 →</a>
+        <a class="pri" href="/guide/what-is-ax">AX란 무엇인가부터 읽기 →</a>
         <a class="sec" href="/trends">최근 동향 보기</a>
       </div>
     </section>
 
-    <p class="sec-t">어디서부터 볼까</p>
+    <p class="sec-t">처음이라면 이 셋 중 하나로</p>
+    <div class="starts">
+      {STARTS.map((s) => (
+        <a class="start" href={s.href}>
+          <b>{s.title}</b>
+          <p>{s.why}</p>
+          <span class="go">읽기 →</span>
+        </a>
+      ))}
+    </div>
+
+    <p class="sec-t">다섯 갈래로 쌓고 있습니다</p>
     <div class="cards">
       {groups.map((g) => {
-        const head = (
-          <div class="c-h">
-            <b>{g.num} {g.ko}</b>
-            <span class="en">{g.en}</span>
-            <span class="cnt">{g.count > 0 ? g.count : '예정'}</span>
-          </div>
+        // 카드 안에서 무엇을 읽게 되는지 보이도록 앞 두 편 제목을 노출한다(링크 중첩은 피해 텍스트로).
+        const top = [...g.series.flatMap((s) => s.articles), ...g.articles].slice(0, 2);
+        const inner = (
+          <>
+            <div class="c-h">
+              <b>{g.num} {g.ko}</b>
+              <span class="cnt">{g.count > 0 ? `${g.count}편` : '준비 중'}</span>
+            </div>
+            <p class="c-topics">{g.topics}</p>
+            <p>{g.desc}</p>
+            {top.length > 0 && (
+              <ul class="c-list">
+                {top.map((a) => (<li>{a.title}</li>))}
+                {g.count > top.length && <li class="more">그리고 {g.count - top.length}편 더</li>}
+              </ul>
+            )}
+          </>
         );
         return g.firstHref ? (
-          <a class="card" href={g.firstHref}>{head}<p>{g.desc}</p></a>
+          <a class="card" href={g.firstHref}>{inner}</a>
         ) : (
-          <div class="card card-soon">{head}<p>{g.desc}</p></div>
+          <div class="card card-soon">{inner}</div>
         );
       })}
       <a class="card" href="/trends">
-        <div class="c-h"><b>동향</b><span class="en">Trends</span><span class="cnt">자동</span></div>
-        <p>매일 자동 수집·요약하는 AI·에이전트 동향.</p>
+        <div class="c-h"><b>동향</b><span class="cnt">매일 자동</span></div>
+        <p class="c-topics">RSS 수집 · 중복 제거 · 발췌 요약</p>
+        <p>AI·에이전트 기술 동향을 매일 모아 둡니다. 사람 손이 안 들어가고 비용도 0입니다.</p>
       </a>
     </div>
 

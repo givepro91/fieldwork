@@ -30,15 +30,6 @@ const overdue = reviewBy ? reviewBy < new Date().toISOString().slice(0, 10) : fa
         <dd>{BASIS_LABEL[basis].ko}<span class="ib-note">{BASIS_LABEL[basis].note}</span></dd>
       </>
     )}
-    {updated && (<><dt>마지막 갱신</dt><dd class="mono">{updated}</dd></>)}
-    {verified && (<><dt>사실 확인</dt><dd class="mono">{verified}</dd></>)}
-    {reviewBy && (
-      <>
-        <dt>검토 예정</dt>
-        <dd class="mono">{reviewBy}{overdue && <span class="stage overdue">기한 경과</span>}</dd>
-      </>
-    )}
-    <dt>성숙도</dt><dd><span class="stage">{stage}</span></dd>
     {related.length > 0 && (
       <>
         <dt>관련 문서</dt>
@@ -46,4 +37,16 @@ const overdue = reviewBy ? reviewBy < new Date().toISOString().slice(0, 10) : fa
       </>
     )}
   </dl>
+
+  {/* 갱신·검증 메타데이터는 접어둔다 — 처음 온 독자에게는 노이즈이고, 필요할 때만 열면 된다.
+      단 검토 기한이 지났으면 기본으로 펼쳐 경고가 묻히지 않게 한다. */}
+  <details class="ib-more" open={overdue}>
+    <summary>갱신·검증 정보{overdue && <span class="stage overdue">기한 경과</span>}</summary>
+    <dl>
+      {updated && (<><dt>마지막 갱신</dt><dd class="mono">{updated}</dd></>)}
+      {verified && (<><dt>사실 확인</dt><dd class="mono">{verified}</dd></>)}
+      {reviewBy && (<><dt>검토 예정</dt><dd class="mono">{reviewBy}</dd></>)}
+      <dt>성숙도</dt><dd><span class="stage">{stage}</span></dd>
+    </dl>
+  </details>
 </section>
