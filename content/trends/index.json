@@ -1,6 +1,65 @@
 {
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "items": [
+    {
+      "date": "2026-07-26",
+      "title": "v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-25T01:35:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-26",
+      "title": "2026.6.3",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-04T01:19:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.3",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-26",
+      "title": "Release 2026.1.26",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-01-27T12:11:26Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.1.26 Updated packages @modelcontextprotocol/server-everything@2026.1.26 @modelcontextprotocol/server-memory@2026.1.26 mcp-server-time@2026.1.26",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-26",
+      "title": "Ruff v0.16.0",
+      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-25T22:44:05+00:00",
+      "category": "AX · 블로그",
+      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing…",
+      "tags": [
+        "agent",
+        "rag",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-07-25",
       "title": "v0.120.0",
@@ -547,67 +606,6 @@
       "summary": "What's changed Claude no longer runs the /verify and /code-review skills on its own; invoke them with /verify or /code-review when you want them",
       "tags": [
         "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-20",
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-19T05:06:21+00:00",
-      "category": "AX · 블로그",
-      "summary": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with.…",
-      "tags": [
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-20",
-      "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-19T03:54:09+00:00",
-      "category": "AX · 블로그",
-      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but…",
-      "tags": [
-        "claude",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-19",
-      "title": "v2.1.214",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-18T01:20:30Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Fixed single-segment dir/** allow rules like Edit(src/**) auto-approving writes to nested dir/ directories anywhere in the tree instead of only /dir Fixed a…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-19",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
       ],
       "keyPoints": []
     }

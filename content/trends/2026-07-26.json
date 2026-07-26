@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "date": "2026-07-26",
+      "title": "v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-25T01:35:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-26",
+      "title": "2026.6.3",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-04T01:19:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.3",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-26",
+      "title": "Release 2026.1.26",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-01-27T12:11:26Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.1.26 Updated packages @modelcontextprotocol/server-everything@2026.1.26 @modelcontextprotocol/server-memory@2026.1.26 mcp-server-time@2026.1.26",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-26",
+      "title": "Ruff v0.16.0",
+      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-25T22:44:05+00:00",
+      "category": "AX · 블로그",
+      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing…",
+      "tags": [
+        "agent",
+        "rag",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
