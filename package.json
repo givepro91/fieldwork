@@ -10,6 +10,7 @@
     "trends": "node scripts/collect-trends.mjs"
   },
   "dependencies": {
+    "@astrojs/mdx": "^7.0.3",
     "astro": "^7.0.0"
   },
   "devDependencies": {

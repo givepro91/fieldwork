@@ -1,5 +1,10 @@
 {
   "extends": "astro/tsconfigs/strict",
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist", "prototype"]
+  "exclude": ["dist", "prototype"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    // MDX 본문에서 인터랙션 컴포넌트를 짧게 import 하기 위한 alias.
+    "paths": { "@components/*": ["src/components/*"] }
+  }
 }

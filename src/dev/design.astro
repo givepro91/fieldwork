@@ -9,6 +9,8 @@ import { getCollection } from 'astro:content';
 // node:fs 대신 Vite 기능을 쓴다 — @types/node 없이 타입이 잡히고, 경로가 빌드와 같게 해석된다.
 import cssText from '../styles/global.css?raw';
 import { TRACKS, TYPES, TRACK_LABEL, TYPE_LABEL, ALLOWED_TYPES } from '../taxonomy';
+// 구현된 인터랙션은 목업을 다시 만들지 않고 실제 컴포넌트를 그대로 쓴다.
+import DecisionTree from '../components/DecisionTree.astro';
 
 const entries = await getCollection('guide');
 
@@ -53,6 +55,7 @@ const ROLE: Record<string, string> = {
   'SideNav.astro': '좌측 색인 — 트랙 그룹 + 타입 배지',
   'Toc.astro': '우측 목차 · 활성 섹션',
   'Infobox.astro': '문서 정보 — 트랙·유형·최신성',
+  'DecisionTree.astro': '선택 트리 — MDX 에서 데이터 주입, noscript 정적 대체',
   'Deck.astro': '발표 오버레이 · 5레이아웃',
   'DrawLayer.astro': '발표 중 필기 레이어',
 };
@@ -64,7 +67,6 @@ const existing = [
 
 // 새로 필요한 것 — strategy/product.md 의 인터랙션 3개 + 최신성·산출물 UI
 const NEEDED = [
-  { name: 'DecisionTree', why: '선택 기준을 읽히지 않고 고르게 만든다', type: 'decision', prio: 1 },
   { name: 'PredictBeforeReveal', why: '설명 전에 예측하게 한다 (레슨 필수 1번)', type: 'concept·decision', prio: 1 },
   { name: 'Compare', why: '축별 비교를 한 화면에 — 지금은 글마다 손수 표', type: 'decision', prio: 1 },
   { name: 'VerifiedBadge', why: 'verified·review_by 를 본문 상단에 노출 (지금은 인포박스에만)', type: '전 타입', prio: 2 },
@@ -341,51 +343,40 @@ const today = new Date().toISOString().slice(0, 10);
         데이터는 전부 frontmatter/JSON 으로 뺄 수 있는 형태로 두었다.
       </p>
 
-      <!-- DecisionTree -->
+      <!-- DecisionTree — 목업이 아니라 실제 컴포넌트. cc-vs-codex 가 쓰는 것과 같은 파일이다. -->
       <div class="dv-mock">
-        <div class="mk-h"><b>DecisionTree</b><span>선택 기준을 읽히지 않고 고르게 만든다</span></div>
-        <div class="mk-b" id="tree">
-          <div class="tr-step" data-step="0">
-            <p class="tr-q">이 작업에 사람이 곁에 있나?</p>
-            <div class="tr-opts">
-              <button class="tr-o" data-go="1">있다 — 보면서 주고받는다</button>
-              <button class="tr-o" data-go="2">없다 — 정해진 시각에 혼자 돈다</button>
-            </div>
-          </div>
-          <div class="tr-step" data-step="1" hidden>
-            <p class="tr-q">중간에 방향을 바꿀 일이 많나?</p>
-            <div class="tr-opts">
-              <button class="tr-o" data-go="r1">많다</button>
-              <button class="tr-o" data-go="r2">아니다 — 범위가 정해졌다</button>
-            </div>
-          </div>
-          <div class="tr-step" data-step="2" hidden>
-            <p class="tr-q">실패하면 사람이 알아채는 경로가 있나?</p>
-            <div class="tr-opts">
-              <button class="tr-o" data-go="r3">있다 — 알림·로그가 사람에게 닿는다</button>
-              <button class="tr-o" data-go="r4">없다</button>
-            </div>
-          </div>
-          <div class="tr-res" data-step="r1" hidden>
-            <p class="tr-rt">곁에서 주고받는 자리</p>
-            <p class="tr-rb">방향이 자주 바뀌는 일은 대화형에 맞다. 승인 지점을 대화 안에 두고, 되돌릴 단위를 작게 유지한다.</p>
-          </div>
-          <div class="tr-res" data-step="r2" hidden>
-            <p class="tr-rt">범위 고정 위임</p>
-            <p class="tr-rb">완료 조건을 먼저 쓴다. 테스트·빌드로 스스로 판정할 수 있으면 사람의 확인 횟수를 줄인다.</p>
-          </div>
-          <div class="tr-res" data-step="r3" hidden>
-            <p class="tr-rt">무인 러너로 넘길 수 있다</p>
-            <p class="tr-rb">정기 실행 + 가드레일. 실패가 사람에게 닿는 경로가 있으니 자동화의 수명이 유지된다.</p>
-          </div>
-          <div class="tr-res warn" data-step="r4" hidden>
-            <p class="tr-rt">아직 넘기지 않는다</p>
-            <p class="tr-rb">실패를 아무도 모르는 자동화는 빚이 된다. 관측 경로를 먼저 만들고 그다음에 위임한다.</p>
-          </div>
-          <button class="mk-reset" id="tree-reset" hidden>처음부터</button>
+        <div class="mk-h"><b>DecisionTree</b><span>구현 완료 · 아래는 실제 컴포넌트(데모 데이터)</span></div>
+        <div class="mk-b">
+          <DecisionTree
+            title="데모 — 짧은 2단 트리"
+            steps={[
+              {
+                id: 'd1',
+                q: '이 결정을 되돌릴 수 있나?',
+                options: [
+                  { label: '되돌린다', go: 'd2' },
+                  { label: '못 되돌린다', go: 'dr-gate' },
+                ],
+              },
+              {
+                id: 'd2',
+                q: '실패가 사람에게 닿나?',
+                options: [
+                  { label: '닿는다', go: 'dr-go' },
+                  { label: '안 닿는다', go: 'dr-obs' },
+                ],
+              },
+            ]}
+            results={[
+              { id: 'dr-go', tone: 'go', title: '넘길 수 있다', body: '되돌릴 수 있고 실패가 드러난다.' },
+              { id: 'dr-obs', tone: 'stop', title: '관측 먼저', body: '조용히 실패하는 자동화는 빚이 된다.' },
+              { id: 'dr-gate', tone: 'stop', title: '승인 지점 먼저', body: '되돌릴 수 없으면 사람의 아니오가 필요하다.' },
+            ]}
+          />
         </div>
         <div class="mk-f">
-          <b>결정 필요</b> · 경로를 URL 에 남길까(공유·복귀 가능) · 되돌아가기 버튼을 둘까 · 결론에서 관련 문서로 보낼까
+          <b>해결됨</b> · 되돌아가기·처음부터 버튼 있음 · 결론에서 관련 문서로 보냄 · <code>noscript</code> 정적 대체 있음<br />
+          <b>남은 결정</b> · 선택 경로를 URL 에 남길까(공유·복귀 가능) · 진도를 localStorage 에 남길까
         </div>
       </div>
 
@@ -437,8 +428,9 @@ const today = new Date().toISOString().slice(0, 10);
       </div>
 
       <p class="dv-note dv-mt">
-        접근성: 세 목업 모두 <code>button</code> 기반(키보드·스크린리더), 공개 영역에 <code>aria-live</code>,
-        전환은 <code>prefers-reduced-motion</code> 을 따른다. 정적 대체 표현(전부 펼친 상태)은 아직 없음 — <b>결정 대기.</b>
+        접근성: 셋 모두 <code>button</code> 기반(키보드·스크린리더), 공개 영역에 <code>aria-live</code>,
+        전환은 <code>prefers-reduced-motion</code> 을 따른다. 정적 대체는 DecisionTree 에만 있다(<code>noscript</code> 로
+        전체 질문·결론 펼침) — 나머지 둘에도 같은 방식을 넣을지 <b>결정 대기.</b>
       </p>
     </section>
 
@@ -544,22 +536,10 @@ const today = new Date().toISOString().slice(0, 10);
   .mk-h { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; padding: 12px 16px; border-bottom: 1px solid var(--line); background: #fbfcff; }
   .mk-h b { font-family: var(--mono); font-size: 12.5px; }
   .mk-h span { font-size: 12.5px; color: var(--mute); }
-  .mk-b { padding: 18px 16px; }
+  /* 본문 배경(--bg) 위에 컴포넌트가 놓이는 실제 조건을 재현한다. */
+  .mk-b { padding: 18px 16px; background: var(--bg); }
   .mk-f { padding: 10px 16px; border-top: 1px dashed var(--line2); font-size: 12px; color: var(--mute); background: #fbfcff; }
   .mk-f b { color: var(--accent-ink); font-family: var(--mono); font-size: 10.5px; letter-spacing: .05em; text-transform: uppercase; }
-  .mk-reset { margin-top: 12px; font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--sub); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
-  .mk-reset:hover { border-color: var(--accent); color: var(--accent-ink); }
-
-  /* DecisionTree */
-  .tr-q { font-size: 16px; font-weight: 700; margin: 0 0 12px; word-break: keep-all; }
-  .tr-opts { display: grid; gap: 8px; max-width: 520px; }
-  .tr-o { text-align: left; font-family: var(--sans); font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 15px; cursor: pointer; }
-  .tr-o:hover { border-color: var(--accent); background: var(--accent-weak); color: var(--accent-ink); }
-  .tr-res { max-width: 560px; padding: 14px 16px; border-radius: 12px; background: var(--accent-weak); border: 1px solid var(--accent-border); }
-  .tr-res.warn { background: #fffbeb; border-color: #fcd34d; }
-  .tr-rt { font-size: 16px; font-weight: 800; color: var(--accent-ink); margin: 0; }
-  .tr-res.warn .tr-rt { color: #b45309; }
-  .tr-rb { font-size: 13.5px; color: var(--sub); margin: 6px 0 0; word-break: keep-all; }
 
   /* PredictBeforeReveal */
   .pd-q { font-size: 16px; font-weight: 700; margin: 0 0 12px; word-break: keep-all; }
@@ -596,19 +576,7 @@ const today = new Date().toISOString().slice(0, 10);
 </style>
 
 <script>
-  // ── DecisionTree: 스텝 전환 (데이터는 DOM 의 data-step / data-go 로 — 컴포넌트화 시 JSON 으로 뺀다)
-  const tree = document.getElementById('tree');
-  const treeReset = document.getElementById('tree-reset');
-  const show = (key: string) => {
-    tree?.querySelectorAll<HTMLElement>('[data-step]').forEach((el) => {
-      el.hidden = el.dataset.step !== key;
-    });
-    if (treeReset) treeReset.hidden = key === '0';
-  };
-  tree?.querySelectorAll<HTMLButtonElement>('.tr-o').forEach((b) => {
-    b.addEventListener('click', () => show(b.dataset.go || '0'));
-  });
-  treeReset?.addEventListener('click', () => show('0'));
+  // DecisionTree 는 컴포넌트가 자기 스크립트를 갖고 있으므로 여기서 다루지 않는다.
 
   // ── PredictBeforeReveal: 고른 뒤에만 공개
   const predOpts = document.querySelectorAll<HTMLButtonElement>('#pred .pd-o');

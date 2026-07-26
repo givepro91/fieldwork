@@ -38,11 +38,11 @@ export default function adminDev() {
 
           if (url.startsWith('/__admin/list')) {
             const items = readdirSync(dir)
-              .filter((f) => f.endsWith('.md') && !EXCLUDE.has(f))
+              .filter((f) => /\.mdx?$/.test(f) && !EXCLUDE.has(f))
               .map((f) => {
                 const { data } = matter(readFileSync(path.join(dir, f), 'utf-8'));
                 return {
-                  id: f.replace(/\.md$/, ''),
+                  id: f.replace(/\.mdx?$/, ''),
                   title: data.title || f,
                   track: data.track || '',
                   type: data.type || '',

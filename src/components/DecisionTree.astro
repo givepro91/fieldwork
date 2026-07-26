@@ -1,0 +1,105 @@
+---
+// 선택 기준을 읽히지 않고 고르게 만드는 컴포넌트. Decision 타입 글의 기본 인터랙션.
+// 데이터는 MDX 에서 주입한다 — 컴포넌트에 내용을 박지 않는다.
+//
+// 접근성: button 기반(키보드·스크린리더), 결과는 aria-live, 정적 대체는 <noscript> 로
+// 전체 질문·결론을 펼쳐 보여준다(JS 없이도 내용이 닿는다).
+
+interface Option { label: string; go: string }
+interface Step { id: string; q: string; options: Option[] }
+interface Link { label: string; href: string }
+interface Result { id: string; title: string; body: string; tone?: 'go' | 'stop'; link?: Link }
+interface Props { title?: string; steps: Step[]; results: Result[] }
+
+const { title, steps, results } = Astro.props;
+const first = steps[0]?.id ?? '';
+---
+
+<div class="dtree" data-first={first}>
+  {title && <p class="dt-t">{title}</p>}
+
+  <div class="dt-body" aria-live="polite">
+    {steps.map((s, i) => (
+      <div class="dt-step" data-step={s.id} hidden={i !== 0}>
+        <p class="dt-q">{s.q}</p>
+        <div class="dt-opts">
+          {s.options.map((o) => (<button type="button" class="dt-o" data-go={o.go}>{o.label}</button>))}
+        </div>
+      </div>
+    ))}
+    {results.map((r) => (
+      <div class={`dt-res ${r.tone === 'stop' ? 'stop' : 'go'}`} data-step={r.id} hidden>
+        <p class="dt-rt">{r.title}</p>
+        <p class="dt-rb">{r.body}</p>
+        {r.link && <a class="dt-rl" href={r.link.href}>{r.link.label} →</a>}
+      </div>
+    ))}
+  </div>
+
+  <div class="dt-foot">
+    <button type="button" class="dt-back" hidden>← 이전</button>
+    <button type="button" class="dt-reset" hidden>처음부터</button>
+  </div>
+
+  <noscript>
+    <div class="dt-static">
+      <p class="dt-sh">전체 질문과 결론</p>
+      {steps.map((s) => (
+        <p class="dt-sq"><b>{s.q}</b> — {s.options.map((o) => o.label).join(' / ')}</p>
+      ))}
+      {results.map((r) => (<p class="dt-sr"><b>{r.title}</b> — {r.body}</p>))}
+    </div>
+  </noscript>
+</div>
+
+<style>
+  .dtree { margin: 22px 0; max-width: 72ch; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+  .dt-t { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--mute); margin: 0 0 12px; }
+  .dt-q { font-size: 16px; font-weight: 700; margin: 0 0 12px; word-break: keep-all; }
+  .dt-opts { display: grid; gap: 8px; }
+  .dt-o { text-align: left; font-family: var(--sans); font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 15px; cursor: pointer; word-break: keep-all; }
+  .dt-o:hover { border-color: var(--accent); background: var(--accent-weak); color: var(--accent-ink); }
+  .dt-res { padding: 14px 16px; border-radius: 12px; }
+  .dt-res.go { background: var(--accent-weak); border: 1px solid var(--accent-border); }
+  .dt-res.stop { background: #fffbeb; border: 1px solid #fcd34d; }
+  .dt-rt { font-size: 16px; font-weight: 800; margin: 0; }
+  .dt-res.go .dt-rt { color: var(--accent-ink); }
+  .dt-res.stop .dt-rt { color: #b45309; }
+  .dt-rb { font-size: 13.5px; color: var(--sub); margin: 6px 0 0; word-break: keep-all; }
+  .dt-rl { display: inline-block; margin-top: 9px; font-size: 13px; font-weight: 700; }
+  .dt-foot { display: flex; gap: 7px; margin-top: 12px; }
+  .dt-back, .dt-reset { font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--sub); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+  .dt-back:hover, .dt-reset:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .dt-static .dt-sh { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; color: var(--mute); margin: 0 0 8px; }
+  .dt-static p { font-size: 13.5px; color: var(--sub); margin: 6px 0; }
+</style>
+
+<script>
+  // 인스턴스가 여러 개일 수 있으므로 컨테이너별로 상태를 따로 둔다.
+  document.querySelectorAll<HTMLElement>('.dtree').forEach((root) => {
+    const first = root.dataset.first || '';
+    const panels = root.querySelectorAll<HTMLElement>('[data-step]');
+    const back = root.querySelector<HTMLButtonElement>('.dt-back');
+    const reset = root.querySelector<HTMLButtonElement>('.dt-reset');
+    const trail: string[] = [first];
+
+    const render = () => {
+      const cur = trail[trail.length - 1];
+      panels.forEach((p) => { p.hidden = p.dataset.step !== cur; });
+      if (back) back.hidden = trail.length < 2;
+      if (reset) reset.hidden = trail.length < 2;
+    };
+
+    root.querySelectorAll<HTMLButtonElement>('.dt-o').forEach((b) => {
+      b.addEventListener('click', () => {
+        trail.push(b.dataset.go || first);
+        render();
+        // 결과가 화면 밖으로 밀리지 않게(긴 트리에서). 모션 설정을 존중한다.
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        root.scrollIntoView({ block: 'nearest', behavior: reduce ? 'auto' : 'smooth' });
+      });
+    });
+    back?.addEventListener('click', () => { trail.pop(); render(); });
+    reset?.addEventListener('click', () => { trail.length = 1; render(); });
+  });
+</script>
