@@ -13,7 +13,7 @@ related:
     href: "/guide/driving-agents"
 slides:
   - layout: cover
-    kick: AX Field Guide
+    kick: Fieldwork · AX·업무 재설계
     title: AX를 맡으면 실제로 무엇을 하나
     body: 정의가 일이 되었을 때, 하루는 무엇으로 채워지는가
   - layout: thesis

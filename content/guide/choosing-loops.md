@@ -13,7 +13,7 @@ related:
     href: "/guide/approval-gates"
 slides:
   - layout: cover
-    kick: AX Field Guide · 개념·관점
+    kick: Fieldwork · AX·업무 재설계
     title: 어떤 업무 루프를 먼저 AX로 만들까
     body: AX의 첫 결정 — 무엇을 다시 설계할지 고르는 일
   - layout: thesis

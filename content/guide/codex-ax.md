@@ -15,7 +15,7 @@ related:
     href: "/guide/audit-trail"
 slides:
   - layout: cover
-    kick: AX Field Guide · 도구·기법
+    kick: Fieldwork · 에이전트로 일하기
     title: Codex · AX 관점
     body: 코딩 모델이 아니라, 사람 없이 도는 무인 러너로 본다면
   - layout: thesis

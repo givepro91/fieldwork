@@ -13,7 +13,7 @@ related:
     href: "/guide/what-is-ax"
 slides:
   - layout: cover
-    kick: AX Field Guide · 개념·관점
+    kick: Fieldwork · AX·업무 재설계
     title: RAG와 Agent Workflow의 차이
     body: 맥락을 채우는 두 방식 — 언제 무엇으로 충분한가
   - layout: thesis

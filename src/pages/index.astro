@@ -17,9 +17,9 @@ const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
 // 트랙 설명은 src/taxonomy.ts 가 단일 출처(g.desc).
 ---
 
-<Base title="AX Field Guide">
+<Base title="Fieldwork">
   <header class="topbar">
-    <a class="brand" href="/">AX&nbsp;Field&nbsp;Guide<span class="dot">.</span></a>
+    <a class="brand" href="/">Fieldwork<span class="dot">.</span></a>
     <nav class="topnav">
       {groups.map((g) => (g.firstHref ? <a href={g.firstHref}>{g.short}</a> : <span class="muted">{g.short}</span>))}
       <a href="/trends">동향</a>
@@ -29,10 +29,10 @@ const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
   <div class="wrap">
     <section class="hero">
       <p class="kick">공개 작업 노트 · 진행 중</p>
-      <h1>AI를 <span class="q">도입</span>하는 일이 아니라, 판단 구조를 <span class="q">다시 설계</span>하는 일.</h1>
-      <p class="sub">에이전트에게 일을 넘기는 법부터 AX·명세·1인 운영·지식 시스템까지, 직접 해본 것만 기록합니다. 전 범위를 가르치는 곳이 아니라, 끝까지 갈 수 있는 하나의 경로를 남깁니다.</p>
+      <h1>전 범위를 <span class="q">가르치는</span> 곳이 아니라, 끝까지 갈 수 있는 <span class="q">하나의 경로</span>.</h1>
+      <p class="sub">에이전트에게 일을 넘기는 법부터 AX·명세·1인 운영·지식 시스템까지, 직접 해본 것만 기록합니다. 안 써보고 비교하는 글은 쓰지 않고, 끝내면 손에 산출물이 남게 만듭니다.</p>
       <div class="cta">
-        <a class="pri" href="/guide/what-is-ax">AX란 무엇인가 읽기 →</a>
+        <a class="pri" href="/guide/driving-agents">에이전트를 모는 법 읽기 →</a>
         <a class="sec" href="/trends">최근 동향 보기</a>
       </div>
     </section>
@@ -55,7 +55,7 @@ const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
       })}
       <a class="card" href="/trends">
         <div class="c-h"><b>동향</b><span class="en">Trends</span><span class="cnt">자동</span></div>
-        <p>매일 자동 수집·요약하는 AX 기술 동향.</p>
+        <p>매일 자동 수집·요약하는 AI·에이전트 동향.</p>
       </a>
     </div>
 
@@ -79,7 +79,7 @@ const recent = allTrends.filter((it) => !isRelease(it)).slice(0, 3);
     </section>
 
     <footer class="site-footer">
-      AX Field Guide — 판단 기준을 쌓아가는 작업 노트. · <a href="/guide/what-is-ax">읽기 시작 →</a>
+      Fieldwork — 직접 해본 것만 쌓는 실행 필드가이드. · <a href="/guide/driving-agents">읽기 시작 →</a>
     </footer>
   </div>
 </Base>

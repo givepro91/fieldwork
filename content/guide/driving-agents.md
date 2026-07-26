@@ -13,7 +13,7 @@ related:
     href: "#"
 slides:
   - layout: cover
-    kick: AX Field Guide · 도구·기법
+    kick: Fieldwork · 에이전트로 일하기
     title: 에이전트를 모는 법
     body: 프롬프트를 잘 쓰는 일에서, 에이전트가 일하는 환경을 설계하는 일로
   - layout: thesis

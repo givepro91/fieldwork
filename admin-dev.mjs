@@ -17,7 +17,7 @@ export default function adminDev() {
     name: 'ax-admin-dev',
     hooks: {
       'astro:config:setup': ({ config, command, injectRoute }) => {
-        dir = fileURLToPath(new URL('./content/ax-guide/', config.root));
+        dir = fileURLToPath(new URL('./content/guide/', config.root));
         uiPath = fileURLToPath(new URL('./admin/ui.html', config.root));
         // 기획·디자인 시스템 페이지(/design)는 dev 에서만 라우팅한다.
         // src/pages/ 밖에 둬서 자동 라우팅을 피하고, 여기서만 주입 → prod dist 에 들어가지 않는다.

@@ -15,7 +15,7 @@ related:
     href: "/guide/what-is-ax"
 slides:
   - layout: cover
-    kick: AX Field Guide · 도구·기법
+    kick: Fieldwork · 에이전트로 일하기
     title: MCP는 AX에서 어떤 의미가 있는가
     body: 연결을 표준화한다는 것의 값과 대가
   - layout: thesis

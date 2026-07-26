@@ -15,7 +15,7 @@ related:
     href: "/guide/what-ax-work-looks-like"
 slides:
   - layout: cover
-    kick: AX Field Guide · 도구·기법
+    kick: Fieldwork · 에이전트로 일하기
     title: Claude Code · AX 관점
     body: 코딩 보조가 아니라, AI가 일할 운영 구조를 짜는 도구로
   - layout: thesis

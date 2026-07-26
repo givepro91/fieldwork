@@ -13,7 +13,7 @@ related:
     href: "/guide/human-in-the-loop"
 slides:
   - layout: cover
-    kick: AX Field Guide · 패턴·플레이북
+    kick: Fieldwork · AX·업무 재설계
     title: AI 자동화의 audit trail 설계
     body: 무슨 입력에 무슨 판단을 왜 했는지 되짚을 수 있게
   - layout: thesis

@@ -13,7 +13,7 @@ related:
     href: "/guide/codex-ax"
 slides:
   - layout: cover
-    kick: AX Field Guide · 도구·기법
+    kick: Fieldwork · 에이전트로 일하기
     title: Claude Code vs Codex
     body: 어느 게 낫냐가 아니라, 어떤 일에 무엇이 맞았나
   - layout: thesis

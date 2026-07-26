@@ -13,7 +13,7 @@ related:
     href: "/guide/approval-gates"
 slides:
   - layout: cover
-    kick: AX Field Guide
+    kick: Fieldwork · AX·업무 재설계
     title: AX란 무엇인가
     body: 백엔드 출신 프로덕트 리드가 현장에서 정리하는 AX 작업 노트
   - layout: thesis

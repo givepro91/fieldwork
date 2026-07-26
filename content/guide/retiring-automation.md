@@ -13,7 +13,7 @@ related:
     href: "/guide/what-ax-work-looks-like"
 slides:
   - layout: cover
-    kick: AX Field Guide
+    kick: Fieldwork · AX·업무 재설계
     title: 운영 자동화는 언제 폐기해야 하나
     body: 만드는 결정보다 접는 결정이 어렵다
   - layout: thesis

@@ -13,7 +13,7 @@ related:
     href: "/guide/trusting-output"
 slides:
   - layout: cover
-    kick: AX Field Guide · 패턴·플레이북
+    kick: Fieldwork · AX·업무 재설계
     title: "Human-in-the-loop — 사람이 \"아니오\"를 말할 자리"
     body: 사람을 끼우는 것과 그 사람이 실제로 거부할 수 있는 것은 다른 문제다
   - layout: thesis

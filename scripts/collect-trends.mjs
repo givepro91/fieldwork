@@ -107,7 +107,7 @@ async function main() {
   const collected = [];
   for (const src of sources) {
     try {
-      const res = await fetch(src.url, { headers: { 'user-agent': 'ax-field-guide-trends/1.0' } });
+      const res = await fetch(src.url, { headers: { 'user-agent': 'fieldwork-trends/1.0' } });
       if (!res.ok) { console.warn(`[skip] ${src.id}: HTTP ${res.status}`); continue; }
       const items = parseFeed(await res.text()).slice(0, maxPer);
       console.log(`[${src.id}] ${items.length} items fetched`);

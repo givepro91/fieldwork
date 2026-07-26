@@ -13,7 +13,7 @@ related:
     href: "/guide/what-is-ax"
 slides:
   - layout: cover
-    kick: AX Field Guide · 패턴·플레이북
+    kick: Fieldwork · AX·업무 재설계
     title: AI에 승인 게이트가 필요한 이유
     body: 자동으로 할 일과 사람이 멈춰 세울 일을 가르는 설계
   - layout: thesis

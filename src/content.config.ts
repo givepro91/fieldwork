@@ -3,10 +3,10 @@ import { glob } from 'astro/loaders';
 import { z } from 'astro:schema';
 import { TRACKS, TYPES, ALLOWED_TYPES, TRACK_LABEL, TYPE_LABEL } from './taxonomy';
 
-// repo 루트의 content/ax-guide/*.md 를 글 컬렉션으로 로드.
+// repo 루트의 content/guide/*.md 를 글 컬렉션으로 로드.
 // README.md(홈 문서) · backlog.md(메타)는 글이 아니므로 제외.
 const guide = defineCollection({
-  loader: glob({ pattern: ['*.md', '!README.md', '!backlog.md'], base: './content/ax-guide' }),
+  loader: glob({ pattern: ['*.md', '!README.md', '!backlog.md'], base: './content/guide' }),
   schema: z
     .object({
       title: z.string(),

@@ -13,7 +13,7 @@ related:
     href: "/guide/approval-gates"
 slides:
   - layout: cover
-    kick: AX Field Guide · 개념·관점
+    kick: Fieldwork · AX·업무 재설계
     title: AI 출력을 어디까지 믿을 것인가
     body: '"믿어도 되나"는 감으로 답할 질문이 아니다'
   - layout: thesis

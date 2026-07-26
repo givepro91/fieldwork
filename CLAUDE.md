@@ -1,4 +1,4 @@
-# AX Field Guide (이름 변경 예정)
+# Fieldwork
 
 **전 범위를 가르치는 곳이 아니라, 끝까지 갈 수 있는 하나의 경로를 주는 곳.** 직접 해본 것만 기록하는 5트랙 공개 학습 필드가이드 — 콘텐츠(글)와 그것을 보여주는 **위키 + 프레젠테이션 웹**으로 구성된다. Vercel 정적 배포, 로컬에서 개발한다(아래 "개발·배포 워크플로우").
 
@@ -18,8 +18,8 @@ admin-dev.mjs                   # dev 전용 라우팅 integration (prod 빌드�
 admin/ui.html                   # └ /admin — 콘텐츠 현황(트랙·타입·검토 기한, 읽기 전용)
 src/dev/design.astro            # └ /design — 기획·정보구조·토큰·컴포넌트·인터랙션 목업 (★ 디자인 결정은 여기서)
 
-content/ax-guide/*.md           # 글 콘텐츠
-content/ax-guide/README.md      # 홈 문서(소개 산문) · backlog.md = 앞으로 쓸 글 목록 (둘 다 컬렉션 제외)
+content/guide/*.md              # 글 콘텐츠
+content/guide/README.md         # 홈 문서(소개 산문) · backlog.md = 앞으로 쓸 글 목록 (둘 다 컬렉션 제외)
 content/trends/                 # 매일 자동 수집되는 동향 (index.json + YYYY-MM-DD)
 scripts/collect-trends.mjs      # 동향 수집기 · .github/workflows/trends.yml = 매일 cron
 prototype/                      # 초기 정적 HTML 프로토타입 — Astro 사이트로 대체됨, 레퍼런스로만 보존
@@ -43,7 +43,7 @@ prototype/                      # 초기 정적 HTML 프로토타입 — Astro �
 
 ## 새 글 쓰는 규칙
 
-`content/ax-guide/`에 `.md`를 추가하고 `backlog.md`에서 항목을 옮긴다. frontmatter 필수: `title` · `track` · `type`. 기본값이 없으므로 빠뜨리면 빌드가 실패한다(잘못 분류되는 것보다 낫다).
+`content/guide/`에 `.md`를 추가하고 `backlog.md`에서 항목을 옮긴다. frontmatter 필수: `title` · `track` · `type`. 기본값이 없으므로 빠뜨리면 빌드가 실패한다(잘못 분류되는 것보다 낫다).
 
 - **트랙별 허용 타입을 스키마가 강제한다** (`src/taxonomy.ts`의 `ALLOWED_TYPES`). ⑤ `knowledge`는 `log`만 — 재료 없는 트랙에서 Playbook·Template이 나오는 것을 구조로 막는다. 승급 조건은 `strategy/product.md`.
 - **최신성**: `verified`(외부 사실을 마지막으로 확인한 날) · `review_by`(다음 검토 예정일) · `sources[]`(label + url). `updated`(글을 고친 날)와 다른 정보다. **`sources`를 적었으면 `verified`도 필수** — 스키마가 막는다. `review_by`가 지나면 문서 인포박스와 `/admin`에 "기한 경과"가 뜬다.
@@ -93,7 +93,7 @@ prototype/                      # 초기 정적 HTML 프로토타입 — Astro �
 - `step`/`layer`의 `note`와 슬라이드 `note`는 **한 구절**로 짧게(발표자가 말로 채운다). 2~3문장 금지.
 - 한국어 줄바꿈은 **전역 CSS가 처리**한다(`word-break:keep-all` + 헤드라인 `text-wrap:balance` + 본문 `pretty`). `<br>`·슬라이드별 너비 하드코딩 금지.
 - 발표는 **단일 다크 테마**(전역). 새 글도 자동 적용되니 테마/색을 글마다 손대지 않는다.
-- 기존 14편 슬라이드의 `kick`에 옛 분류명("AX Field Guide · 도구·기법")이 문자열로 박혀 있다. **이름 확정 시 일괄 정리 예정** — 그때까지 새 글에는 `트랙 라벨 · 타입` 형태로 쓴다.
+- 커버 슬라이드 `kick`은 `Fieldwork · 트랙명` 형태로 쓴다(기존 14편 정리 완료). 브랜드명은 CSS 가 대문자로 렌더하니 원문은 일반 표기로 둔다.
 
 ## 공개 위험 게이트 (발행 전 필수)
 
@@ -117,7 +117,7 @@ LinkedIn(짧은 관찰)·Brunch(서사형 회고)·GitHub Pages(포트폴리오)
 
 - **개발 = 로컬 Astro.** `npm run dev` (포트 8351 — Astro 기본 4321 은 다른 도구와 충돌 회피). Astro 7 의 `astro dev` 는 **데몬으로 떠서 실행 명령이 즉시 반환**한다(서버는 계속 살아 있음 — exit 0 을 종료로 오해하지 말 것). 상태·중지·로그는 `npx astro dev status` / `stop` / `logs`. `npm run build` → 정적 `dist/`, `npm run preview` 로 산출물 확인. dev 에서 `/admin` = 콘텐츠 현황(트랙·타입·검토 기한), `/design` = 기획·디자인 시스템(토큰은 `global.css` 를 파싱해 표시하므로 CSS 를 고치면 같이 바뀐다). Claude Artifact 는 반복 개발에 안 씀(느림).
 - **배포 = Vercel(정적).** Astro 정적 출력이라 DB 없이 배포된다. **1단계에서는 정적 배포를 유지한다** — 계정·원격 실습은 `strategy/product.md`의 단계 게이트 조건을 통과한 뒤에만.
-- **스케일.** Astro 가 `content/**` 를 읽어 페이지·네비·TOC·슬라이드·동향을 생성한다. 새 글 = `content/ax-guide/` 에 frontmatter 갖춘 `.md` 추가 → 사이트에 자동 반영. 손수 HTML 유지하지 않는다.
+- **스케일.** Astro 가 `content/**` 를 읽어 페이지·네비·TOC·슬라이드·동향을 생성한다. 새 글 = `content/guide/` 에 frontmatter 갖춘 `.md` 추가 → 사이트에 자동 반영. 손수 HTML 유지하지 않는다.
 - **draft**: `draft: true` 는 prod 빌드에서 제외되고 dev 에서만 보인다. 구조만 잡고 경험을 기다리는 글에 쓴다.
 
 ## 동향(Trends) — 매일 자동 뉴스
