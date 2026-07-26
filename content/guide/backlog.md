@@ -4,7 +4,7 @@
 
 분류는 **트랙 × 타입** 2축이다(정본: [strategy/product.md](../../strategy/product.md), 현황 매트릭스는 dev `/design`). 상태 표기: `발행됨` 공개 중 · `초안` dev 에서만 보임(prod 빌드 제외) · `재료 모으는 중` 경험이 더 필요함 · `초안 준비` 바로 쓸 수 있음.
 
-## 지금 있는 글 (17 · 전부 발행)
+## 지금 있는 글 (20 · 전부 발행)
 
 **① 에이전트로 일하기 (6)**
 - `개념` [에이전트를 모는 법](/guide/driving-agents) — context·harness·loop·Ralph 의 추상도 사다리
@@ -19,6 +19,12 @@
 - `개념` [AX란 무엇인가](/guide/what-is-ax) · [AX를 맡으면 실제로 무엇을 하나](/guide/what-ax-work-looks-like) · [RAG와 Agent Workflow의 차이](/guide/rag-vs-agent)
 - `선택` [어떤 업무 루프를 먼저 고를까](/guide/choosing-loops) · [AI 출력을 어디까지 믿을 것인가](/guide/trusting-output) · [운영 자동화는 언제 폐기하나](/guide/retiring-automation)
 - `플레이북` [승인 게이트가 필요한 이유](/guide/approval-gates) · [Human-in-the-loop 패턴](/guide/human-in-the-loop) · [audit trail 설계](/guide/audit-trail)
+
+**⑤ 지식·업무 시스템 (4)** — 전부 `조사·정리` 근거(하나는 `일부 경험 + 조사`). 읽는 순서대로 둔다.
+- `개념` [노트가 쌓이기만 하는 이유](/guide/obsidian-why-unused) — 다시 만나게 하는 세 장치
+- `선택` [폴더·태그·링크·속성 — 무엇을 기준으로 삼나](/guide/obsidian-structure) — 네 층의 자리
+- `선택` [수집·생각·프로젝트·레퍼런스를 어떻게 나누나](/guide/obsidian-note-types) — 주제가 아니라 수명으로
+- `플레이북` [에이전트가 읽을 수 있는 Vault 만들기](/guide/obsidian-for-agents) — 다섯 단계와 경계
 
 ## 비어 있는 칸이 곧 다음 할 일
 

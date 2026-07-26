@@ -1,0 +1,211 @@
+---
+title: 에이전트가 읽을 수 있는 Vault 만들기
+track: knowledge
+type: playbook
+basis: mixed
+stage: 탐색 중
+updated: "2026-07-26"
+verified: "2026-07-26"
+review_by: "2027-01-26"
+sources:
+  - label: Obsidian Help — Vault(로컬 폴더, 프로젝트별 여러 Vault)
+    url: https://obsidian.md/help/vault
+  - label: Obsidian Help — Properties(YAML frontmatter 로 저장된다)
+    url: https://obsidian.md/help/properties
+  - label: Obsidian Help — Internal links(이름 기반 링크, 이름 변경 시 자동 갱신 옵션)
+    url: https://obsidian.md/help/links
+  - label: AGENTS.md 공식 사이트(지침 파일을 읽는 도구 목록)
+    url: https://agents.md/
+outcomes:
+  - Git 으로 되돌릴 수 있는 Vault
+  - Vault 루트에 두는 에이전트 지침 파일
+  - 에이전트가 쓸 자리와 건드리지 않을 자리의 경계
+order: 4
+lead: Vault 는 로컬 마크다운 폴더다. 그래서 에이전트는 특별한 연동 없이 그냥 읽는다 — 문제는 읽히는 게 아니라, 쓰게 했을 때 무엇이 깨지는지다.
+related:
+  - label: AGENTS.md — 에이전트에게 주는 프로젝트 지침
+    href: "/guide/agents-md"
+  - label: AI에 승인 게이트가 필요한 이유
+    href: "/guide/approval-gates"
+  - label: 수집·생각·프로젝트·레퍼런스를 어떻게 나누나
+    href: "/guide/obsidian-note-types"
+slides:
+  - layout: cover
+    kick: Fieldwork · 지식·업무 시스템
+    title: 에이전트가 읽을 수 있는 Vault
+    body: 읽히는 건 공짜다. 쓰게 하는 데 준비가 필요하다
+  - layout: thesis
+    kick: 테제
+    title: 연동이 아니라 경계가 문제다
+    body: Vault 는 로컬 폴더이고 노트는 마크다운이다. 읽기는 이미 된다. 정작 정해야 하는 것은 어디까지 쓰게 할지와 무엇으로 되돌릴지다.
+  - layout: flow
+    kick: 순서
+    title: 다섯 단계
+    steps:
+      - label: Git 으로 만든다
+        note: 되돌릴 수단이 먼저
+      - label: 지침을 루트에 둔다
+        note: AGENTS.md
+      - label: 속성 이름을 고정한다
+        note: 추론하지 않게
+      - label: 쓸 자리를 정한다
+        note: 폴더로 범위 제한
+      - label: 승인 지점을 둔다
+        note: 커밋 전에 사람이 본다
+    note: 첫 단계를 건너뛰면 나머지가 전부 위험해진다.
+  - layout: compare
+    kick: 경계
+    title: 넘기는 일과 넘기지 않는 일
+    columns:
+      - head: 넘긴다
+        points:
+          - 정해진 폴더에 새 노트 만들기
+          - 속성 채우기·정리
+          - 링크 후보 제안
+          - 레퍼런스 노트의 출처 확인
+      - head: 넘기지 않는다
+        sub: 되돌리기가 어렵다
+        accent: true
+        points:
+          - Vault 전체 재구성
+          - 노트 이름 일괄 변경
+          - 설정 파일 수정
+          - 판단이 담긴 노트 고쳐쓰기
+    note: 링크는 이름 기반이다. 이름을 대량으로 바꾸는 작업이 가장 위험하다.
+  - layout: cover
+    kick: 확인하지 못한 것
+    title: 외부 편집 동작은 문서에 없다
+    body: Obsidian 이 열려 있는 상태에서 외부 도구가 파일을 고칠 때의 동작은 공식 문서에서 확인하지 못했다. 작게 시험한 뒤 늘린다.
+---
+
+import { Code } from 'astro:components';
+import PredictBeforeReveal from '@components/PredictBeforeReveal.astro';
+
+Obsidian Vault 는 **로컬 파일 시스템의 폴더**다. 공식 문서에 그렇게 적혀 있고, 노트의 속성은 YAML frontmatter 로 파일 안에 들어간다. 그래서 에이전트가 Vault 를 읽는 데는 플러그인도 API 도 필요하지 않다 — 폴더를 가리키면 된다.
+
+읽기가 공짜인 만큼, 정해야 하는 건 다른 쪽이다.
+
+<PredictBeforeReveal
+  title="읽기 전에 한 번 골라보기"
+  question="에이전트에게 Vault 를 맡길 때 가장 먼저 준비해야 하는 것은?"
+  options={[
+    { key: 'a', label: '속성 이름을 통일한다' },
+    { key: 'b', label: '지침 파일(AGENTS.md)을 둔다' },
+    { key: 'c', label: 'Git 저장소로 만든다' },
+    { key: 'd', label: '읽기 전용으로 연결한다' },
+  ]}
+  answer="c"
+  revealTitle="되돌릴 수단이 먼저다"
+  revealBody="속성 통일과 지침도 필요하지만 그건 결과의 품질을 높이는 일이다. 되돌리기는 사고가 났을 때 손실 크기를 정한다. 노트 이름 하나가 바뀌면 그 노트를 가리키던 링크가 함께 흔들리는데, 무엇이 어떻게 바뀌었는지 볼 수 없으면 복구는 기억에 의존하게 된다."
+/>
+
+## 1. Git 으로 만든다
+
+Vault 는 폴더이므로 그 자리에서 `git init` 이 된다. 이걸 먼저 하는 이유는 백업이 아니라 **차이를 볼 수 있게 하는 것**이다. 에이전트가 무엇을 고쳤는지 `git diff` 로 확인하고, 잘못됐으면 되돌린다.
+
+<Code
+  lang="bash"
+  code={`cd /path/to/vault
+git init
+git add -A && git commit -m "vault: 에이전트 작업 전 기준점"`}
+/>
+
+`.gitignore` 에 무엇을 넣을지는 Vault 안을 열어 확인한 뒤 정한다. Vault 에는 노트 외에 Obsidian 자체 설정도 들어가는데, **그 파일들이 정확히 어디 있는지는 공식 문서에서 확인하지 못했다.** 직접 폴더를 열어 노트가 아닌 것을 골라내고, 커밋에 섞이지 않게 하거나 최소한 에이전트 작업 범위에서 빼는 편이 안전하다.
+
+## 2. 지침을 Vault 루트에 둔다
+
+`AGENTS.md` 는 여러 코딩 에이전트가 읽는 관례이고, Claude Code 는 `CLAUDE.md` 를 읽는다([AGENTS.md 글](/guide/agents-md)에 정리해뒀다). Vault 도 결국 마크다운 폴더이므로 같은 방식이 그대로 통한다. Obsidian 쪽에서는 그냥 노트 하나로 보이고, 에이전트 쪽에서는 규칙으로 읽힌다.
+
+<Code
+  lang="markdown"
+  code={`# 이 Vault 에서 일하는 규칙
+
+## 구조
+- 노트 유형은 type 속성으로 구분한다: project / reference / thought / inbox
+- 링크는 [[노트 이름]] 형식이다. 이름이 곧 식별자다
+
+## 해도 되는 것
+- inbox/ 안의 노트를 유형별 폴더로 옮기고 속성을 채운다
+- reference 노트의 source 를 열어 verified 날짜를 갱신한다
+
+## 하지 말 것
+- 노트 이름을 바꾸지 않는다 (링크가 이름 기반이다)
+- 여러 노트를 한 번에 재구성하지 않는다
+- 판단이 담긴 thought 노트의 문장을 고쳐쓰지 않는다 — 제안만 남긴다
+
+## 완료 판정
+- git diff 로 변경을 확인할 수 있어야 한다
+- 새로 만든 노트는 반드시 type 속성이 있다`}
+/>
+
+"하지 말 것"과 "완료 판정"이 실제로 값을 한다. 지침은 강제가 아니라 컨텍스트라서 어길 수 있지만, 적어두면 어긋났을 때 무엇이 어긋났는지 말할 수 있다.
+
+## 3. 속성 이름을 고정한다
+
+속성은 YAML frontmatter 의 `이름: 값` 이고, 이름은 자유롭게 정할 수 있다. 자유롭다는 게 문제다 — `status`, `상태`, `state` 를 섞어 쓰면 에이전트는 그중 무엇이 진짜인지 추론해야 하고, 추론은 틀린다.
+
+[노트 유형 글](/guide/obsidian-note-types)에서 정한 유형별 속성을 지침에 그대로 적어두면 추론할 일이 없어진다. 새 속성이 필요하면 에이전트가 만들지 않고 물어보게 한다.
+
+## 4. 쓸 자리를 정한다
+
+읽기는 Vault 전체로 열어도 되지만, 쓰기는 폴더로 좁힌다. 처음에는 수집 폴더 하나만 열어주는 게 무난하다 — 그 폴더는 원래 정리되지 않은 상태이고, 무엇이 잘못돼도 잃을 게 적다.
+
+Vault 를 프로젝트별로 여러 개 둘 수 있다는 점도 여기서 쓸모가 있다. 공식 문서에 "하나의 Vault 에 전부 두거나, 프로젝트마다 여러 Vault 를 만들 수 있다"고 적혀 있다. 에이전트를 붙여 시험할 때는 작은 Vault 를 따로 만들어 거기서 먼저 돌려보는 편이 낫다.
+
+## 5. 승인 지점을 둔다
+
+커밋 전에 사람이 `git diff` 를 본다. 이 한 줄이 [승인 게이트](/guide/approval-gates)의 가장 단순한 형태다. 자동 커밋까지 넘기는 건 다음 문제이고, 그때도 조건은 같다 — 되돌릴 수 있고, 실패가 사람에게 닿을 때만.
+
+## 무엇을 넘기고 무엇을 넘기지 않나
+
+<figure class="fig">
+  <div class="compare">
+    <div class="cmp-card">
+      <div class="cmp-h">넘긴다</div>
+      <ul>
+        <li>정해진 폴더에 새 노트 만들기</li>
+        <li>속성 채우기·정리</li>
+        <li>링크 후보 제안 (걸지는 않고)</li>
+        <li>레퍼런스 노트의 출처 확인·날짜 갱신</li>
+      </ul>
+    </div>
+    <div class="cmp-arrow">↔</div>
+    <div class="cmp-card is-ax">
+      <div class="cmp-h">넘기지 않는다</div>
+      <ul>
+        <li>Vault 전체 재구성</li>
+        <li>노트 이름 일괄 변경</li>
+        <li>설정 파일 수정</li>
+        <li>판단이 담긴 노트 고쳐쓰기</li>
+      </ul>
+    </div>
+  </div>
+  <figcaption>그림 1 · 되돌리기 비용으로 가른 경계</figcaption>
+</figure>
+
+오른쪽 두 번째가 가장 위험하다. **링크는 노트 이름을 가리킨다.** Obsidian 에는 이름을 바꿀 때 내부 링크를 자동으로 갱신하는 옵션이 있지만, 그건 Obsidian 이 그 변경을 알 때의 이야기다. 외부에서 파일 이름을 바꾸면 어떻게 되는지는 **공식 문서에서 확인하지 못했다.** 확인 전에는 이름 변경을 에이전트에게 넘기지 않는 게 안전하다.
+
+같은 이유로 `.canvas` 파일도 조심스럽다. Canvas 데이터는 JSON Canvas 형식으로 저장되는데, 그 안에는 카드 위치 같은 좌표가 많다. 사람이 보기에는 관계도지만 에이전트가 텍스트로 읽으면 대부분이 노이즈다. 관계를 정리하게 하려면 Canvas 보다 노트의 링크를 쓰게 하는 편이 낫다.
+
+## 확인하지 못한 것
+
+이 문서의 절차 쪽은 이 사이트를 만들며 실제로 해본 것에 기반한다 — 지침 파일로 에이전트 작업 범위를 정하고, `git diff` 로 확인하고, 커밋 전에 사람이 보는 흐름. 그런데 **Obsidian Vault 를 대상으로 그걸 돌려본 적은 없다.** 그래서 다음은 모른다.
+
+- Obsidian 이 열려 있는 상태에서 외부 도구가 파일을 고칠 때의 동작 (문서에 언급 없음)
+- 외부에서 파일 이름을 바꿀 때 링크가 어떻게 되는지
+- 설정 파일이 커밋에 섞였을 때 무엇이 깨지는지
+- 에이전트가 만든 노트를 Obsidian 이 즉시 인식하는지, 다시 열어야 하는지
+
+전부 작은 Vault 를 따로 만들어 시험하면 답이 나오는 것들이다. 그걸 하고 나서 이 문서를 `practiced` 로 올린다.
+
+## 이 문서를 덮어도 되는 시점
+
+`git init` 을 했고, 지침 파일에 "하지 말 것" 세 줄이 적혀 있고, 에이전트가 쓸 폴더가 하나로 정해져 있으면 된다. 나머지는 그 위에서 늘린다.
+
+<section class="log" aria-label="변경 로그">
+  <div class="lg-h">변경 로그</div>
+  <ul>
+    <li><time>2026-07-26</time><span>초안 작성(근거: 일부 경험 + 조사). 다섯 단계, 넘길 일과 넘기지 않을 일의 경계, 지침 파일 예시. Vault 대상 실행은 미검증이고 확인 못 한 항목 네 가지를 명시 (성숙도: 탐색 중)</span></li>
+    <li><time>예정</time><span>작은 Vault 로 시험한 뒤 — 외부 편집 동작, 이름 변경 시 링크, 설정 파일 처리. 검증되면 practiced 로 올린다</span></li>
+  </ul>
+</section>

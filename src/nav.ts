@@ -26,7 +26,7 @@ export interface NavGroup {
 const PLANNED: Partial<Record<Track, string[]>> = {
   spec: ['에이전트가 실행할 수 있는 명세 쓰기'],
   solo: ['스키마로 규칙을 강제하기'],
-  knowledge: ['노트가 쌓이기만 하는 이유 — 헤매는 기록'],
+  knowledge: ['Canvas 는 언제 표보다 나은가'],
 };
 
 export function buildNav(entries: GuideEntry[]): NavGroup[] {
