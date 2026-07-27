@@ -31,7 +31,7 @@ export interface NavGroup {
 
 // 아직 글이 없는 트랙의 첫 글 후보. 글이 생기면 여기서 지운다(카테고리는 글에서 자란다).
 const PLANNED: Partial<Record<Track, string[]>> = {
-  spec: ['에이전트가 실행할 수 있는 명세 쓰기'],
+  spec: ['PRD 를 에이전트가 실행할 단위로 쪼개기'],
   solo: ['스키마로 규칙을 강제하기'],
   knowledge: ['Canvas 는 언제 표보다 나은가'],
 };
