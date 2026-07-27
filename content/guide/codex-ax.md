@@ -2,6 +2,7 @@
 title: Codex를 AX 관점에서 쓰는 법
 track: agents
 type: decision
+basis: practiced
 stage: 탐색 중
 updated: "2026-06-23"
 order: 3

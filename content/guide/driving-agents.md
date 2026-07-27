@@ -2,6 +2,7 @@
 title: 에이전트를 모는 법 — 프롬프트에서 루프로
 track: agents
 type: concept
+basis: practiced
 stage: 탐색 중
 updated: "2026-06-23"
 order: 1

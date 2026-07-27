@@ -2,6 +2,7 @@
 title: MCP는 AX에서 어떤 의미가 있는가
 track: agents
 type: concept
+basis: practiced
 stage: 탐색 중
 updated: "2026-06-23"
 order: 5

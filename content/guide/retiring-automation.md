@@ -2,6 +2,7 @@
 title: 운영 자동화는 언제 폐기해야 하나
 track: ax
 type: decision
+basis: mixed
 stage: 탐색 중
 updated: "2026-06-23"
 order: 9

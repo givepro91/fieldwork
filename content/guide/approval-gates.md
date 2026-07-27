@@ -2,6 +2,7 @@
 title: AI에 승인 게이트가 필요한 이유
 track: ax
 type: playbook
+basis: mixed
 stage: 탐색 중
 updated: "2026-06-23"
 order: 6

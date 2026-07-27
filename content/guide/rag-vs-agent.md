@@ -2,6 +2,7 @@
 title: RAG와 Agent Workflow의 차이
 track: ax
 type: concept
+basis: practiced
 stage: 탐색 중
 updated: "2026-06-23"
 order: 5

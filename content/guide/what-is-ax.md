@@ -2,6 +2,7 @@
 title: AX란 무엇인가
 track: ax
 type: concept
+basis: mixed
 stage: 탐색 중
 updated: "2026-06-22"
 order: 1

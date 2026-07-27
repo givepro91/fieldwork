@@ -2,6 +2,7 @@
 title: 어떤 업무 루프를 먼저 AX로 만들까
 track: ax
 type: decision
+basis: mixed
 stage: 탐색 중
 updated: "2026-06-23"
 order: 3

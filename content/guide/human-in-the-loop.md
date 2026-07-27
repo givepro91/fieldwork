@@ -2,6 +2,7 @@
 title: Human-in-the-loop — 사람이 "아니오"를 말할 자리
 track: ax
 type: playbook
+basis: mixed
 stage: 탐색 중
 updated: "2026-06-23"
 order: 7

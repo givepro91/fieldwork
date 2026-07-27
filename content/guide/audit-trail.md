@@ -2,6 +2,7 @@
 title: AI 자동화의 audit trail 설계
 track: ax
 type: playbook
+basis: mixed
 stage: 탐색 중
 updated: "2026-06-23"
 order: 8
