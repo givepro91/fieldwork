@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-28",
+  "items": [
+    {
+      "date": "2026-07-28",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 27 Jul 2026 03:30:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-28",
+      "title": "moonshotai/Kimi-K3",
+      "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-27T23:39:04+00:00",
+      "category": "AX · 블로그",
+      "summary": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face.…",
+      "tags": [
+        "rag",
+        "llm",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-28",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-27T21:55:53+00:00",
+      "category": "AX · 블로그",
+      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT,…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "gemini"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
