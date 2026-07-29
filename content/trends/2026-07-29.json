@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-29",
+  "items": [
+    {
+      "date": "2026-07-29",
+      "title": "v0.120.2",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-28T17:38:09Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.120.2 (2026-07-28) Full Changelog: v0.120.1...v0.120.2 Bug Fixes mcp: support mcp sdk v2 alongside v1 ( #300 ) ( 177f88c )",
+      "tags": [
+        "mcp"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "v0.120.1",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.1",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-28T16:37:33Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.120.1 (2026-07-28) Full Changelog: v0.120.0...v0.120.1 Bug Fixes mcp: pin mcp extra to <2 ( #1783 ) ( fb66371 )",
+      "tags": [
+        "mcp"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 28 Jul 2026 17:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "2026.6.16",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-16T14:53:11Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.16",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-28T22:45:37+00:00",
+      "category": "AX · 블로그",
+      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in…",
+      "tags": [
+        "rag",
+        "llm",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Quoting Akshat Bubna",
+      "url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-28T22:05:55+00:00",
+      "category": "AX · 블로그",
+      "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue…",
+      "tags": [
+        "agent",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "uv 0.12.0",
+      "url": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-28T21:51:38+00:00",
+      "category": "AX · 블로그",
+      "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-28T21:28:54+00:00",
+      "category": "AX · 블로그",
+      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
