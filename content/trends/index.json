@@ -1,6 +1,104 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "items": [
+    {
+      "date": "2026-07-31",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 30 Jul 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "tags": [
+        "openai",
+        "model",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-30T23:58:42+00:00",
+      "category": "AX · 블로그",
+      "summary": "Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-30T23:41:29+00:00",
+      "category": "AX · 블로그",
+      "summary": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited…",
+      "tags": [
+        "eval",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-31",
+      "title": "llm 0.32rc2",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-30T22:52:06+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm 0.32rc2 Hot on the heels of RC1 , this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is…",
+      "tags": [
+        "llm",
+        "openai",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Quoting Bruce Schneier",
+      "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-30T18:25:26+00:00",
+      "category": "AX · 블로그",
+      "summary": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the…",
+      "tags": [
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-07-31",
+      "title": "llm-chat-completions-server 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-07-30T15:43:16+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each…",
+      "tags": [
+        "llm",
+        "openai",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-07-30",
       "title": "v2.1.217",
@@ -517,99 +615,6 @@
         "mcp",
         "model",
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-24",
-      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
-      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-23T22:53:08+00:00",
-      "category": "AX · 블로그",
-      "summary": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of…",
-      "tags": [
-        "agent",
-        "llm",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Quoting Seth Larson",
-      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-23T04:50:36+00:00",
-      "category": "AX · 블로그",
-      "summary": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable…",
-      "tags": [
-        "workflow",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-23",
-      "title": "v0.118.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.118.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-22T16:43:45Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.118.0 (2026-07-22) Full Changelog: v0.117.1...v0.118.0 Features api: add support for Managed Agents model effort, initial session events, and threads delta streaming ( 712bc6f )",
-      "tags": [
-        "agent",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-23",
-      "title": "v2.1.218",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-22T21:24:56Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Changed /code-review to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review target Added…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 22 Jul 2026 13:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-23",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 22 Jul 2026 13:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "tags": [
-        "openai",
-        "tool"
       ],
       "keyPoints": []
     }
