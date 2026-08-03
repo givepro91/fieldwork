@@ -1,6 +1,82 @@
 {
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "items": [
+    {
+      "date": "2026-08-03",
+      "title": "v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-25T01:35:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-03",
+      "title": "condense-json 1.0",
+      "url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-02T22:19:59+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive…",
+      "tags": [
+        "llm",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Open letters about AI development",
+      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-02T04:16:52+00:00",
+      "category": "AX · 블로그",
+      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well.…",
+      "tags": [
+        "eval",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-03",
+      "title": "July 2026 newsletter",
+      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-02T04:12:41+00:00",
+      "category": "AX · 블로그",
+      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental…",
+      "tags": [
+        "mcp",
+        "claude",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-02",
       "title": "v0.120.0",
@@ -541,79 +617,6 @@
       "tags": [
         "llm",
         "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-30",
-      "title": "Adding a custom MCP server to Claude and ChatGPT",
-      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-07-29T00:13:18+00:00",
-      "category": "AX · 블로그",
-      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.…",
-      "tags": [
-        "mcp",
-        "llm",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-29",
-      "title": "v0.120.2",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-28T17:38:09Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.120.2 (2026-07-28) Full Changelog: v0.120.1...v0.120.2 Bug Fixes mcp: support mcp sdk v2 alongside v1 ( #300 ) ( 177f88c )",
-      "tags": [
-        "mcp"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-29",
-      "title": "v0.120.1",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.1",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-28T16:37:33Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.120.1 (2026-07-28) Full Changelog: v0.120.0...v0.120.1 Bug Fixes mcp: pin mcp extra to <2 ( #1783 ) ( fb66371 )",
-      "tags": [
-        "mcp"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Scientific computing in the age of agentic AI",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 28 Jul 2026 17:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "tags": [
-        "agent"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-07-29",
-      "title": "2026.6.16",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-16T14:53:11Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.16",
-      "tags": [
-        "release"
       ],
       "keyPoints": []
     }
