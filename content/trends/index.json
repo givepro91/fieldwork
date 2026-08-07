@@ -1,6 +1,86 @@
 {
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "items": [
+    {
+      "date": "2026-08-07",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 06 Aug 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 06 Aug 2026 06:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-07",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 06 Aug 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-07",
+      "title": "datasette 1.0a38",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-06T18:24:34+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-07",
+      "title": "datasette 0.65.3",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-06T18:22:07+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38 . Tags: datasette",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Simon Willison on Technical Blogging",
+      "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-06T18:04:39+00:00",
+      "category": "AX · 블로그",
+      "summary": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview…",
+      "tags": [],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-06",
       "title": "v2.1.223",
@@ -530,99 +610,6 @@
         "mcp",
         "model",
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-02",
-      "title": "2026.6.3",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-04T01:19:41Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.3",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-02",
-      "title": "Release 2026.1.26",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-01-27T12:11:26Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.1.26 Updated packages @modelcontextprotocol/server-everything@2026.1.26 @modelcontextprotocol/server-memory@2026.1.26 mcp-server-time@2026.1.26",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-02",
-      "title": "Quoting Greg Brockman",
-      "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-01T22:29:44+00:00",
-      "category": "AX · 블로그",
-      "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly…",
-      "tags": [
-        "llm",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-02",
-      "title": "datasette-apps 0.2a0",
-      "url": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-01T21:23:56+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly)…",
-      "tags": [
-        "agent",
-        "tool",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-02",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-01T20:34:49+00:00",
-      "category": "AX · 블로그",
-      "summary": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending…",
-      "tags": [
-        "llm",
-        "claude",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-01",
-      "title": "v0.118.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.118.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-22T16:43:45Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.118.0 (2026-07-22) Full Changelog: v0.117.1...v0.118.0 Features api: add support for Managed Agents model effort, initial session events, and threads delta streaming ( 712bc6f )",
-      "tags": [
-        "agent",
-        "model"
       ],
       "keyPoints": []
     }
