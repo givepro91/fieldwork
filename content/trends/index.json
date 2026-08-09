@@ -1,6 +1,132 @@
 {
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "items": [
+    {
+      "date": "2026-08-09",
+      "title": "v0.120.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-24T16:32:34Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c )…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "v0.119.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.119.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-23T17:34:23Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.119.0 (2026-07-23) Full Changelog: v0.118.0...v0.119.0 Features api: add new stop reason 'model_context_window_exceeded' ( d983cde ) Bug Fixes tools: handle binary files in…",
+      "tags": [
+        "agent",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "v2.1.226",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-08T02:48:05Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "v2.1.225",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-08T01:09:26Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-08T22:36:03+00:00",
+      "category": "AX · 블로그",
+      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the…",
+      "tags": [
+        "agent",
+        "eval",
+        "rag",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-08T14:06:41+00:00",
+      "category": "AX · 블로그",
+      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face &mdash; Hacker News. I think one of the most interesting details here might be tucked…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-08",
       "title": "v0.121.0",
@@ -485,129 +611,6 @@
       "summary": "0.120.1 (2026-07-28) Full Changelog: v0.120.0...v0.120.1 Bug Fixes mcp: pin mcp extra to <2 ( #1783 ) ( fb66371 )",
       "tags": [
         "mcp"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "v2.1.221",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-04T00:14:23Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed [VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 03 Aug 2026 07:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "tags": [
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "url": "https://openai.com/index/circles",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 03 Aug 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "2026.6.16",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-16T14:53:11Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.16",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Quoting Steve Yegge",
-      "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-04T00:42:45+00:00",
-      "category": "AX · 블로그",
-      "summary": "Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly.…",
-      "tags": [
-        "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Don't be a meat proxy",
-      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-03T23:45:04+00:00",
-      "category": "AX · 블로그",
-      "summary": "Don&#x27;t be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means,…",
-      "tags": [
-        "llm",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Quoting David Crawshaw's prompt",
-      "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-03T16:15:27+00:00",
-      "category": "AX · 블로그",
-      "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the and rebase all local changes on top of upstream. Check that the software works as intended and…",
-      "tags": [
-        "agent",
-        "llm",
-        "tool",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Devtools must be open source (exe.dev)",
-      "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-03T15:30:38+00:00",
-      "category": "AX · 블로그",
-      "summary": "My comment on Devtools must be open source (exe.dev) &mdash; Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and…",
-      "tags": [
-        "llm",
-        "claude",
-        "tool",
-        "prompt"
       ],
       "keyPoints": []
     }

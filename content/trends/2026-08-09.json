@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-09",
+  "items": [
+    {
+      "date": "2026-08-09",
+      "title": "v0.120.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-24T16:32:34Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c )…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "v0.119.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.119.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-23T17:34:23Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.119.0 (2026-07-23) Full Changelog: v0.118.0...v0.119.0 Features api: add new stop reason 'model_context_window_exceeded' ( d983cde ) Bug Fixes tools: handle binary files in…",
+      "tags": [
+        "agent",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "v2.1.226",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-08T02:48:05Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "v2.1.225",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-08T01:09:26Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-08T22:36:03+00:00",
+      "category": "AX · 블로그",
+      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the…",
+      "tags": [
+        "agent",
+        "eval",
+        "rag",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-08T14:06:41+00:00",
+      "category": "AX · 블로그",
+      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face &mdash; Hacker News. I think one of the most interesting details here might be tucked…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
