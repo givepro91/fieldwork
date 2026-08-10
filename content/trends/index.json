@@ -1,6 +1,68 @@
 {
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "items": [
+    {
+      "date": "2026-08-10",
+      "title": "2026.6.16",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-16T14:53:11Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.16",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Quoting Claude Opus 5 system prompt",
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-09T23:31:39+00:00",
+      "category": "AX · 블로그",
+      "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce…",
+      "tags": [
+        "llm",
+        "claude",
+        "model",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-10",
+      "title": "GitHub Models is now retired",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-09T22:48:05+00:00",
+      "category": "AX · 블로그",
+      "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is…",
+      "tags": [
+        "agent",
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-10",
+      "title": "SQLite compressed text-history prototypes",
+      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-09T22:05:00+00:00",
+      "category": "AX · 블로그",
+      "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a…",
+      "tags": [
+        "prompt"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-09",
       "title": "v0.120.0",
@@ -552,65 +614,6 @@
         "llm",
         "claude",
         "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-05",
-      "title": "PipeNetwork/minimax-h3-mlx",
-      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-04T19:10:09+00:00",
-      "category": "AX · 블로그",
-      "summary": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts…",
-      "tags": [
-        "model",
-        "prompt",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-05",
-      "title": "llm 0.32",
-      "url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-04T17:15:33+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm",
-      "tags": [
-        "llm",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "v0.120.2",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-28T17:38:09Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.120.2 (2026-07-28) Full Changelog: v0.120.1...v0.120.2 Bug Fixes mcp: support mcp sdk v2 alongside v1 ( #300 ) ( 177f88c )",
-      "tags": [
-        "mcp"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-04",
-      "title": "v0.120.1",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.1",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-28T16:37:33Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.120.1 (2026-07-28) Full Changelog: v0.120.0...v0.120.1 Bug Fixes mcp: pin mcp extra to <2 ( #1783 ) ( fb66371 )",
-      "tags": [
-        "mcp"
       ],
       "keyPoints": []
     }
