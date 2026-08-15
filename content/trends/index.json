@@ -1,6 +1,118 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "items": [
+    {
+      "date": "2026-08-15",
+      "title": "v0.121.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-07T17:10:51Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.121.0 (2026-08-07) Full Changelog: v0.120.2...v0.121.0 Features api: add mid-conversation-tool-changes-2026-07-01 beta ( c7d1531 ) api: add support for session budgets, advisor…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "v2.1.233",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-14T22:20:57Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N ) Added an opt-in forward_user_identity apps…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "2026.6.3",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-04T01:19:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.3",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Don't classify. Hallucinate!",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-14T21:54:35+00:00",
+      "category": "AX · 블로그",
+      "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an…",
+      "tags": [
+        "rag",
+        "llm",
+        "model",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "llm-gemini 0.33",
+      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-13T19:37:34+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash ,…",
+      "tags": [
+        "llm",
+        "gemini",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-14",
       "title": "v0.122.0",
@@ -494,114 +606,6 @@
         "mcp",
         "llm",
         "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Quoting OpenClaw",
-      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-10T02:05:16+00:00",
-      "category": "AX · 블로그",
-      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've…",
-      "tags": [
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-10",
-      "title": "2026.6.16",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-16T14:53:11Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.16",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Quoting Claude Opus 5 system prompt",
-      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-09T23:31:39+00:00",
-      "category": "AX · 블로그",
-      "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce…",
-      "tags": [
-        "llm",
-        "claude",
-        "model",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-10",
-      "title": "GitHub Models is now retired",
-      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-09T22:48:05+00:00",
-      "category": "AX · 블로그",
-      "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is…",
-      "tags": [
-        "agent",
-        "llm",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-10",
-      "title": "SQLite compressed text-history prototypes",
-      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-09T22:05:00+00:00",
-      "category": "AX · 블로그",
-      "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a…",
-      "tags": [
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-09",
-      "title": "v0.120.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-24T16:32:34Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c )…",
-      "tags": [
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-09",
-      "title": "v0.119.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.119.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-23T17:34:23Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.119.0 (2026-07-23) Full Changelog: v0.118.0...v0.119.0 Features api: add new stop reason 'model_context_window_exceeded' ( d983cde ) Bug Fixes tools: handle binary files in…",
-      "tags": [
-        "agent",
-        "model",
-        "tool"
       ],
       "keyPoints": []
     }

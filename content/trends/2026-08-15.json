@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-15",
+  "items": [
+    {
+      "date": "2026-08-15",
+      "title": "v0.121.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-07T17:10:51Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.121.0 (2026-08-07) Full Changelog: v0.120.2...v0.121.0 Features api: add mid-conversation-tool-changes-2026-07-01 beta ( c7d1531 ) api: add support for session budgets, advisor…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "v2.1.233",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-14T22:20:57Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N ) Added an opt-in forward_user_identity apps…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "2026.6.3",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-04T01:19:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.3",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Don't classify. Hallucinate!",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-14T21:54:35+00:00",
+      "category": "AX · 블로그",
+      "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an…",
+      "tags": [
+        "rag",
+        "llm",
+        "model",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "llm-gemini 0.33",
+      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-13T19:37:34+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash ,…",
+      "tags": [
+        "llm",
+        "gemini",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
