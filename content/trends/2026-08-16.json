@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-16",
+  "items": [
+    {
+      "date": "2026-08-16",
+      "title": "v0.120.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-07-24T16:32:34Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c )…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-16",
+      "title": "2026.6.16",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-16T14:53:11Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.16",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Northern Gannet",
+      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-15T03:22:00+00:00",
+      "category": "AX · 블로그",
+      "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They…",
+      "tags": [],
+      "keyPoints": []
+    }
+  ]
+}
