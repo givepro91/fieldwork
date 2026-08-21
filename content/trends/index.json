@@ -1,6 +1,129 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "items": [
+    {
+      "date": "2026-08-21",
+      "title": "v1.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-20T19:58:48Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client:…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "v0.122.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-13T18:35:49Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.122.0 (2026-08-13) Full Changelog: v0.121.0...v0.122.0 Features api: add output_behavior to dream creation (create a new memory store or update the input store in place) (…",
+      "tags": [
+        "llm",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "v2.1.238",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-20T20:33:51Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added a keybindingFlavor setting: set it to \"readline\" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default ( \"classic\" ) is…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "v2.1.237",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-20T00:54:41Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and…",
+      "tags": [
+        "llm",
+        "claude",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "url": "https://openai.com/index/stampli",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 20 Aug 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-20T23:57:32+00:00",
+      "category": "AX · 블로그",
+      "summary": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where…",
+      "tags": [
+        "rag",
+        "claude",
+        "openai",
+        "gemini"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-21",
+      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-20T15:37:00+00:00",
+      "category": "AX · 블로그",
+      "summary": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-20",
       "title": "v0.125.0",
@@ -467,130 +590,6 @@
       "summary": "Release 2026.6.16",
       "tags": [
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Northern Gannet",
-      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-15T03:22:00+00:00",
-      "category": "AX · 블로그",
-      "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "v0.121.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-07T17:10:51Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.121.0 (2026-08-07) Full Changelog: v0.120.2...v0.121.0 Features api: add mid-conversation-tool-changes-2026-07-01 beta ( c7d1531 ) api: add support for session budgets, advisor…",
-      "tags": [
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "v2.1.233",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-14T22:20:57Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N ) Added an opt-in forward_user_identity apps…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "2026.6.3",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-04T01:19:41Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.3",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "Don't classify. Hallucinate!",
-      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-14T21:54:35+00:00",
-      "category": "AX · 블로그",
-      "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an…",
-      "tags": [
-        "rag",
-        "llm",
-        "model",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-15",
-      "title": "llm-gemini 0.33",
-      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-13T19:37:34+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash ,…",
-      "tags": [
-        "llm",
-        "gemini",
-        "model",
-        "tool"
       ],
       "keyPoints": []
     }
