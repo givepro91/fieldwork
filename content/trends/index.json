@@ -1,6 +1,132 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "items": [
+    {
+      "date": "2026-08-22",
+      "title": "v2.1.239",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-21T19:54:23Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Cost estimates ( /cost , status line, --max-budget-usd ) now include the 1.1× US-only-inference premium for data-residency workspaces Added the one-time fullscreen…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "2026.6.3",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-04T01:19:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.3",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-21T17:16:13+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that…",
+      "tags": [
+        "llm",
+        "openai",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-21T16:58:19+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with…",
+      "tags": [
+        "llm",
+        "model",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Stop Making TUIs",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-21T16:07:32+00:00",
+      "category": "AX · 블로그",
+      "summary": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a…",
+      "tags": [
+        "agent",
+        "llm",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Quoting Matt Webb",
+      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-21T15:06:26+00:00",
+      "category": "AX · 블로그",
+      "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With…",
+      "tags": [
+        "llm",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-21",
       "title": "v1.0.0",
@@ -472,124 +598,6 @@
       "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
       "tags": [
         "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-17T23:58:14+00:00",
-      "category": "AX · 블로그",
-      "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813…",
-      "tags": [
-        "llm",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-18",
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-17T15:21:29+00:00",
-      "category": "AX · 블로그",
-      "summary": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book…",
-      "tags": [
-        "rag"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Markdown SVG upgrades",
-      "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-16T23:59:37+00:00",
-      "category": "AX · 블로그",
-      "summary": "I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for…",
-      "tags": [
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-16T22:00:39+00:00",
-      "category": "AX · 블로그",
-      "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an…",
-      "tags": [
-        "agent",
-        "llm",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Quoting Dario Amodei",
-      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-16T15:05:36+00:00",
-      "category": "AX · 블로그",
-      "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-17",
-      "title": "CORS Chat",
-      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-15T14:49:54+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web…",
-      "tags": [
-        "llm",
-        "openai",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-16",
-      "title": "v0.120.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-07-24T16:32:34Z",
-      "category": "Anthropic / Claude",
-      "summary": "0.120.0 (2026-07-24) Full Changelog: v0.119.0...v0.120.0 Features api: add claude-opus-5 model ( bf4e31c ) api: add tool addition/removal blocks and tool_change events ( bf4e31c )…",
-      "tags": [
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-16",
-      "title": "2026.6.16",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-16T14:53:11Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.16",
-      "tags": [
-        "release"
       ],
       "keyPoints": []
     }
