@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-24",
+  "items": [
+    {
+      "date": "2026-08-24",
+      "title": "v2.1.241",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-23T00:52:16Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-23T20:24:52+00:00",
+      "category": "AX · 블로그",
+      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":…",
+      "tags": [
+        "llm",
+        "claude",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Quoting Drew Breunig",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-23T19:55:30+00:00",
+      "category": "AX · 블로그",
+      "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over…",
+      "tags": [
+        "llm",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
