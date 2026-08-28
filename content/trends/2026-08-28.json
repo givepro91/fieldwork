@@ -1,0 +1,120 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    {
+      "date": "2026-08-28",
+      "title": "v1.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-27T20:28:58Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.2.0 (2026-08-27) Full Changelog: v1.1.0...v1.2.0 Features api: beta files/skills namespaces use GA shapes; drop dated beta header pins ( 9df4565 ) Bug Fixes aws,bedrock: sign…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "v0.125.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.125.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-19T22:00:31Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.125.0 (2026-08-19) Full Changelog: v0.124.0...v0.125.0 Features api: managed agents web search config and self hosted sandbox memory ( b75afd6 )",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "v0.124.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.124.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-19T16:51:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "0.124.0 (2026-08-19) Full Changelog: v0.123.0...v0.124.0 Features api: Files and Skills APIs are now GA; add computer use and browser use toolsets ( 9a09e84 )",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "v2.1.250",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-28T00:49:16Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "v2.1.248",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-27T22:12:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1 ): removes the built-in tools that run commands or code and WebFetch (unless named in --tools ), keeps file tools…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 27 Aug 2026 09:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 27 Aug 2026 03:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-27T22:50:25+00:00",
+      "category": "AX · 블로그",
+      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "prompt"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
