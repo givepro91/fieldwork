@@ -1,6 +1,83 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "items": [
+    {
+      "date": "2026-08-29",
+      "title": "v1.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-20T19:58:48Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client:…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "v2.1.251",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-28T18:19:32Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 28 Aug 2026 06:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 28 Aug 2026 02:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-28T22:12:02+00:00",
+      "category": "AX · 블로그",
+      "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-28",
       "title": "v1.2.0",
@@ -507,83 +584,6 @@
         "openai",
         "model",
         "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-23",
-      "title": "More than just code review",
-      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-22T15:56:54+00:00",
-      "category": "AX · 블로그",
-      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes…",
-      "tags": [
-        "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-22",
-      "title": "v2.1.239",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-21T19:54:23Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Cost estimates ( /cost , status line, --max-budget-usd ) now include the 1.1× US-only-inference premium for data-residency workspaces Added the one-time fullscreen…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-22",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-22",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-22",
-      "title": "2026.6.3",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-04T01:19:41Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.3",
-      "tags": [
-        "release"
       ],
       "keyPoints": []
     }

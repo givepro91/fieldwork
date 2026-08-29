@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-29",
+  "items": [
+    {
+      "date": "2026-08-29",
+      "title": "v1.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-20T19:58:48Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client:…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "v2.1.251",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-28T18:19:32Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 28 Aug 2026 06:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 28 Aug 2026 02:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-28T22:12:02+00:00",
+      "category": "AX · 블로그",
+      "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
