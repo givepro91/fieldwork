@@ -1,6 +1,37 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "items": [
+    {
+      "date": "2026-08-31",
+      "title": "2026.6.16",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-16T14:53:11Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.16",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-30T23:59:47+00:00",
+      "category": "AX · 블로그",
+      "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-30",
       "title": "Release 2026.7.10",
@@ -556,39 +587,6 @@
       "category": "Anthropic / Claude",
       "summary": "What's changed Bug fixes and reliability improvements",
       "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-24",
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-23T20:24:52+00:00",
-      "category": "AX · 블로그",
-      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":…",
-      "tags": [
-        "llm",
-        "claude",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-24",
-      "title": "Quoting Drew Breunig",
-      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-23T19:55:30+00:00",
-      "category": "AX · 블로그",
-      "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over…",
-      "tags": [
-        "llm",
-        "claude",
-        "model"
-      ],
       "keyPoints": []
     }
   ]
