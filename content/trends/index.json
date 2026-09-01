@@ -1,6 +1,90 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "items": [
+    {
+      "date": "2026-09-01",
+      "title": "v2.1.252",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-31T19:46:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no…",
+      "tags": [
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-01",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 31 Aug 2026 04:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Release 2026.8.31",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-31T20:34:32Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Introducing wrapture",
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-31T23:59:36+00:00",
+      "category": "AX · 블로그",
+      "summary": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and…",
+      "tags": [
+        "agent",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Quoting Andrew Digby",
+      "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-08-31T22:25:02+00:00",
+      "category": "AX · 블로그",
+      "summary": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of…",
+      "tags": [],
+      "keyPoints": []
+    },
     {
       "date": "2026-08-31",
       "title": "2026.6.16",
@@ -500,92 +584,6 @@
       "publishedAt": "2026-08-25T22:59:30+00:00",
       "category": "AX · 블로그",
       "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-25",
-      "title": "v2.1.243",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-24T23:40:26Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added a Loops breakdown to /usage : per-loop run count, total tokens, tokens per run, and last run, so runaway or chatty /loop tasks are easy to spot Added…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 24 Aug 2026 12:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Release 2026.8.18",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-08-18T16:16:12Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-25",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-24T16:27:04+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches…",
-      "tags": [
-        "llm",
-        "claude",
-        "openai",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Your executable is a SQLite database",
-      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-24T11:38:15+00:00",
-      "category": "AX · 블로그",
-      "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-24",
-      "title": "v2.1.241",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-23T00:52:16Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Bug fixes and reliability improvements",
       "tags": [],
       "keyPoints": []
     }
