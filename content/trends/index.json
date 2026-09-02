@@ -1,6 +1,212 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "items": [
+    {
+      "date": "2026-09-02",
+      "title": "v1.3.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-01T17:36:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.3.0 (2026-09-01) Full Changelog: v1.2.0...v1.3.0 Features api: beta user profiles: add external_user_onboarded_at, remove relationship in favor of access_type ( 74080c3 ) api:…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "v2.1.258",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-01T22:33:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must…",
+      "tags": [
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "v2.1.257",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-01T17:53:52Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" ( timeFormat…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 01 Sep 2026 17:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "tags": [
+        "agent",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 01 Sep 2026 13:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "tags": [
+        "openai",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 01 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 01 Sep 2026 01:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Release 2026.8.18",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-18T16:16:12Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-01T23:57:28+00:00",
+      "category": "AX · 블로그",
+      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their…",
+      "tags": [
+        "llm",
+        "claude",
+        "gemini",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Codex bundles LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-01T19:03:01+00:00",
+      "category": "AX · 블로그",
+      "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of…",
+      "tags": [
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "GeoJSON Map Viewer",
+      "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-01T18:05:45+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and…",
+      "tags": [
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Quoting Tarn Adams",
+      "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-01T17:01:11+00:00",
+      "category": "AX · 블로그",
+      "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-01T14:59:18+00:00",
+      "category": "AX · 블로그",
+      "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in…",
+      "tags": [
+        "rag",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-01",
       "title": "v2.1.252",
@@ -384,207 +590,6 @@
         "tool",
         "workflow"
       ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "v2.1.247",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-26T23:06:39Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 26 Aug 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "tags": [
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 26 Aug 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "tags": [
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Qwen3.8-Flash-Next",
-      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-26T23:52:58+00:00",
-      "category": "AX · 블로그",
-      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty…",
-      "tags": [
-        "llm",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Quoting Paul Dix",
-      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-26T08:07:55+00:00",
-      "category": "AX · 블로그",
-      "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of…",
-      "tags": [
-        "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "v2.1.246",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-25T22:31:52Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. Bash(git * main) ), since they also match options inserted before the…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "v2.1.245",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-25T05:13:24Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 25 Aug 2026 07:05:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "tags": [
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "tags": [
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 25 Aug 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 25 Aug 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-26",
-      "title": "EVE Online: The Move to Python 3 Begins!",
-      "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-25T22:59:30+00:00",
-      "category": "AX · 블로그",
-      "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on…",
-      "tags": [],
       "keyPoints": []
     }
   ]
