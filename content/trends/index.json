@@ -1,6 +1,85 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "items": [
+    {
+      "date": "2026-09-03",
+      "title": "v2.1.259",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-02T22:33:51Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json ); entries that name a command…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-03",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 02 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-03",
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-02T16:39:38+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved…",
+      "tags": [
+        "agent",
+        "llm",
+        "gemini",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-02T14:16:42+00:00",
+      "category": "AX · 블로그",
+      "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they…",
+      "tags": [
+        "rag",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-02T05:50:57+00:00",
+      "category": "AX · 블로그",
+      "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-02",
       "title": "v1.3.0",
@@ -514,82 +593,6 @@
       "category": "Anthropic / Claude",
       "summary": "What's changed Bug fixes and reliability improvements",
       "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-28",
-      "title": "v2.1.248",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-27T22:12:20Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1 ): removes the built-in tools that run commands or code and WebFetch (unless named in --tools ), keeps file tools…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 27 Aug 2026 09:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 27 Aug 2026 03:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-08-27T22:50:25+00:00",
-      "category": "AX · 블로그",
-      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-08-27",
-      "title": "v1.1.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-26T17:14:40Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) ( eb4a73f ) api: add missing anthropic-beta values ( dbebd15 ) api: add…",
-      "tags": [
-        "agent",
-        "tool",
-        "workflow"
-      ],
       "keyPoints": []
     }
   ]
