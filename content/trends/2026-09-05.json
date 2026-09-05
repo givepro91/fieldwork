@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-05",
+  "items": [
+    {
+      "date": "2026-09-05",
+      "title": "v1.4.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-04T22:20:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-05",
+      "title": "v1.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-27T20:28:58Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.2.0 (2026-08-27) Full Changelog: v1.1.0...v1.2.0 Features api: beta files/skills namespaces use GA shapes; drop dated beta header pins ( 9df4565 ) Bug Fixes aws,bedrock: sign…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-05",
+      "title": "v2.1.261",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-04T19:58:10Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the…",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-05",
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-04T23:59:05+00:00",
+      "category": "AX · 블로그",
+      "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra…",
+      "tags": [
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-05",
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-04T17:38:48+00:00",
+      "category": "AX · 블로그",
+      "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental…",
+      "tags": [
+        "agent",
+        "rag",
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-05",
+      "title": "August newsletter is out",
+      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-04T05:54:40+00:00",
+      "category": "AX · 블로그",
+      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details…",
+      "tags": [
+        "claude",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
