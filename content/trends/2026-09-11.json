@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "date": "2026-09-11",
+      "title": "v1.5.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-10T17:45:22Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.5.0 (2026-09-10) Full Changelog: v1.4.0...v1.5.0 Features api: add auto mode tool permissions for Managed Agents ( 62aa21b ) api: add content_too_large web_fetch tool error code…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "v1.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-27T20:28:58Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.2.0 (2026-08-27) Full Changelog: v1.1.0...v1.2.0 Features api: beta files/skills namespaces use GA shapes; drop dated beta header pins ( 9df4565 ) Bug Fixes aws,bedrock: sign…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "v1.1.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-26T17:14:40Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) ( eb4a73f ) api: add missing anthropic-beta values ( dbebd15 ) api: add…",
+      "tags": [
+        "agent",
+        "tool",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "v2.1.268",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-10T20:30:54Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 16:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 15:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Any Nix package, live in your browser",
+      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-10T23:44:15+00:00",
+      "category": "AX · 블로그",
+      "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-10T21:11:15+00:00",
+      "category": "AX · 블로그",
+      "summary": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you…",
+      "tags": [
+        "agent",
+        "llm"
+      ],
+      "keyPoints": []
+    }
+  ]
+}

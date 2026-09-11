@@ -1,6 +1,165 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "items": [
+    {
+      "date": "2026-09-11",
+      "title": "v1.5.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-10T17:45:22Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.5.0 (2026-09-10) Full Changelog: v1.4.0...v1.5.0 Features api: add auto mode tool permissions for Managed Agents ( 62aa21b ) api: add content_too_large web_fetch tool error code…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "v1.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-27T20:28:58Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.2.0 (2026-08-27) Full Changelog: v1.1.0...v1.2.0 Features api: beta files/skills namespaces use GA shapes; drop dated beta header pins ( 9df4565 ) Bug Fixes aws,bedrock: sign…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "v1.1.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-26T17:14:40Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) ( eb4a73f ) api: add missing anthropic-beta values ( dbebd15 ) api: add…",
+      "tags": [
+        "agent",
+        "tool",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "v2.1.268",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-10T20:30:54Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 16:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 15:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Any Nix package, live in your browser",
+      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-10T23:44:15+00:00",
+      "category": "AX · 블로그",
+      "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-10T21:11:15+00:00",
+      "category": "AX · 블로그",
+      "summary": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you…",
+      "tags": [
+        "agent",
+        "llm"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-10",
       "title": "v2.1.267",
@@ -413,167 +572,6 @@
       "summary": "Release 2026.6.16",
       "tags": [
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-06T23:57:40+00:00",
-      "category": "AX · 블로그",
-      "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay…",
-      "tags": [
-        "agent",
-        "llm",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-07",
-      "title": "The purpose of DNS is to spread scams",
-      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-06T14:40:07+00:00",
-      "category": "AX · 블로그",
-      "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-07",
-      "title": "There's No Limit to How Bad Code Can Get",
-      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-06T09:08:06+00:00",
-      "category": "AX · 블로그",
-      "summary": "My comment on There&#x27;s No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Quoting Zach Kehs",
-      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-06T08:42:49+00:00",
-      "category": "AX · 블로그",
-      "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-06",
-      "title": "v1.0.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-08-20T19:58:48Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client:…",
-      "tags": [
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-06",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 03 Sep 2026 11:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "tags": [
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Introducing GPT-6 Astra for developers",
-      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-05T23:27:48+00:00",
-      "category": "AX · 블로그",
-      "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better…",
-      "tags": [
-        "llm",
-        "openai",
-        "model",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Using Blender with coding agents on macOS",
-      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-05T15:51:09+00:00",
-      "category": "AX · 블로그",
-      "summary": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install…",
-      "tags": [
-        "agent",
-        "llm",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-05",
-      "title": "v1.4.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-04T22:20:20Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization…",
-      "tags": [
-        "claude",
-        "model",
-        "tool"
       ],
       "keyPoints": []
     }
