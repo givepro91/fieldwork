@@ -1,6 +1,70 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "items": [
+    {
+      "date": "2026-09-16",
+      "title": "v1.6.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-15T15:14:42Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.6.0 (2026-09-15) Full Changelog: v1.5.0...v1.6.0 Features api: add auto mode tool permissions for Managed Agents ( 909d92f ) api: add compaction parameter and signed compaction…",
+      "tags": [
+        "agent",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-16",
+      "title": "v1.3.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-01T17:36:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.3.0 (2026-09-01) Full Changelog: v1.2.0...v1.3.0 Features api: beta user profiles: add external_user_onboarded_at, remove relationship in favor of access_type ( 74080c3 ) api:…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-16",
+      "title": "v2.1.273",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-15T20:23:03Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "rag"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Gemini Live audio",
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-15T22:47:07+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live…",
+      "tags": [
+        "llm",
+        "openai",
+        "gemini",
+        "model"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-15",
       "title": "v2.1.272",
@@ -532,62 +596,6 @@
         "agent",
         "tool"
       ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Any Nix package, live in your browser",
-      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-10T23:44:15+00:00",
-      "category": "AX · 블로그",
-      "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Native is now the future of mobile at Shopify",
-      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-10T21:11:15+00:00",
-      "category": "AX · 블로그",
-      "summary": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you…",
-      "tags": [
-        "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-10",
-      "title": "v2.1.267",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-09T19:58:14Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings ): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-10",
-      "title": "The AI policy window is open. We need to act.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 09 Sep 2026 13:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "tags": [],
       "keyPoints": []
     }
   ]
