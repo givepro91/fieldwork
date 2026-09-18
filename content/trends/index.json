@@ -1,6 +1,127 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "items": [
+    {
+      "date": "2026-09-18",
+      "title": "v1.5.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-10T17:45:22Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.5.0 (2026-09-10) Full Changelog: v1.4.0...v1.5.0 Features api: add auto mode tool permissions for Managed Agents ( 62aa21b ) api: add content_too_large web_fetch tool error code…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "v1.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-08-27T20:28:58Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.2.0 (2026-08-27) Full Changelog: v1.1.0...v1.2.0 Features api: beta files/skills namespaces use GA shapes; drop dated beta header pins ( 9df4565 ) Bug Fixes aws,bedrock: sign…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "v2.1.275",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-17T22:33:17Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 17 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 17 Sep 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "tags": [
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-17T23:59:19+00:00",
+      "category": "AX · 블로그",
+      "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "How To Write With An LLM",
+      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-17T23:37:27+00:00",
+      "category": "AX · 블로그",
+      "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I…",
+      "tags": [
+        "llm",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-17T20:57:55+00:00",
+      "category": "AX · 블로그",
+      "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior…",
+      "tags": [
+        "agent",
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-17",
       "title": "v2.1.274",
@@ -475,127 +596,6 @@
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "tags": [
         "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "tags": [
-        "rag",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 11 Sep 2026 16:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-12T00:42:25+00:00",
-      "category": "AX · 블로그",
-      "summary": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the…",
-      "tags": [
-        "agent",
-        "llm",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "So you want to use OpenRouter?",
-      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-11T22:49:18+00:00",
-      "category": "AX · 블로그",
-      "summary": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you…",
-      "tags": [
-        "llm",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Quoting Boris Cherny",
-      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-11T17:47:11+00:00",
-      "category": "AX · 블로그",
-      "summary": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Feeling sad about AI",
-      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-11T17:28:37+00:00",
-      "category": "AX · 블로그",
-      "summary": "My comment on Feeling sad about AI &mdash; Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been…",
-      "tags": [
-        "agent",
-        "llm",
-        "tool"
       ],
       "keyPoints": []
     }
