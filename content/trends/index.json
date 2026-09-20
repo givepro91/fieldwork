@@ -1,6 +1,122 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "items": [
+    {
+      "date": "2026-09-20",
+      "title": "v1.4.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-04T22:20:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "v2.1.278",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-19T03:10:40Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge…",
+      "tags": [
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 18 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Release 2026.8.31",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-31T20:34:32Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Release 2026.8.18",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-18T16:16:12Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "2026.6.16",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-16T14:53:11Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.16",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "datasette-auth-github 1.0",
+      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-19T19:52:02+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It…",
+      "tags": [
+        "agent",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-20",
+      "title": "California Sea Lion, Brandt's Cormorant",
+      "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-19T17:10:08+00:00",
+      "category": "AX · 블로그",
+      "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind…",
+      "tags": [],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-19",
       "title": "v1.7.0",
@@ -480,124 +596,6 @@
         "openai",
         "gemini",
         "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-15",
-      "title": "v2.1.272",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-15T00:42:25Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-15",
-      "title": "v2.1.271",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-14T22:12:54Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your…",
-      "tags": [
-        "agent",
-        "mcp",
-        "llm",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-15",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 14 Sep 2026 12:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "tags": [
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-15",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-14T21:18:13+00:00",
-      "category": "AX · 블로그",
-      "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the…",
-      "tags": [
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-15",
-      "title": "What blog posts influenced your thinking the most?",
-      "url": "https://simonwillison.net/2026/Sep/14/influences/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-14T20:21:48+00:00",
-      "category": "AX · 블로그",
-      "summary": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start…",
-      "tags": [
-        "rag"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Quoting Laurie Voss",
-      "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-14T14:34:29+00:00",
-      "category": "AX · 블로그",
-      "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out…",
-      "tags": [
-        "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-14",
-      "title": "commit-rewriter 0.1",
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-14T00:28:10+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of…",
-      "tags": [
-        "agent",
-        "tool",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-14",
-      "title": "shot-scraper 1.12",
-      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-13T23:58:14+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper…",
-      "tags": [
-        "tool",
-        "release"
       ],
       "keyPoints": []
     }
