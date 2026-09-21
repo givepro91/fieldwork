@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "date": "2026-09-21",
+      "title": "Quoting voxium",
+      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-20T21:06:43+00:00",
+      "category": "AX · 블로그",
+      "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports,…",
+      "tags": [
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-21",
+      "title": "llm-keys-ui 0.1",
+      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-20T19:22:19+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone.…",
+      "tags": [
+        "agent",
+        "llm",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-21",
+      "title": "datasette-explain 0.2.2",
+      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-20T00:22:04+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
