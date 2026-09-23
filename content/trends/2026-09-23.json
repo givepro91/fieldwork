@@ -1,0 +1,192 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    {
+      "date": "2026-09-23",
+      "title": "v1.8.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-22T16:25:23Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.8.0 (2026-09-22) Full Changelog: v1.7.0...v1.8.0 Features api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) ( b5cc700 ) Bug Fixes…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "v1.6.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-15T15:14:42Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.6.0 (2026-09-15) Full Changelog: v1.5.0...v1.6.0 Features api: add auto mode tool permissions for Managed Agents ( 909d92f ) api: add compaction parameter and signed compaction…",
+      "tags": [
+        "agent",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "v2.1.280",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-22T16:38:14Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Claude Opus 5.5 ( claude-opus-5-5 ), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 22 Sep 2026 21:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "tags": [
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 22 Sep 2026 18:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 22 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "tags": [
+        "agent",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Priorities and principles for effective third party assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-22T23:46:41+00:00",
+      "category": "AX · 블로그",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "llm 0.36",
+      "url": "https://simonwillison.net/2026/Sep/22/llm/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-22T18:48:37+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only…",
+      "tags": [
+        "llm",
+        "openai",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Quoting @therealcornpop",
+      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-22T18:03:21+00:00",
+      "category": "AX · 블로그",
+      "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-22T17:14:55+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "tags": [
+        "llm",
+        "claude",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "llm-typesafe 0.1a0",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-22T15:54:16+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key (…",
+      "tags": [
+        "llm",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
