@@ -1,6 +1,152 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "items": [
+    {
+      "date": "2026-09-24",
+      "title": "v1.5.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-10T17:45:22Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.5.0 (2026-09-10) Full Changelog: v1.4.0...v1.5.0 Features api: add auto mode tool permissions for Managed Agents ( 62aa21b ) api: add content_too_large web_fetch tool error code…",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "v2.1.281",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-23T19:19:15Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 23 Sep 2026 16:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 23 Sep 2026 13:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Gemini 3.8 TTS Playground",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-23T17:12:27+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over…",
+      "tags": [
+        "claude",
+        "gemini",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Shadow roots, explained with live examples",
+      "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-23T16:37:18+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+      "tags": [
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-24",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-23T02:53:19+00:00",
+      "category": "AX · 블로그",
+      "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are…",
+      "tags": [
+        "agent",
+        "rag",
+        "llm"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-23",
       "title": "v1.8.0",
@@ -453,154 +599,6 @@
       "summary": "Release 2026.6.16",
       "tags": [
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "datasette-auth-github 1.0",
-      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-19T19:52:02+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It…",
-      "tags": [
-        "agent",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "California Sea Lion, Brandt's Cormorant",
-      "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-19T17:10:08+00:00",
-      "category": "AX · 블로그",
-      "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "v1.7.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-18T16:12:53Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.7.0 (2026-09-18) Full Changelog: v1.6.0...v1.7.0 Features api: add group with display_name to rate limits, deprecate group_type ( 28f0a83 ) tools: add compact_before_next_turn()…",
-      "tags": [
-        "mcp",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "v2.1.277",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-18T18:06:32Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock,…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "v2.1.276",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-18T02:12:26Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Fixed every request failing with 400 … Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "url": "https://openai.com/index/hex-gpt-6-astra",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Wed, 16 Sep 2026 12:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "tags": [
-        "agent"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-18T23:57:57+00:00",
-      "category": "AX · 블로그",
-      "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May…",
-      "tags": [
-        "llm",
-        "openai",
-        "gemini",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Note on 18th September 2026",
-      "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-18T19:21:32+00:00",
-      "category": "AX · 블로그",
-      "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the…",
-      "tags": [
-        "llm"
       ],
       "keyPoints": []
     }
