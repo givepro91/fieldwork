@@ -1,6 +1,115 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "items": [
+    {
+      "date": "2026-09-25",
+      "title": "v1.7.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-18T16:12:53Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.7.0 (2026-09-18) Full Changelog: v1.6.0...v1.7.0 Features api: add group with display_name to rate limits, deprecate group_type ( 28f0a83 ) tools: add compact_before_next_turn()…",
+      "tags": [
+        "mcp",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-25",
+      "title": "v2.1.282",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-24T18:38:05Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added a maxProseWidth setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width Added a startup notice, and…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-25",
+      "title": "v2.1.277",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-18T18:06:32Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock,…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Release 2026.7.4",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-04T23:05:56Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-25",
+      "title": "commit-rewriter 0.2",
+      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-24T20:06:53+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-25",
+      "title": "datasette 1.0a41",
+      "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-24T19:15:23+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-24",
       "title": "v1.5.0",
@@ -495,109 +604,6 @@
       "tags": [
         "agent",
         "llm",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-21",
-      "title": "datasette-explain 0.2.2",
-      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-20T00:22:04+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a…",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "v1.4.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-04T22:20:20Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization…",
-      "tags": [
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "v2.1.278",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-19T03:10:40Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge…",
-      "tags": [
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 18 Sep 2026 12:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Release 2026.8.31",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-08-31T20:34:32Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Release 2026.8.18",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-08-18T16:16:12Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-20",
-      "title": "2026.6.16",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-06-16T14:53:11Z",
-      "category": "GitHub · MCP",
-      "summary": "Release 2026.6.16",
-      "tags": [
         "release"
       ],
       "keyPoints": []
