@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "date": "2026-09-27",
+      "title": "Kākāpō Party",
+      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-26T23:39:06+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the…",
+      "tags": [
+        "llm",
+        "claude",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
