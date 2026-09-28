@@ -1,6 +1,49 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-27T23:54:15+00:00",
+      "category": "AX · 블로그",
+      "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological…",
+      "tags": [
+        "agent",
+        "eval",
+        "rag",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-28",
+      "title": "S3 Is the Future, S3 Is the Past",
+      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-27T23:09:19+00:00",
+      "category": "AX · 블로그",
+      "summary": "My comment on S3 Is the Future, S3 Is the Past &mdash; Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Bluesky reply bot checker",
+      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-27T18:41:44+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-09-27",
       "title": "Kākāpō Party",
@@ -558,51 +601,6 @@
         "openai",
         "model",
         "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Quoting @therealcornpop",
-      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-22T18:03:21+00:00",
-      "category": "AX · 블로그",
-      "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-23",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-22T17:14:55+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-      "tags": [
-        "llm",
-        "claude",
-        "prompt",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-23",
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-22T15:54:16+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key (…",
-      "tags": [
-        "llm",
-        "model",
-        "release"
       ],
       "keyPoints": []
     }
