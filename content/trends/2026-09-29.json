@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-29",
+  "items": [
+    {
+      "date": "2026-09-29",
+      "title": "v1.9.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-28T18:03:49Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.9.0 (2026-09-28) Full Changelog: v1.8.0...v1.9.0 Features api: add between_tools thinking type ( a9a577d ) api: add claude-sonnet-5-5 ( a5a25e9 ) api: add include_inherited and…",
+      "tags": [
+        "agent",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "v2.1.284",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-28T18:02:03Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Claude Sonnet 5.5 ( claude-sonnet-5-5 ), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads Added a…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-28T22:07:38+00:00",
+      "category": "AX · 블로그",
+      "summary": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to…",
+      "tags": [
+        "llm",
+        "claude",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Quoting @joedaroo",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-28T19:11:42+00:00",
+      "category": "AX · 블로그",
+      "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to…",
+      "tags": [
+        "agent",
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Quoting Muse AI Agent",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-09-28T04:01:30+00:00",
+      "category": "AX · 블로그",
+      "summary": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a…",
+      "tags": [
+        "agent",
+        "llm"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
