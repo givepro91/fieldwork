@@ -1,6 +1,100 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "items": [
+    {
+      "date": "2026-10-03",
+      "title": "v2.1.288",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-02T20:19:57Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "rag"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-03",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "tags": [
+        "model",
+        "tool",
+        "workflow",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 02 Oct 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "tags": [
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Release 2026.8.31",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-31T20:34:32Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Release 2026.8.18",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-18T16:16:12Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-03",
+      "title": "2026.6.16",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-06-16T14:53:11Z",
+      "category": "GitHub · MCP",
+      "summary": "Release 2026.6.16",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-02",
       "title": "v1.7.0",
@@ -505,99 +599,6 @@
       "summary": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a…",
       "tags": [
         "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-28",
-      "title": "2026 in LLMs (so far)",
-      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-27T23:54:15+00:00",
-      "category": "AX · 블로그",
-      "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological…",
-      "tags": [
-        "agent",
-        "eval",
-        "rag",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-28",
-      "title": "S3 Is the Future, S3 Is the Past",
-      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-27T23:09:19+00:00",
-      "category": "AX · 블로그",
-      "summary": "My comment on S3 Is the Future, S3 Is the Past &mdash; Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Bluesky reply bot checker",
-      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-27T18:41:44+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post…",
-      "tags": [
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-27",
-      "title": "Kākāpō Party",
-      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-26T23:39:06+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the…",
-      "tags": [
-        "llm",
-        "claude",
-        "tool",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-26",
-      "title": "v1.4.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-04T22:20:20Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.4.0 (2026-09-04) Full Changelog: v1.3.0...v1.4.0 Features api: add Claude Tag category and user breakdowns to usage reports ( 9fce1e4 ) api: add named types for organization…",
-      "tags": [
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-26",
-      "title": "v2.1.283",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-25T21:50:12Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
         "llm"
       ],
       "keyPoints": []
