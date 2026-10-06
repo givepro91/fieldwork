@@ -1,6 +1,83 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-06",
   "items": [
+    {
+      "date": "2026-10-06",
+      "title": "v2.1.290",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-05T23:33:17Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added serverToolUses to the result of a mod's turn.step hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end Added…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 05 Oct 2026 15:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 05 Oct 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "tags": [
+        "openai",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-05T23:56:47+00:00",
+      "category": "AX · 블로그",
+      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability,…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Qwen3.8 27B addition in words",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-04T23:34:00+00:00",
+      "category": "AX · 블로그",
+      "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but…",
+      "tags": [
+        "llm"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-04",
       "title": "v2.1.289",
@@ -526,80 +603,6 @@
         "llm",
         "openai"
       ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-29",
-      "title": "v1.9.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-28T18:03:49Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.9.0 (2026-09-28) Full Changelog: v1.8.0...v1.9.0 Features api: add between_tools thinking type ( a9a577d ) api: add claude-sonnet-5-5 ( a5a25e9 ) api: add include_inherited and…",
-      "tags": [
-        "agent",
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-29",
-      "title": "v2.1.284",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-28T18:02:03Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added Claude Sonnet 5.5 ( claude-sonnet-5-5 ), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads Added a…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-29",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-29",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 28 Sep 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the…",
-      "tags": [],
       "keyPoints": []
     }
   ]
