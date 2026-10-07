@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-07",
+  "items": [
+    {
+      "date": "2026-10-07",
+      "title": "v1.9.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-28T18:03:49Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.9.0 (2026-09-28) Full Changelog: v1.8.0...v1.9.0 Features api: add between_tools thinking type ( a9a577d ) api: add claude-sonnet-5-5 ( a5a25e9 ) api: add include_inherited and…",
+      "tags": [
+        "agent",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-06T18:59:30Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-06T03:55:19Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could…",
+      "tags": [
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "tags": [
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "tags": [
+        "agent",
+        "eval",
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 16:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-07T00:16:45+00:00",
+      "category": "AX · 블로그",
+      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of…",
+      "tags": [
+        "agent",
+        "llm",
+        "openai",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Quoting Victoria Kim",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T23:58:56+00:00",
+      "category": "AX · 블로그",
+      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in…",
+      "tags": [
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T23:04:13+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "llm-mistral 0.16",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T21:32:34+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+      "tags": [
+        "llm",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "EmbeddingGemma 2",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T20:37:53+00:00",
+      "category": "AX · 블로그",
+      "summary": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it…",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    }
+  ]
+}

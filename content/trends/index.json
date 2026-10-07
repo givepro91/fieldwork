@@ -1,6 +1,197 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "items": [
+    {
+      "date": "2026-10-07",
+      "title": "v1.9.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-09-28T18:03:49Z",
+      "category": "Anthropic / Claude",
+      "summary": "1.9.0 (2026-09-28) Full Changelog: v1.8.0...v1.9.0 Features api: add between_tools thinking type ( a9a577d ) api: add claude-sonnet-5-5 ( a5a25e9 ) api: add include_inherited and…",
+      "tags": [
+        "agent",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-06T18:59:30Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-06T03:55:19Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could…",
+      "tags": [
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "tags": [
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "tags": [
+        "agent",
+        "eval",
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 06 Oct 2026 16:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-07T00:16:45+00:00",
+      "category": "AX · 블로그",
+      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of…",
+      "tags": [
+        "agent",
+        "llm",
+        "openai",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Quoting Victoria Kim",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T23:58:56+00:00",
+      "category": "AX · 블로그",
+      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in…",
+      "tags": [
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T23:04:13+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "llm-mistral 0.16",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T21:32:34+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+      "tags": [
+        "llm",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-07",
+      "title": "EmbeddingGemma 2",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-06T20:37:53+00:00",
+      "category": "AX · 블로그",
+      "summary": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it…",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-06",
       "title": "v2.1.290",
@@ -420,187 +611,6 @@
       "category": "OpenAI · 모델사",
       "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
       "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-01",
-      "title": "He Built This City",
-      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-30T21:54:19+00:00",
-      "category": "AX · 블로그",
-      "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa…",
-      "tags": [
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Photo Scrubber — local face blur & metadata removal",
-      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-29T16:45:27+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with…",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "v1.8.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-22T16:25:23Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.8.0 (2026-09-22) Full Changelog: v1.7.0...v1.8.0 Features api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) ( b5cc700 ) Bug Fixes…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "v1.6.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-15T15:14:42Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.6.0 (2026-09-15) Full Changelog: v1.5.0...v1.6.0 Features api: add auto mode tool permissions for Managed Agents ( 909d92f ) api: add compaction parameter and signed compaction…",
-      "tags": [
-        "agent",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "v2.1.285",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-09-29T19:27:30Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "rag"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "tags": [
-        "openai",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 29 Sep 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Quoting Anthropic Frontier Red Team",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-29T22:20:28+00:00",
-      "category": "AX · 블로그",
-      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of…",
-      "tags": [
-        "eval",
-        "llm",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-29T18:27:48+00:00",
-      "category": "AX · 블로그",
-      "summary": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote:…",
-      "tags": [
-        "llm",
-        "openai",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-09-30",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-09-29T15:55:13+00:00",
-      "category": "AX · 블로그",
-      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and…",
-      "tags": [
-        "agent",
-        "llm",
         "openai"
       ],
       "keyPoints": []
