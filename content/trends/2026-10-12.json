@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "date": "2026-10-12",
+      "title": "v1.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-11T03:05:26Z",
+      "category": "GitHub · MCP",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm published…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "rag"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
