@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "date": "2026-10-17",
+      "title": "v1.12.1",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.1",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-08T03:41:38Z",
+      "category": "Anthropic / Claude",
+      "summary": "Chores ci: check that pull requests update the changelog docs: note that listing Claude Console spend limits is in early access internal: match the package version in uv.lock",
+      "tags": [
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-17",
+      "title": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-16T20:53:06Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an…",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-17",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 16 Oct 2026 19:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-16T22:06:37+00:00",
+      "category": "AX · 블로그",
+      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-17",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-15T02:07:28+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner,…",
+      "tags": [
+        "agent",
+        "rag",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
