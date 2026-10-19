@@ -1,6 +1,110 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "items": [
+    {
+      "date": "2026-10-19",
+      "title": "v1.13.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-09T15:28:52Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add types for the Chat and Cowork unified analytics metrics api: add workflows, multiagent configuration and thread status filtering to Managed Agents Chores…",
+      "tags": [
+        "agent",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-19",
+      "title": "v2.1.303",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-18T22:26:54Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-19",
+      "title": "v1.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-11T03:05:26Z",
+      "category": "GitHub · MCP",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm published…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "rag"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-19",
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-18T23:43:09+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it.…",
+      "tags": [
+        "llm",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-19",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-18T23:16:16+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve…",
+      "tags": [
+        "llm",
+        "model",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-17T21:11:12+00:00",
+      "category": "AX · 블로그",
+      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-19",
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-17T13:16:49+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via…",
+      "tags": [
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-18",
       "title": "v2.1.296",
@@ -503,116 +607,6 @@
         "rag",
         "llm",
         "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-14",
-      "title": "llm-gemini 0.35",
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-13T22:28:54+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-13T13:32:00+00:00",
-      "category": "AX · 블로그",
-      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that…",
-      "tags": [
-        "agent",
-        "llm",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-14",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-13T01:40:05+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling ,…",
-      "tags": [
-        "claude",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-14",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-12T23:58:46+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models -…",
-      "tags": [
-        "llm",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-12T18:15:38+00:00",
-      "category": "AX · 블로그",
-      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source…",
-      "tags": [
-        "llm",
-        "tool",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-13",
-      "title": "web-edit 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-12T15:54:36+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials…",
-      "tags": [
-        "agent",
-        "llm",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-13",
-      "title": "datasette-ports 0.4",
-      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-12T04:57:07+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as…",
-      "tags": [
-        "release"
       ],
       "keyPoints": []
     }
