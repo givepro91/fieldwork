@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "date": "2026-10-22",
+      "title": "v2.1.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T22:00:30Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add enforcement status, actions and filter to user profiles",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "v2.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T15:51:32Z",
+      "category": "Anthropic / Claude",
+      "summary": "⚠ BREAKING CHANGES api: add support for new API version 2026-10-21 Features api: add a workspace_id filter and the usage_tier scope type to list spend limits api: add support for…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "v2.1.307",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T22:17:02Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "v2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T03:16:31Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by…",
+      "tags": [
+        "mcp",
+        "claude",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 21:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "tags": [
+        "openai",
+        "gemini",
+        "model",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 13:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-21T18:41:53+00:00",
+      "category": "AX · 블로그",
+      "summary": "Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP…",
+      "tags": [
+        "gemini",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Panache — RTS Belle Époque pour mobile",
+      "url": "https://simonwillison.net/2026/Oct/21/panache/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-21T16:25:16+00:00",
+      "category": "AX · 블로그",
+      "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}

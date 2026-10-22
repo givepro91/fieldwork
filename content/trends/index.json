@@ -1,6 +1,165 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "items": [
+    {
+      "date": "2026-10-22",
+      "title": "v2.1.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T22:00:30Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add enforcement status, actions and filter to user profiles",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "v2.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T15:51:32Z",
+      "category": "Anthropic / Claude",
+      "summary": "⚠ BREAKING CHANGES api: add support for new API version 2026-10-21 Features api: add a workspace_id filter and the usage_tier scope type to list spend limits api: add support for…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "v2.1.307",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T22:17:02Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "v2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T03:16:31Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by…",
+      "tags": [
+        "mcp",
+        "claude",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 21:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "tags": [
+        "openai",
+        "gemini",
+        "model",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 21 Oct 2026 13:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-21T18:41:53+00:00",
+      "category": "AX · 블로그",
+      "summary": "Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP…",
+      "tags": [
+        "gemini",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Panache — RTS Belle Époque pour mobile",
+      "url": "https://simonwillison.net/2026/Oct/21/panache/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-21T16:25:16+00:00",
+      "category": "AX · 블로그",
+      "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-21",
       "title": "v1.17.0",
@@ -435,175 +594,6 @@
         "rag",
         "llm",
         "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "v1.15.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-15T19:45:15Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add between_tools to thinking types in model capabilities api: add the speed parameter and usage.speed to Messages api: return a Console organization's usage-tier…",
-      "tags": [
-        "agent",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "v1.12.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-07T17:57:07Z",
-      "category": "Anthropic / Claude",
-      "summary": "1.12.0 (2026-10-07) Full Changelog: v1.11.0...v1.12.0 Features api: add claude-haiku-5-5 and typed computer and browser toolset tool calls ( f6346e6 ) api: add disabled to…",
-      "tags": [
-        "agent",
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "v2.1.301",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-15T19:22:06Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far…",
-      "tags": [
-        "agent",
-        "mcp",
-        "llm",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 15 Oct 2026 19:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "tags": [
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 15 Oct 2026 13:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 15 Oct 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "tags": [
-        "openai",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Release 2026.7.4",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-04T23:05:56Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Chirp Pong",
-      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-15T19:47:52+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code…",
-      "tags": [
-        "llm",
-        "claude",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-15T13:04:03+00:00",
-      "category": "AX · 블로그",
-      "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's…",
-      "tags": [
-        "llm",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-15",
-      "title": "v1.14.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-14T17:13:08Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add execution_identity to Managed Agents agents api: add organization_type_not_supported error to spend limit lists api: add telemetry destination test endpoint api:…",
-      "tags": [
-        "agent",
-        "model",
-        "tool"
       ],
       "keyPoints": []
     }
