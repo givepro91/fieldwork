@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "date": "2026-10-23",
+      "title": "v1.15.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-15T19:45:15Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add between_tools to thinking types in model capabilities api: add the speed parameter and usage.speed to Messages api: return a Console organization's usage-tier…",
+      "tags": [
+        "agent",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "v2.1.309",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-22T22:18:57Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "v2.1.308",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-22T04:34:55Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 22 Oct 2026 19:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 22 Oct 2026 06:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 22 Oct 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "tags": [
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Release 2026.7.10",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-07-10T03:39:07Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-22T19:42:26+00:00",
+      "category": "AX · 블로그",
+      "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-22T18:09:56+00:00",
+      "category": "AX · 블로그",
+      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are…",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-22T15:34:13+00:00",
+      "category": "AX · 블로그",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security , generative-ai ,…",
+      "tags": [
+        "llm"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
