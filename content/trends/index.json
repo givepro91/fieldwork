@@ -1,6 +1,164 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "items": [
+    {
+      "date": "2026-10-24",
+      "title": "v2.3.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.3.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-23T23:18:22Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add Claude Tag endpoints for Claude Enterprise organizations Bug Fixes google-cloud: send user profiles requests to the organization endpoint Chores client: stop…",
+      "tags": [
+        "mcp",
+        "claude",
+        "tool",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "v2.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-23T13:10:10Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add support for message threads api: add usage and cost reports by dimension, mark older reports legacy Bug Fixes client: stop suggesting math.inf in the max_retries…",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-23T23:39:00Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 23 Oct 2026 17:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "tags": [
+        "rag",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 23 Oct 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "tags": [
+        "eval",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Release 2026.8.31",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-31T20:34:32Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Release 2026.8.18",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-18T16:16:12Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-23T21:35:13+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element…",
+      "tags": [
+        "claude",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-23T19:40:54+00:00",
+      "category": "AX · 블로그",
+      "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".…",
+      "tags": [
+        "llm",
+        "claude",
+        "openai",
+        "gemini"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-23",
       "title": "v1.15.0",
@@ -436,157 +594,6 @@
         "mcp",
         "llm",
         "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Advancing coding in low‑resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 19 Oct 2026 12:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "tags": [
-        "eval",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-20",
-      "title": "v2.0.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-19T06:47:49Z",
-      "category": "GitHub · MCP",
-      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package…",
-      "tags": [
-        "agent",
-        "mcp",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-20",
-      "title": "My obituary for programming",
-      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-19T23:58:25+00:00",
-      "category": "AX · 블로그",
-      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming…",
-      "tags": [
-        "agent",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "v1.13.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-09T15:28:52Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add types for the Chat and Cowork unified analytics metrics api: add workflows, multiagent configuration and thread status filtering to Managed Agents Chores…",
-      "tags": [
-        "agent",
-        "workflow"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "v2.1.303",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-18T22:26:54Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "v1.0.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-11T03:05:26Z",
-      "category": "GitHub · MCP",
-      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm published…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "rag"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-18T23:43:09+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it.…",
-      "tags": [
-        "llm",
-        "tool",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-18T23:16:16+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve…",
-      "tags": [
-        "llm",
-        "model",
-        "tool",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Inline rendering with document​.currentScript",
-      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-17T21:11:12+00:00",
-      "category": "AX · 블로그",
-      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-19",
-      "title": "web-edit 0.1a2",
-      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-17T13:16:49+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via…",
-      "tags": [
-        "prompt",
-        "release"
       ],
       "keyPoints": []
     }
