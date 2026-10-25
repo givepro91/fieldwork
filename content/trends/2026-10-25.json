@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "date": "2026-10-25",
+      "title": "v2.1.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-25T00:03:20Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and…",
+      "tags": [
+        "mcp",
+        "model",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-25",
+      "title": "v2.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-24T23:58:30Z",
+      "category": "GitHub · MCP",
+      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package…",
+      "tags": [
+        "agent",
+        "mcp",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-25",
+      "title": "v1.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-19T04:17:24Z",
+      "category": "GitHub · MCP",
+      "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "rag"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-25",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-24T03:59:57+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used:…",
+      "tags": [
+        "claude",
+        "model",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
