@@ -1,6 +1,159 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "items": [
+    {
+      "date": "2026-10-29",
+      "title": "v2.1.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T22:00:30Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add enforcement status, actions and filter to user profiles",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "v2.0.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T15:51:32Z",
+      "category": "Anthropic / Claude",
+      "summary": "⚠ BREAKING CHANGES api: add support for new API version 2026-10-21 Features api: add a workspace_id filter and the usage_tier scope type to list spend limits api: add support for…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 28 Oct 2026 13:15:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "tags": [
+        "agent",
+        "openai",
+        "model",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 28 Oct 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 28 Oct 2026 09:30:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "tags": [
+        "agent",
+        "openai",
+        "model",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "v2.2.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-28T20:57:13Z",
+      "category": "GitHub · MCP",
+      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates…",
+      "tags": [
+        "mcp",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-28T23:23:21+00:00",
+      "category": "AX · 블로그",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes.…",
+      "tags": [
+        "llm",
+        "openai",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "GitHub Octoverse 2026",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-28T16:45:23+00:00",
+      "category": "AX · 블로그",
+      "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report,…",
+      "tags": [
+        "agent",
+        "llm",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-28T13:55:15+00:00",
+      "category": "AX · 블로그",
+      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Quoting Terk Terkowitz",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-28T10:09:07+00:00",
+      "category": "AX · 블로그",
+      "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to…",
+      "tags": [
+        "agent",
+        "llm",
+        "tool"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-28",
       "title": "v1.17.0",
@@ -465,151 +618,6 @@
         "claude",
         "openai",
         "gemini"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "v1.15.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-15T19:45:15Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add between_tools to thinking types in model capabilities api: add the speed parameter and usage.speed to Messages api: return a Console organization's usage-tier…",
-      "tags": [
-        "agent",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "v2.1.309",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-22T22:18:57Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "v2.1.308",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-22T04:34:55Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Build more responsive apps with the Decisions API",
-      "url": "https://openai.com/index/decisions-api",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 22 Oct 2026 19:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Fast, focused, low-cost decisions for any application.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 22 Oct 2026 06:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "What forward deployed engineering means at OpenAI",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 22 Oct 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "tags": [
-        "openai",
-        "workflow"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Release 2026.7.10",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-07-10T03:39:07Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "DE STAAT - FREEDOM (Official Music Video)",
-      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-22T19:42:26+00:00",
-      "category": "AX · 블로그",
-      "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-22T18:09:56+00:00",
-      "category": "AX · 블로그",
-      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are…",
-      "tags": [
-        "agent",
-        "mcp",
-        "llm",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-22T15:34:13+00:00",
-      "category": "AX · 블로그",
-      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security , generative-ai ,…",
-      "tags": [
-        "llm"
       ],
       "keyPoints": []
     }
