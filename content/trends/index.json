@@ -1,6 +1,133 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "items": [
+    {
+      "date": "2026-10-30",
+      "title": "v2.1.314",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-30T01:06:26Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "v2.1.309",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-22T22:18:57Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 29 Oct 2026 17:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 29 Oct 2026 09:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "tags": [
+        "agent",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-29T22:48:29+00:00",
+      "category": "AX · 블로그",
+      "summary": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per…",
+      "tags": [
+        "llm",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-29T17:00:26+00:00",
+      "category": "AX · 블로그",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a…",
+      "tags": [
+        "agent",
+        "rag",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-29T14:06:27+00:00",
+      "category": "AX · 블로그",
+      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our…",
+      "tags": [
+        "agent",
+        "mcp",
+        "model"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-29",
       "title": "v2.1.0",
@@ -492,132 +619,6 @@
       "tags": [
         "model",
         "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "v2.1.310",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-23T23:39:00Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 23 Oct 2026 17:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "tags": [
-        "rag",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 23 Oct 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "tags": [
-        "eval",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 23 Oct 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Release 2026.8.31",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-08-31T20:34:32Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Release 2026.8.18",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-08-18T16:16:12Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
-      "tags": [
-        "mcp",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Quick Study",
-      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-23T21:35:13+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element…",
-      "tags": [
-        "claude",
-        "tool",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Introducing Kimi K3.1 Pro",
-      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-23T19:40:54+00:00",
-      "category": "AX · 블로그",
-      "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".…",
-      "tags": [
-        "llm",
-        "claude",
-        "openai",
-        "gemini"
       ],
       "keyPoints": []
     }
