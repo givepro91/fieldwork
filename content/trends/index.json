@@ -1,6 +1,114 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "items": [
+    {
+      "date": "2026-10-31",
+      "title": "v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-31T01:01:35Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off Added pooled group budgets to the Claude apps gateway: one monthly budget that a…",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-31",
+      "title": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-23T23:39:00Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 30 Oct 2026 09:30:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 30 Oct 2026 09:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Release 2026.8.31",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-08-31T20:34:32Z",
+      "category": "GitHub · MCP",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
+      "tags": [
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-10-31",
+      "title": "dbreunig/nesformer",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-10-30T21:59:22+00:00",
+      "category": "AX · 블로그",
+      "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B.…",
+      "tags": [
+        "llm",
+        "model",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-10-30",
       "title": "v2.1.314",
@@ -503,121 +611,6 @@
         "eval",
         "rag",
         "claude",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Seam Cutter",
-      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-25T15:10:19+00:00",
-      "category": "AX · 블로그",
-      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each…",
-      "tags": [
-        "tool",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-25",
-      "title": "v2.1.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-25T00:03:20Z",
-      "category": "GitHub · MCP",
-      "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and…",
-      "tags": [
-        "mcp",
-        "model",
-        "tool",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-25",
-      "title": "v2.0.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-24T23:58:30Z",
-      "category": "GitHub · MCP",
-      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package…",
-      "tags": [
-        "agent",
-        "mcp",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-25",
-      "title": "v1.0.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-19T04:17:24Z",
-      "category": "GitHub · MCP",
-      "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "rag"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-25",
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-24T03:59:57+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used:…",
-      "tags": [
-        "claude",
-        "model",
-        "prompt",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "v2.3.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.3.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-23T23:18:22Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add Claude Tag endpoints for Claude Enterprise organizations Bug Fixes google-cloud: send user profiles requests to the organization endpoint Chores client: stop…",
-      "tags": [
-        "mcp",
-        "claude",
-        "tool",
-        "workflow"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-24",
-      "title": "v2.2.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-23T13:10:10Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add support for message threads api: add usage and cost reports by dimension, mark older reports legacy Bug Fixes client: stop suggesting math.inf in the max_retries…",
-      "tags": [
-        "model",
         "tool"
       ],
       "keyPoints": []
