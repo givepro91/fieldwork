@@ -1,6 +1,32 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "items": [
+    {
+      "date": "2026-11-02",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-01T23:24:22+00:00",
+      "category": "AX · 블로그",
+      "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-01T16:49:04+00:00",
+      "category": "AX · 블로그",
+      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software…",
+      "tags": [
+        "llm"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-01",
       "title": "v2.3.0",
@@ -589,37 +615,6 @@
       "tags": [
         "llm",
         "gemini"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-27",
-      "title": "v2.1.311",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-26T21:51:23Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 26 Oct 2026 22:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "tags": [
-        "workflow"
       ],
       "keyPoints": []
     }
