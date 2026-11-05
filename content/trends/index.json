@@ -1,6 +1,198 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "items": [
+    {
+      "date": "2026-11-05",
+      "title": "v2.5.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.5.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-04T20:27:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add error details types and new error type values api: add ids filter to list workspaces client: add error classes for HTTP statuses and API error codes, and…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "v2.1.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.1.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-21T22:00:30Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add enforcement status, actions and filter to user profiles",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 04 Nov 2026 14:30:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "tags": [
+        "openai",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 04 Nov 2026 07:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 04 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "v2.3.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-04T21:28:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "v2.2.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-28T20:57:13Z",
+      "category": "GitHub · MCP",
+      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates…",
+      "tags": [
+        "mcp",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-04T15:26:02+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the…",
+      "tags": [
+        "agent",
+        "llm",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-04T00:29:36+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to…",
+      "tags": [
+        "agent",
+        "llm",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-03T23:13:45+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next…",
+      "tags": [
+        "agent",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-05",
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-03T21:41:42+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+      "tags": [
+        "llm",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-04",
       "title": "v2.1.318",
@@ -406,210 +598,6 @@
       "publishedAt": "2026-10-31T23:15:22+00:00",
       "category": "AX · 블로그",
       "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it…",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-01",
-      "title": "datasette-llm 0.1a9",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-31T22:10:01+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying…",
-      "tags": [
-        "agent",
-        "llm",
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "v2.1.316",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-31T01:01:35Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off Added pooled group budgets to the Claude apps gateway: one monthly budget that a…",
-      "tags": [
-        "agent",
-        "mcp",
-        "llm",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "v2.1.310",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-23T23:39:00Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 30 Oct 2026 09:30:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 30 Oct 2026 09:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 30 Oct 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Release 2026.8.31",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-08-31T20:34:32Z",
-      "category": "GitHub · MCP",
-      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31…",
-      "tags": [
-        "model",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-31",
-      "title": "dbreunig/nesformer",
-      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-10-30T21:59:22+00:00",
-      "category": "AX · 블로그",
-      "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B.…",
-      "tags": [
-        "llm",
-        "model",
-        "prompt",
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-30",
-      "title": "v2.1.314",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-30T01:06:26Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-30",
-      "title": "v2.1.309",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-22T22:18:57Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-30",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 29 Oct 2026 17:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "tags": [
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-30",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 29 Oct 2026 09:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "tags": [
-        "agent",
-        "openai",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-10-30",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "tags": [
         "openai"
       ],
