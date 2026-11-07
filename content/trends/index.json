@@ -1,6 +1,150 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "items": [
+    {
+      "date": "2026-11-07",
+      "title": "v2.3.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.3.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-23T23:18:22Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add Claude Tag endpoints for Claude Enterprise organizations Bug Fixes google-cloud: send user profiles requests to the organization endpoint Chores client: stop…",
+      "tags": [
+        "mcp",
+        "claude",
+        "tool",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "v2.2.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-10-23T13:10:10Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add support for message threads api: add usage and cost reports by dimension, mark older reports legacy Bug Fixes client: stop suggesting math.inf in the max_retries…",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "v2.1.319",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-06T17:04:01Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 06 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "tags": [
+        "agent",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "v2.1.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-25T00:03:20Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and…",
+      "tags": [
+        "mcp",
+        "model",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "v2.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-25T06:00:36Z",
+      "category": "GitHub · MCP",
+      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package…",
+      "tags": [
+        "agent",
+        "mcp",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "v1.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-19T04:17:24Z",
+      "category": "GitHub · MCP",
+      "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "rag"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-06T17:13:12+00:00",
+      "category": "AX · 블로그",
+      "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and…",
+      "tags": [
+        "agent",
+        "rag"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-06",
       "title": "v2.6.0",
@@ -454,142 +598,6 @@
       "tags": [
         "llm",
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "v2.4.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-02T19:07:19Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add GA methods for analytics, spend limits and RBAC api: add named beta types for unified metrics and RBAC delete responses api: add shared analytics order and…",
-      "tags": [
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "v2.1.317",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-03T01:25:46Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or…",
-      "tags": [
-        "agent",
-        "mcp",
-        "llm",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "v2.1.311",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-10-26T21:51:23Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the…",
-      "tags": [
-        "agent",
-        "mcp",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 02 Nov 2026 15:30:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 02 Nov 2026 15:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 02 Nov 2026 18:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 02 Nov 2026 18:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 02 Nov 2026 09:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "tags": [
-        "eval"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-03",
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-02T23:49:30+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added…",
-      "tags": [
-        "llm",
-        "openai",
-        "gemini",
-        "model"
       ],
       "keyPoints": []
     }
