@@ -1,6 +1,50 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "items": [
+    {
+      "date": "2026-11-08",
+      "title": "v2.4.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-02T19:07:19Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add GA methods for analytics, spend limits and RBAC api: add named beta types for unified metrics and RBAC delete responses api: add shared analytics order and…",
+      "tags": [
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-08",
+      "title": "v2.1.317",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-03T01:25:46Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or…",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-08",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-07T23:57:46+00:00",
+      "category": "AX · 블로그",
+      "summary": "datasette #3046: Don&#x27;t serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a…",
+      "tags": [],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-07",
       "title": "v2.3.0",
@@ -554,50 +598,6 @@
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "tags": [
         "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-03T16:29:48+00:00",
-      "category": "AX · 블로그",
-      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab.…",
-      "tags": [
-        "agent",
-        "eval",
-        "rag",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-04",
-      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-03T05:32:25+00:00",
-      "category": "AX · 블로그",
-      "summary": "I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-04",
-      "title": "October sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-03T05:28:59+00:00",
-      "category": "AX · 블로그",
-      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October…",
-      "tags": [
-        "llm",
-        "release"
       ],
       "keyPoints": []
     }
