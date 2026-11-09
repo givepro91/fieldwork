@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "items": [
+    {
+      "date": "2026-11-09",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-08T22:26:00+00:00",
+      "category": "AX · 블로그",
+      "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds…",
+      "tags": [
+        "claude",
+        "prompt"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
