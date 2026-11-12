@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "date": "2026-11-12",
+      "title": "v2.5.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.5.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-04T20:27:20Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add error details types and new error type values api: add ids filter to list workspaces client: add error classes for HTTP statuses and API error codes, and…",
+      "tags": [
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "tags": [
+        "eval"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "v2.4.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-11T07:37:43Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.4.0 fixes six vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem to 2.3.0, and mcp-server-git and mcp-server-fetch to 2026.11.11.…",
+      "tags": [
+        "agent",
+        "mcp",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-11T22:03:25+00:00",
+      "category": "AX · 블로그",
+      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three…",
+      "tags": [
+        "rag",
+        "llm",
+        "openai",
+        "gemini"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-11T21:18:30+00:00",
+      "category": "AX · 블로그",
+      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's…",
+      "tags": [
+        "agent",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-11T18:42:50+00:00",
+      "category": "AX · 블로그",
+      "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left…",
+      "tags": [
+        "llm",
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-11T17:19:52+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now…",
+      "tags": [
+        "llm",
+        "openai",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-11T15:11:59+00:00",
+      "category": "AX · 블로그",
+      "summary": "Anthropic&#x27;s IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business…",
+      "tags": [
+        "llm",
+        "claude",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
