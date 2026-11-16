@@ -1,6 +1,140 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "v2.7.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-09T18:52:17Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: accept user_profile.program_status_updated on organization webhook endpoints api: add claude-fable-5-2 and claude-mythos-5-2 api: add parent organization filtering…",
+      "tags": [
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "v2.1.322",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-10T02:29:43Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Sun, 15 Nov 2026 22:00:01 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Sun, 15 Nov 2026 22:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T23:58:36+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free…",
+      "tags": [
+        "llm",
+        "claude",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T23:20:27+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release…",
+      "tags": [
+        "claude",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T23:18:17+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T04:02:45+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries…",
+      "tags": [
+        "agent",
+        "rag",
+        "claude",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T03:49:47+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an…",
+      "tags": [
+        "agent",
+        "llm",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-15",
       "title": "v2.1.321",
@@ -474,145 +608,6 @@
       "category": "OpenAI · 모델사",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 10 Nov 2026 12:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 10 Nov 2026 10:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 10 Nov 2026 09:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 10 Nov 2026 07:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "v2.3.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-11-04T21:28:41Z",
-      "category": "GitHub · MCP",
-      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "v2.2.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-28T20:57:13Z",
-      "category": "GitHub · MCP",
-      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates…",
-      "tags": [
-        "mcp",
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-10T20:09:44+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude",
-        "gemini"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-10T07:28:21+00:00",
-      "category": "AX · 블로그",
-      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-10T05:34:14+00:00",
-      "category": "AX · 블로그",
-      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about…",
-      "tags": [
-        "llm",
-        "claude",
-        "model",
-        "prompt"
-      ],
       "keyPoints": []
     }
   ]

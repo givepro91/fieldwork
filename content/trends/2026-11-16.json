@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-16",
+  "items": [
+    {
+      "date": "2026-11-16",
+      "title": "v2.7.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-09T18:52:17Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: accept user_profile.program_status_updated on organization webhook endpoints api: add claude-fable-5-2 and claude-mythos-5-2 api: add parent organization filtering…",
+      "tags": [
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "v2.1.322",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-10T02:29:43Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Sun, 15 Nov 2026 22:00:01 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Sun, 15 Nov 2026 22:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T23:58:36+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free…",
+      "tags": [
+        "llm",
+        "claude",
+        "tool",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T23:20:27+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release…",
+      "tags": [
+        "claude",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T23:18:17+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a…",
+      "tags": [
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T04:02:45+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries…",
+      "tags": [
+        "agent",
+        "rag",
+        "claude",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-16",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-15T03:49:47+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an…",
+      "tags": [
+        "agent",
+        "llm",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
