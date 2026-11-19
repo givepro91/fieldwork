@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-19",
+  "items": [
+    {
+      "date": "2026-11-19",
+      "title": "v2.6.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-05T18:58:47Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add error code for ramp limit errors api: add error codes for External Key validation failures api: add support for signing organization members out everywhere Bug…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "v2.1.328",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-19T01:14:04Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "v2.1.323",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-12T22:12:13Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 18 Nov 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "tags": [
+        "agent",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "v2.5.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-18T09:29:05Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.5.0 fixes eight vulnerabilities in three servers. Upgrade mcp-server-git to 2026.11.18, @modelcontextprotocol/server-filesystem to 2.4.0 and…",
+      "tags": [
+        "mcp",
+        "rag",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "v2.1.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-25T00:03:20Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and…",
+      "tags": [
+        "mcp",
+        "model",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "datasette-arrows 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-18T17:09:59+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can…",
+      "tags": [
+        "claude",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-18T15:58:27+00:00",
+      "category": "AX · 블로그",
+      "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually…",
+      "tags": [
+        "agent",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-19",
+      "title": "The PSF end-of-year fundraiser",
+      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-18T14:44:48+00:00",
+      "category": "AX · 블로그",
+      "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python…",
+      "tags": [],
+      "keyPoints": []
+    }
+  ]
+}
