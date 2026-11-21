@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "date": "2026-11-21",
+      "title": "v2.12.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-20T15:56:21Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add the image_dimensions_too_large error code Bug Fixes bedrock: send the user profile ID in the request body Amazon Bedrock reads user_profile_id from the request…",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-20T22:32:56Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "tags": [
+        "eval",
+        "rag",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "tags": [
+        "eval",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "v2.3.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-04T21:28:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "v2.2.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-28T20:57:13Z",
+      "category": "GitHub · MCP",
+      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates…",
+      "tags": [
+        "mcp",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-20T19:21:49+00:00",
+      "category": "AX · 블로그",
+      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-20T16:30:48+00:00",
+      "category": "AX · 블로그",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann…",
+      "tags": [
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    }
+  ]
+}

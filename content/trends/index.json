@@ -1,6 +1,144 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "items": [
+    {
+      "date": "2026-11-21",
+      "title": "v2.12.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-20T15:56:21Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add the image_dimensions_too_large error code Bug Fixes bedrock: send the user profile ID in the request body Amazon Bedrock reads user_profile_id from the request…",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-20T22:32:56Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "tags": [
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "tags": [
+        "eval",
+        "rag",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "tags": [
+        "eval",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "v2.3.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-04T21:28:41Z",
+      "category": "GitHub · MCP",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "v2.2.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-28T20:57:13Z",
+      "category": "GitHub · MCP",
+      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates…",
+      "tags": [
+        "mcp",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-20T19:21:49+00:00",
+      "category": "AX · 블로그",
+      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being…",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-20T16:30:48+00:00",
+      "category": "AX · 블로그",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann…",
+      "tags": [
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-20",
       "title": "v2.11.0",
@@ -451,148 +589,6 @@
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "tags": [
         "eval"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Tue, 17 Nov 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "tags": [
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-18",
-      "title": "v2.4.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-11-11T07:37:43Z",
-      "category": "GitHub · MCP",
-      "summary": "Security fixes v2.4.0 fixes six vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem to 2.3.0, and mcp-server-git and mcp-server-fetch to 2026.11.11.…",
-      "tags": [
-        "agent",
-        "mcp",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-18",
-      "title": "External sandboxes for coding agents",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-17T22:52:29+00:00",
-      "category": "AX · 블로그",
-      "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-18",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-17T22:38:52+00:00",
-      "category": "AX · 블로그",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for…",
-      "tags": [
-        "agent",
-        "llm",
-        "claude",
-        "openai"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-17T16:48:33+00:00",
-      "category": "AX · 블로그",
-      "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite…",
-      "tags": [
-        "agent",
-        "rag",
-        "claude",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Quoting Go Proverbs",
-      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-17T06:16:26+00:00",
-      "category": "AX · 블로그",
-      "summary": "A little copying is better than a little dependency. &mdash; Go Proverbs , via Tags: go , programming",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-17",
-      "title": "v2.9.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-16T16:47:17Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add source and error codes to the RBAC Role read endpoints api: add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle…",
-      "tags": [
-        "agent",
-        "claude",
-        "tool",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-17",
-      "title": "v2.1.326",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-16T22:11:05Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "llm"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Mon, 16 Nov 2026 17:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "tags": [
-        "model"
       ],
       "keyPoints": []
     }
