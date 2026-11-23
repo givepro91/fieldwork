@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "date": "2026-11-23",
+      "title": "v2.1.327",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-17T23:17:45Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added a confirmation before /install-github-app changes a repository Added claude mcp add-json - to read the server's JSON from stdin, so tokens can stay off the…",
+      "tags": [
+        "agent",
+        "mcp",
+        "eval",
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Sun, 22 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "tags": [
+        "eval",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-22T19:45:06+00:00",
+      "category": "AX · 블로그",
+      "summary": "Tool: Select Styling Specimens I got frustrated at how HTML boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable…",
+      "tags": [
+        "claude",
+        "tool"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
