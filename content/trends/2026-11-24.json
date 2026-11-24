@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-24",
+  "items": [
+    {
+      "date": "2026-11-24",
+      "title": "v2.13.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.13.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-23T18:34:26Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add an error code to Message Batches creation api: add External Storage to the Admin API beta api: add webhook events for external storage failure and recovery Bug…",
+      "tags": [
+        "rag",
+        "claude",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "v2.10.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.10.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-17T18:28:13Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add beta support for the billing_policy request parameter api: add contract_spend_limit_reached error code to messages api: add error codes for linked billing…",
+      "tags": [
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "v2.1.331",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-23T21:34:41Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added…",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 23 Nov 2026 21:20:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "tags": [
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build…",
+      "tags": [
+        "openai",
+        "workflow"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-24T04:24:29+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a…",
+      "tags": [
+        "agent",
+        "tool",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-24T03:45:57+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This…",
+      "tags": [
+        "agent",
+        "rag",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-23T23:40:49+00:00",
+      "category": "AX · 블로그",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer…",
+      "tags": [
+        "agent",
+        "llm",
+        "openai",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-23T21:46:35+00:00",
+      "category": "AX · 블로그",
+      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript,…",
+      "tags": [
+        "agent",
+        "eval",
+        "llm",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-24",
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-23T00:37:20+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The…",
+      "tags": [
+        "agent",
+        "eval",
+        "rag",
+        "llm"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
