@@ -1,6 +1,187 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "items": [
+    {
+      "date": "2026-11-25",
+      "title": "v2.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-24T21:00:57Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add Google-managed data controls for Google Cloud projects api: add Google-managed data controls for user profiles api: add support for compliance review cases,…",
+      "tags": [
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-25T01:32:14Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse…",
+      "tags": [
+        "agent",
+        "mcp",
+        "claude",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "v2.1.328",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-19T01:14:04Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 24 Nov 2026 13:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 24 Nov 2026 11:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "tags": [],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "How iFood scales coding agents across 15,000 repositories",
+      "tags": [
+        "agent"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "sourceCategory": "OpenAI · 모델사",
+      "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "category": "OpenAI · 모델사",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "v2.5.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-18T09:29:05Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.5.0 fixes eight vulnerabilities in three servers. Upgrade mcp-server-git to 2026.11.18, @modelcontextprotocol/server-filesystem to 2.4.0 and…",
+      "tags": [
+        "mcp",
+        "rag",
+        "model",
+        "tool"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "v2.1.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-10-25T00:03:20Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and…",
+      "tags": [
+        "mcp",
+        "model",
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-24T23:02:07+00:00",
+      "category": "AX · 블로그",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of…",
+      "tags": [
+        "agent",
+        "llm",
+        "claude",
+        "openai"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-25",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-24T16:53:59+00:00",
+      "category": "AX · 블로그",
+      "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal…",
+      "tags": [
+        "agent",
+        "llm",
+        "prompt"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-24",
       "title": "v2.13.0",
@@ -445,181 +626,6 @@
         "llm",
         "claude"
       ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "v2.11.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-19T19:14:21Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add Claude Code managed settings to the Admin API api: add the sandbox_egress_restricted error to Admin API plugin methods Bug Fixes client: encode spaces in query…",
-      "tags": [
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "v2.1.329",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-19T22:14:41Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts,…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "v2.1.325",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
-      "source": "Claude Code",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-13T20:40:01Z",
-      "category": "Anthropic / Claude",
-      "summary": "What's changed Fixed a security issue in how zstd-compressed responses are decoded Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook…",
-      "tags": [
-        "agent",
-        "mcp",
-        "eval",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "tags": [
-        "openai",
-        "workflow"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "tags": [
-        "workflow"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "tags": [
-        "workflow"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Token fraud is here and it’s BAD (YouTube)",
-      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-20T02:49:57+00:00",
-      "category": "AX · 블로그",
-      "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the…",
-      "tags": [
-        "agent",
-        "llm",
-        "model",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "PostgreSQL 19 Released",
-      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-19T20:43:57+00:00",
-      "category": "AX · 블로그",
-      "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the…",
-      "tags": [
-        "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-20",
-      "title": "llm-gemini 0.38",
-      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-18T23:59:20+00:00",
-      "category": "AX · 블로그",
-      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even…",
-      "tags": [
-        "llm",
-        "gemini",
-        "model",
-        "prompt"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-19",
-      "title": "v2.6.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0",
-      "source": "Anthropic",
-      "sourceCategory": "Anthropic / Claude",
-      "publishedAt": "2026-11-05T18:58:47Z",
-      "category": "Anthropic / Claude",
-      "summary": "Features api: add error code for ramp limit errors api: add error codes for External Key validation failures api: add support for signing organization members out everywhere Bug…",
-      "tags": [],
       "keyPoints": []
     }
   ]
