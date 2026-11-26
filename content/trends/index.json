@@ -1,6 +1,83 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "items": [
+    {
+      "date": "2026-11-26",
+      "title": "v2.11.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-19T19:14:21Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add Claude Code managed settings to the Admin API api: add the sandbox_egress_restricted error to Admin API plugin methods Bug Fixes client: encode spaces in query…",
+      "tags": [
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-26",
+      "title": "v2.1.329",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-19T22:14:41Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts,…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-25T23:26:32+00:00",
+      "category": "AX · 블로그",
+      "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only…",
+      "tags": [
+        "llm"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-26",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-25T18:16:50+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination…",
+      "tags": [
+        "agent",
+        "llm",
+        "prompt",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-26",
+      "title": "datasette-charts 0.2a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-24T06:07:19+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the…",
+      "tags": [
+        "tool",
+        "release"
+      ],
+      "keyPoints": []
+    },
     {
       "date": "2026-11-25",
       "title": "v2.14.0",
@@ -549,82 +626,6 @@
         "eval",
         "rag",
         "release"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-21",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "source": "OpenAI",
-      "sourceCategory": "OpenAI · 모델사",
-      "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "category": "OpenAI · 모델사",
-      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "tags": [
-        "eval",
-        "model"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-21",
-      "title": "v2.3.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-11-04T21:28:41Z",
-      "category": "GitHub · MCP",
-      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published…",
-      "tags": [
-        "agent",
-        "mcp",
-        "rag",
-        "claude"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-21",
-      "title": "v2.2.0",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
-      "source": "MCP Servers",
-      "sourceCategory": "GitHub · MCP",
-      "publishedAt": "2026-10-28T20:57:13Z",
-      "category": "GitHub · MCP",
-      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates…",
-      "tags": [
-        "mcp",
-        "claude",
-        "model",
-        "tool"
-      ],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-21",
-      "title": "Quoting Ravi Vakil",
-      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-20T19:21:49+00:00",
-      "category": "AX · 블로그",
-      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being…",
-      "tags": [],
-      "keyPoints": []
-    },
-    {
-      "date": "2026-11-21",
-      "title": "Quoting Levent Alpöge",
-      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "source": "Simon Willison",
-      "sourceCategory": "AX · 블로그",
-      "publishedAt": "2026-11-20T16:30:48+00:00",
-      "category": "AX · 블로그",
-      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann…",
-      "tags": [
-        "llm",
-        "claude"
       ],
       "keyPoints": []
     }
