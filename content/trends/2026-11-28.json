@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-28",
+  "items": [
+    {
+      "date": "2026-11-28",
+      "title": "v2.12.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
+      "source": "Anthropic",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-20T15:56:21Z",
+      "category": "Anthropic / Claude",
+      "summary": "Features api: add the image_dimensions_too_large error code Bug Fixes bedrock: send the user profile ID in the request body Amazon Bedrock reads user_profile_id from the request…",
+      "tags": [
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-28",
+      "title": "v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": "Claude Code",
+      "sourceCategory": "Anthropic / Claude",
+      "publishedAt": "2026-11-20T22:32:56Z",
+      "category": "Anthropic / Claude",
+      "summary": "What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "claude"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-28",
+      "title": "v2.6.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0",
+      "source": "MCP Servers",
+      "sourceCategory": "GitHub · MCP",
+      "publishedAt": "2026-11-27T09:58:10Z",
+      "category": "GitHub · MCP",
+      "summary": "Security fixes v2.6.0 fixes eight vulnerabilities in three servers, and completes two fixes that v2.5.0 left open. Upgrade mcp-server-git to 2026.11.27,…",
+      "tags": [
+        "agent",
+        "mcp",
+        "rag",
+        "model"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-28",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-27T23:57:17+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for…",
+      "tags": [
+        "claude",
+        "release"
+      ],
+      "keyPoints": []
+    },
+    {
+      "date": "2026-11-28",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "source": "Simon Willison",
+      "sourceCategory": "AX · 블로그",
+      "publishedAt": "2026-11-27T00:26:17+00:00",
+      "category": "AX · 블로그",
+      "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+      "tags": [
+        "mcp",
+        "model",
+        "release"
+      ],
+      "keyPoints": []
+    }
+  ]
+}
